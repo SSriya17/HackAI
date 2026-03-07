@@ -20,9 +20,9 @@ cd /Users/sreya/Downloads/HACKAI
 git add .
 git commit -m "Initial hackathon template with 3-group structure"
 
-git branch group-1
-git branch group-2
-git branch group-3
+git branch Antony
+git branch Shriya
+git branch Sreya
 ```
 
 ---
@@ -51,10 +51,8 @@ git remote add origin https://github.com/YOUR_USERNAME/HACKAI.git
 # Push main branch
 git push -u origin main
 
-# Push all group branches
-git push origin group-1
-git push origin group-2
-git push origin group-3
+# Push all branches
+git push origin Antony Shriya Sreya
 ```
 
 ---
@@ -76,7 +74,7 @@ git clone https://github.com/YOUR_USERNAME/HACKAI.git
 cd HACKAI
 
 # Switch to their group's branch
-git checkout group-1   # or group-2, group-3
+git checkout Antony   # or Shriya, Sreya
 ```
 
 ---
@@ -86,9 +84,9 @@ git checkout group-1   # or group-2, group-3
 | Branch   | Purpose              |
 |----------|----------------------|
 | `main`   | Merged, stable code  |
-| `group-1`| Group 1 development  |
-| `group-2`| Group 2 development  |
-| `group-3`| Group 3 development  |
+| `Antony` | Antony development   |
+| `Shriya` | Shriya development   |
+| `Sreya`  | Sreya development   |
 
 ---
 

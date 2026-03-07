@@ -3,9 +3,9 @@
 ## Branch Strategy
 
 - **`main`** – Stable, merged code. Protected.
-- **`group-1`** – Group 1's development branch
-- **`group-2`** – Group 2's development branch  
-- **`group-3`** – Group 3's development branch
+- **`Antony`** – Antony's development branch
+- **`Shriya`** – Shriya's development branch  
+- **`Sreya`** – Sreya's development branch
 
 ## Workflow
 
@@ -18,7 +18,7 @@ git pull origin <your-group-branch>
 
 ### 2. Make Changes
 
-- Work in your group's folder: `group-1/`, `group-2/`, or `group-3/`
+- Work in your folder: `Antony/`, `Shriya/`, or `Sreya/`
 - Use `shared/` for code that multiple groups need
 - Write clear commit messages
 
@@ -46,7 +46,7 @@ Only merge when your feature is complete and tested:
 ```bash
 git checkout main
 git pull origin main
-git merge group-1
+git merge Antony
 git push origin main
 ```
 

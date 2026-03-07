@@ -1,10 +1,9 @@
-# Group 3
+# Antony
 
 ## Team Members
 
-- [ ] Member 1
-- [ ] Member 2
-- [ ] Member 3
+- [ ] Antony
+- [ ] _Add teammates_
 
 ## Focus / Responsibility
 

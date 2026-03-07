@@ -10,10 +10,10 @@ git add .
 echo "=== Making initial commit ==="
 git commit -m "Initial hackathon template with 3-group structure"
 
-echo "=== Creating group branches ==="
-git branch group-1
-git branch group-2
-git branch group-3
+echo "=== Creating branches ==="
+git branch Antony
+git branch Shriya
+git branch Sreya
 
 echo "=== All branches ==="
 git branch -a
@@ -21,8 +21,8 @@ git branch -a
 echo ""
 echo "✅ Done! Next steps:"
 echo "1. Create a new repo on GitHub: https://github.com/new"
-echo "2. Run: git remote add origin https://github.com/YOUR_USERNAME/HACKAI.git"
+echo "2. Run: git remote add origin git@github.com:YOUR_USERNAME/HackAI.git"
 echo "3. Run: git push -u origin main"
-echo "4. Run: git push origin group-1 group-2 group-3"
+echo "4. Run: git push origin Antony Shriya Sreya"
 echo ""
-echo "Each teammate: git clone <repo> && git checkout group-X"
+echo "Each teammate: git clone <repo> && git checkout Antony|Shriya|Sreya"

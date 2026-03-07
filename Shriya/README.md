@@ -1,10 +1,9 @@
-# Group 2
+# Shriya
 
 ## Team Members
 
-- [ ] Member 1
-- [ ] Member 2
-- [ ] Member 3
+- [ ] Shriya
+- [ ] _Add teammates_
 
 ## Focus / Responsibility
 

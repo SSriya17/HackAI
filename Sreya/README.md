@@ -1,10 +1,9 @@
-# Group 1
+# Sreya
 
 ## Team Members
 
-- [ ] Member 1
-- [ ] Member 2
-- [ ] Member 3
+- [ ] Sreya
+- [ ] _Add teammates_
 
 ## Focus / Responsibility
 
