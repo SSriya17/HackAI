@@ -53,6 +53,20 @@ async def get_email_logs(db: AsyncSession = Depends(get_db)):
     return r.scalars().all()
 
 
+@router.get("/logs/professor/{professor_name}", response_model=List[EmailLogResponse])
+async def get_professor_email_logs(
+    professor_name: str, 
+    db: AsyncSession = Depends(get_db)
+):
+    """Fetch all cold emails (applications) sent to a specific professor."""
+    r = await db.execute(
+        select(EmailLog)
+        .where(EmailLog.professor_name == professor_name)
+        .order_by(EmailLog.created_at.desc())
+    )
+    return r.scalars().all()
+
+
 @router.patch("/logs/{log_id}/status", response_model=EmailLogResponse)
 async def update_email_status(
     log_id: int,

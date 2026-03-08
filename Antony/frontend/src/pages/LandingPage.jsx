@@ -22,7 +22,7 @@ export default function LandingPage() {
             variant="primary"
             size="lg"
             className="min-w-[180px] p-4 text-lg transition-all hover:scale-[1.02]"
-            onClick={() => navigate('/login')}
+            onClick={() => navigate('/login?role=student')}
           >
             I'm a Student →
           </Button>
@@ -30,7 +30,7 @@ export default function LandingPage() {
             variant="outline"
             size="lg"
             className="min-w-[180px] p-4 text-lg transition-all"
-            onClick={() => navigate('/login')}
+            onClick={() => navigate('/login?role=professor')}
           >
             I'm a Professor →
           </Button>

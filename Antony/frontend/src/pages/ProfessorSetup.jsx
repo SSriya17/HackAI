@@ -9,6 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { useUser, saveUser } from '@/hooks/useUser';
+import { API_BASE } from '@/config';
 
 export default function ProfessorSetup() {
   const user = useUser();
@@ -24,6 +25,7 @@ export default function ProfessorSetup() {
   const [labName, setLabName] = useState('');
   const [spots, setSpots] = useState('');
   const [hours, setHours] = useState('');
+  const [researchBio, setResearchBio] = useState('');
 
   const [reqSkills, setReqSkills] = useState([]);
   const [skillInput, setSkillInput] = useState('');
@@ -48,8 +50,28 @@ export default function ProfessorSetup() {
     if (step < 3) {
       setStep(step + 1);
     } else {
-      saveUser({ labName, labSpots: spots, labHours: hours });
-      navigate('/professor/dashboard');
+      saveUser({ labName, labSpots: spots, labHours: hours, researchBio });
+      
+      const payload = {
+        professor_id: email || 'unknown_prof',
+        university_id: 'utd',
+        research_keywords: labName || department || 'General Research',
+        required_skills: selectedSkills.join(', ') || 'None',
+        experience_level: 'any',
+        hours_per_week: parseInt(hours) || 10,
+        paid: true,
+        description: researchBio || '',
+      };
+
+      fetch(`${API_BASE}/professors/surveys`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      })
+      .catch(err => console.error('Failed to save survey:', err))
+      .finally(() => {
+        navigate('/professor/dashboard');
+      });
     }
   };
 
@@ -128,7 +150,7 @@ export default function ProfessorSetup() {
                 <InputField label="LAB / RESEARCH GROUP NAME" id="lab-name" placeholder="Lab name" value={labName} onChange={(e) => setLabName(e.target.value)} />
                 <div>
                   <Label className="font-mono text-xs uppercase tracking-widest text-primary block mb-2">RESEARCH BIO</Label>
-                  <Textarea className="min-h-[80px]" placeholder="Tell us about your research focus..." />
+                  <Textarea className="min-h-[80px]" placeholder="Tell us about your research focus..." value={researchBio} onChange={(e) => setResearchBio(e.target.value)} />
                 </div>
                 <div className="flex gap-4">
                   <InputField label="SPOTS OPEN" id="spots" placeholder="# of spots" value={spots} onChange={(e) => setSpots(e.target.value)} />

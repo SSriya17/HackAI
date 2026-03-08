@@ -1,7 +1,7 @@
 """Nebula raw data provider - reads from local JSON export instead of API."""
 import json
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Union, List, Dict
 
 from .base import UniversityDataProvider, ProfessorProfile, CourseInfo
 
@@ -18,7 +18,7 @@ def _oid(obj) -> str:
 class NebulaRawProvider(UniversityDataProvider):
     """Read professors/courses from Nebula raw JSON export. No API key required."""
 
-    def __init__(self, data_dir: str | Path):
+    def __init__(self, data_dir: Union[str, Path]):
         self._data_dir = Path(data_dir)
         self._professors: list[dict] = []
         self._courses_by_id: dict[str, dict] = {}
@@ -74,7 +74,7 @@ class NebulaRawProvider(UniversityDataProvider):
             description=raw.get("description"),
         )
 
-    def _to_professor(self, raw: dict, courses: list[CourseInfo] | None = None) -> ProfessorProfile:
+    def _to_professor(self, raw: dict, courses: Optional[List[CourseInfo]] = None) -> ProfessorProfile:
         office = raw.get("office")
         office_str = None
         if isinstance(office, dict):

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate, Link, useSearchParams } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import InputField from '@/components/ui/input-field';
 import { Button } from '@/components/ui/button';
@@ -16,7 +16,8 @@ const YEAR_OPTIONS = [
 ];
 
 export default function SignupPage() {
-  const [role, setRole] = useState('student');
+  const [searchParams] = useSearchParams();
+  const [role, setRole] = useState(searchParams.get('role') || 'student');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
