@@ -10,15 +10,35 @@ import './Setup.css';
 export default function ProfessorSetup() {
   const [step, setStep] = useState(1);
   const navigate = useNavigate();
+  
+  const [reqSkills, setReqSkills] = useState([]);
+  const [skillInput, setSkillInput] = useState('');
+  const [selectedSkills, setSelectedSkills] = useState([]);
 
   const handleNext = () => {
-    if (step < 3) setStep(step + 1);
-    else navigate('/professor/dashboard');
+    if (step < 3) {
+      setStep(step + 1);
+    } else {
+      // Save elements to localStorage
+      localStorage.setItem('labName', document.getElementById('lab-name')?.value || '');
+      localStorage.setItem('labSpots', document.getElementById('spots')?.value || '');
+      localStorage.setItem('labHours', document.getElementById('hours')?.value || '');
+      navigate('/professor/dashboard');
+    }
   };
 
   const handleBack = () => {
     if (step > 1) setStep(step - 1);
     else navigate('/');
+  };
+
+  const addSkill = () => {
+    if (skillInput.trim()) {
+      const newSkill = { label: skillInput.trim(), value: skillInput.trim().toLowerCase() };
+      setReqSkills([...reqSkills, newSkill]);
+      setSelectedSkills([...selectedSkills, newSkill.value]);
+      setSkillInput('');
+    }
   };
 
   return (
@@ -35,15 +55,15 @@ export default function ProfessorSetup() {
             
             <Card className="setup-card">
               <div className="form-row">
-                <TextInput label="FIRST NAME" id="fname" placeholder="Antony" />
-                <TextInput label="LAST NAME" id="lname" placeholder="Varkey" />
+                <TextInput label="FIRST NAME" id="fname" placeholder="First Name" />
+                <TextInput label="LAST NAME" id="lname" placeholder="Last Name" />
               </div>
-              <TextInput label="UNIVERSITY" id="university" placeholder="University of Texas at Dallas" />
+              <TextInput label="UNIVERSITY" id="university" placeholder="University" />
               <div className="form-row">
-                <TextInput label="DEPARTMENT" id="department" placeholder="Computer Science" />
-                <TextInput label="TITLE" id="title" placeholder="Associate Professor" />
+                <TextInput label="DEPARTMENT" id="department" placeholder="Department" />
+                <TextInput label="TITLE" id="title" placeholder="e.g. Associate Professor" />
               </div>
-              <TextInput label="UNIVERSITY EMAIL" id="email" placeholder="sxc@utdallas.edu" />
+              <TextInput label="UNIVERSITY EMAIL" id="email" placeholder="email@university.edu" />
               
               <div className="form-actions right-align">
                 <Button className="w-full" onClick={handleNext}>Continue &rarr;</Button>
@@ -58,21 +78,13 @@ export default function ProfessorSetup() {
             <p className="step-subtitle">Importing your courses allows students in your classes to find your research more easily.</p>
             
             <Card className="setup-card">
-              <div className="course-search">
-                <TextInput label="SEARCH CATALOG TO ADD COURSES" id="search" placeholder="Search course code..." />
-                <Button className="search-btn">Add</Button>
-              </div>
-              
-              <div className="course-list">
+              <div className="input-group">
                 <label className="mono-label">COURSES YOU ARE TEACHING</label>
-                
-                <div className="course-item">
-                  <div className="course-info">
-                    <span className="course-code">CS 4375 &middot; TR 2:30-3:45</span>
-                    <span className="course-name">Intro to Machine Learning</span>
-                  </div>
-                  <button className="remove-btn">[Remove]</button>
-                </div>
+                <textarea 
+                  className="text-input" 
+                  rows="4"
+                  placeholder="Enter your courses here (e.g. CS 4375, CS 3341)..."
+                />
               </div>
 
               <div className="form-actions split">
@@ -88,34 +100,42 @@ export default function ProfessorSetup() {
             <h2 className="step-title">Lab &amp; Research Requirements</h2>
             
             <Card className="setup-card">
-              <TextInput label="LAB / RESEARCH GROUP NAME" id="lab-name" defaultValue="Intelligent Systems Lab" />
+              <TextInput label="LAB / RESEARCH GROUP NAME" id="lab-name" placeholder="Lab Name" />
               
               <div className="input-group">
                 <label className="mono-label">RESEARCH BIO</label>
                 <textarea 
                   className="text-input" 
                   rows="3"
-                  defaultValue="Researching adaptive AI systems with focus on real-world deployment in healthcare and robotics. Seeking motivated undergrads."
+                  placeholder="Tell us about your research focus..."
                 />
               </div>
 
               <div className="form-row">
-                <TextInput label="SPOTS OPEN" id="spots" defaultValue="2" />
-                <TextInput label="EXPECTED HOURS / WEEK" id="hours" defaultValue="10" />
+                <TextInput label="SPOTS OPEN" id="spots" placeholder="# of Spots" />
+                <TextInput label="EXPECTED HOURS / WEEK" id="hours" placeholder="Hours" />
               </div>
 
               <div className="skills-section mt-4">
                 <label className="mono-label">REQUIRED SKILLS</label>
                 <ToggleGroup 
                   multiSelect
-                  options={[
-                    { label: 'Python', value: 'python' },
-                    { label: 'PyTorch', value: 'pytorch' }
-                  ]}
-                  selected={['python', 'pytorch']}
-                  onChange={() => {}}
+                  options={reqSkills}
+                  selected={selectedSkills}
+                  onChange={setSelectedSkills}
                 />
-                <button className="add-more-btn">Add more...</button>
+                <div style={{ display: 'flex', gap: '0.5rem', marginTop: '0.5rem' }}>
+                  <input 
+                    type="text" 
+                    className="text-input" 
+                    style={{ flex: 1, padding: '0.5rem' }} 
+                    placeholder="Enter required skill..." 
+                    value={skillInput}
+                    onChange={(e) => setSkillInput(e.target.value)}
+                    onKeyDown={(e) => e.key === 'Enter' && addSkill()}
+                  />
+                  <Button variant="outline" className="btn-sm" onClick={addSkill}>Add Skill</Button>
+                </div>
               </div>
 
               <div className="form-actions split">

@@ -18,15 +18,15 @@ export default function LandingPage() {
         
         <div className="hero-actions">
           <Button 
-            className="action-btn"
-            onClick={() => navigate('/student/setup')}
+            className="action-btn hero-btn"
+            onClick={() => navigate('/login')}
           >
             I'm a Student &rarr;
           </Button>
           <Button 
             variant="outline" 
-            className="action-btn"
-            onClick={() => navigate('/professor/setup')}
+            className="action-btn hero-btn prof-btn"
+            onClick={() => navigate('/login')}
           >
             I'm a Professor &rarr;
           </Button>
@@ -37,25 +37,21 @@ export default function LandingPage() {
         <Card hoverable className="feature-card">
           <div className="feature-label mono-label">CATALOG INTEGRATION</div>
           <h3 className="feature-title">Live Class Schedules</h3>
-          <p className="feature-desc">
-            Pulled directly from university APIs — see exactly where professors are right now.
-          </p>
         </Card>
         
         <Card hoverable className="feature-card">
           <div className="feature-label mono-label" style={{ color: '#e83870' }}>SCORING ENGINE</div>
           <h3 className="feature-title">Compatibility Matching</h3>
-          <p className="feature-desc">
-            Skills and research interests matched against professor bios and publication history.
-          </p>
         </Card>
         
         <Card hoverable className="feature-card">
           <div className="feature-label mono-label" style={{ color: '#ffb347' }}>OUTREACH ASSISTANT</div>
           <h3 className="feature-title">Cold Email Chatbot</h3>
-          <p className="feature-desc">
-            AI drafts personalized outreach emails using context from recent publications.
-          </p>
+        </Card>
+
+        <Card hoverable className="feature-card empty-feature">
+          <div className="feature-label mono-label" style={{ color: 'var(--text-muted)' }}>COMING SOON</div>
+          <h3 className="feature-title" style={{ color: 'var(--text-muted)' }}>More Features</h3>
         </Card>
       </div>
     </div>

@@ -1,9 +1,16 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
+import LoginPage from './pages/LoginPage';
+import SignupPage from './pages/SignupPage';
 import StudentSetup from './pages/StudentSetup';
 import ProfessorSetup from './pages/ProfessorSetup';
 import StudentDashboard from './pages/StudentDashboard';
+import StudentApplications from './pages/StudentApplications';
+import StudentSettings from './pages/StudentSettings';
 import ProfessorDashboard from './pages/ProfessorDashboard';
+import ProfessorApplicants from './pages/ProfessorApplicants';
+import ProfessorCourses from './pages/ProfessorCourses';
+import ProfessorProfile from './pages/ProfessorProfile';
 import StudentMatches from './pages/StudentMatches';
 import './App.css';
 
@@ -12,23 +19,26 @@ function App() {
     <BrowserRouter>
       <div className="app-container">
         <header className="app-header">
-          <div className="logo-container">
-            <span className="logo-icon">🔬</span>
-            <div className="logo-text">
-              <h1>ALIGN</h1>
-              <span>YOUR LAB IS WAITING</span>
-            </div>
-          </div>
+          <Link to="/" className="logo-container" style={{ textDecoration: 'none' }}>
+            <img src="/RAlign_logo.png" alt="RAlign Logo" className="logo-image" />
+          </Link>
           {/* Header actions can go here based on route */}
         </header>
 
         <main className="app-main">
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/signup" element={<SignupPage />} />
             <Route path="/student/setup" element={<StudentSetup />} />
             <Route path="/professor/setup" element={<ProfessorSetup />} />
             <Route path="/student/dashboard" element={<StudentDashboard />} />
+            <Route path="/student/applications" element={<StudentApplications />} />
+            <Route path="/student/settings" element={<StudentSettings />} />
             <Route path="/professor/dashboard" element={<ProfessorDashboard />} />
+            <Route path="/professor/applicants" element={<ProfessorApplicants />} />
+            <Route path="/professor/courses" element={<ProfessorCourses />} />
+            <Route path="/professor/profile" element={<ProfessorProfile />} />
             <Route path="/student/matches" element={<StudentMatches />} />
           </Routes>
         </main>

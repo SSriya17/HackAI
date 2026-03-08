@@ -11,6 +11,17 @@ export default function StudentSetup() {
   const [step, setStep] = useState(1);
   const navigate = useNavigate();
 
+  // State for interactivity
+  const [courses, setCourses] = useState([]);
+  const [courseInput, setCourseInput] = useState('');
+  
+  const [techSkills, setTechSkills] = useState([]);
+  const [techInput, setTechInput] = useState('');
+  const [selectedTech, setSelectedTech] = useState([]);
+
+  const [researchExp, setResearchExp] = useState([]);
+  const [interests, setInterests] = useState([]);
+
   const handleNext = () => {
     if (step < 3) setStep(step + 1);
     else navigate('/student/dashboard');
@@ -19,6 +30,26 @@ export default function StudentSetup() {
   const handleBack = () => {
     if (step > 1) setStep(step - 1);
     else navigate('/');
+  };
+
+  const addCourse = () => {
+    if (courseInput.trim()) {
+      setCourses([...courses, { code: courseInput.trim(), name: 'Custom Course' }]);
+      setCourseInput('');
+    }
+  };
+
+  const removeCourse = (index) => {
+    setCourses(courses.filter((_, i) => i !== index));
+  };
+
+  const addTechSkill = () => {
+    if (techInput.trim()) {
+      const newSkill = { label: techInput.trim(), value: techInput.trim().toLowerCase() };
+      setTechSkills([...techSkills, newSkill]);
+      setSelectedTech([...selectedTech, newSkill.value]);
+      setTechInput('');
+    }
   };
 
   return (
@@ -35,14 +66,14 @@ export default function StudentSetup() {
             
             <Card className="setup-card">
               <div className="form-row">
-                <TextInput label="FIRST NAME" id="fname" placeholder="Antony" />
-                <TextInput label="LAST NAME" id="lname" placeholder="Varkey" />
+                <TextInput label="FIRST NAME" id="fname" placeholder="First Name" />
+                <TextInput label="LAST NAME" id="lname" placeholder="Last Name" />
               </div>
-              <TextInput label="UNIVERSITY" id="university" placeholder="University of Texas at Dallas" />
-              <TextInput label="UNIVERSITY EMAIL" id="email" placeholder="dal331242@utdallas.edu" />
+              <TextInput label="UNIVERSITY" id="university" placeholder="Your University" />
+              <TextInput label="UNIVERSITY EMAIL" id="email" placeholder="email@university.edu" />
               <div className="form-row">
-                <TextInput label="MAJOR" id="major" placeholder="Computer Science" />
-                <TextInput label="YEAR" id="year" placeholder="Freshman" />
+                <TextInput label="MAJOR" id="major" placeholder="Major" />
+                <TextInput label="YEAR" id="year" placeholder="Year" />
               </div>
               
               <div className="form-actions right-align">
@@ -59,31 +90,33 @@ export default function StudentSetup() {
             
             <Card className="setup-card">
               <div className="course-search">
-                <TextInput label="SEARCH CATALOG TO ADD COURSES" id="search" placeholder="Search by course name or professor..." />
-                <Button className="search-btn">Search</Button>
+                <TextInput 
+                  label="SEARCH CATALOG TO ADD COURSES" 
+                  id="search" 
+                  placeholder="Type course code and click Add..." 
+                  value={courseInput}
+                  onChange={(e) => setCourseInput(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && addCourse()}
+                />
+                <Button className="search-btn" onClick={addCourse}>Add</Button>
               </div>
               
               <div className="course-list">
-                <label className="mono-label">YOUR ENROLLED COURSES (3 selected)</label>
+                <label className="mono-label">YOUR ENROLLED COURSES ({courses.length} selected)</label>
                 
-                <div className="course-item">
-                  <div className="course-info">
-                    <span className="course-code">CS 3345</span>
-                    <span className="course-name">Data Structures</span>
-                  </div>
-                  <button className="remove-btn">[Remove]</button>
-                </div>
+                {courses.length === 0 && <p className="text-secondary" style={{fontSize: '0.875rem', marginTop: '0.5rem'}}>No courses added yet.</p>}
                 
-                <div className="course-item">
-                  <div className="course-info">
-                    <span className="course-code">CS 4375</span>
-                    <span className="course-name">Intro to Machine Learning</span>
+                {courses.map((c, idx) => (
+                  <div key={idx} className="course-item">
+                    <div className="course-info">
+                      <span className="course-code">{c.code}</span>
+                    </div>
+                    <button className="remove-btn" onClick={() => removeCourse(idx)}>[Remove]</button>
                   </div>
-                  <button className="remove-btn">[Remove]</button>
-                </div>
+                ))}
               </div>
 
-              <TextInput label="HOURS AVAILABLE PER WEEK" id="hours" placeholder="10 Hours" />
+              <TextInput label="HOURS AVAILABLE PER WEEK" id="hours" placeholder="e.g. 10 Hours" />
 
               <div className="form-actions split">
                 <Button variant="outline" onClick={handleBack}>&larr; Back</Button>
@@ -102,15 +135,23 @@ export default function StudentSetup() {
                 <label className="mono-label">TECHNICAL SKILLS</label>
                 <ToggleGroup 
                   multiSelect
-                  options={[
-                    { label: 'Python', value: 'python' },
-                    { label: 'Machine Learning', value: 'ml' },
-                    { label: 'PyTorch', value: 'pytorch' }
-                  ]}
-                  selected={['python', 'ml', 'pytorch']}
-                  onChange={() => {}}
+                  options={techSkills}
+                  selected={selectedTech}
+                  onChange={setSelectedTech}
                 />
-                <button className="add-more-btn">Add more...</button>
+                
+                <div style={{ display: 'flex', gap: '0.5rem', marginTop: '0.5rem' }}>
+                  <input 
+                    type="text" 
+                    className="text-input" 
+                    style={{ flex: 1, padding: '0.5rem' }} 
+                    placeholder="Enter new skill..." 
+                    value={techInput}
+                    onChange={(e) => setTechInput(e.target.value)}
+                    onKeyDown={(e) => e.key === 'Enter' && addTechSkill()}
+                  />
+                  <Button variant="outline" className="btn-sm" onClick={addTechSkill}>Add Skill</Button>
+                </div>
               </div>
               
               <div className="skills-section">
@@ -121,8 +162,8 @@ export default function StudentSetup() {
                     { label: 'Coursework Only', value: 'coursework' },
                     { label: 'Lab Assistant', value: 'lab' }
                   ]}
-                  selected={['coursework']}
-                  onChange={() => {}}
+                  selected={researchExp}
+                  onChange={setResearchExp}
                 />
               </div>
 
@@ -136,8 +177,8 @@ export default function StudentSetup() {
                     { label: 'Computer Vision', value: 'cv' },
                     { label: 'Data Analysis', value: 'data' }
                   ]}
-                  selected={['ml_int']}
-                  onChange={() => {}}
+                  selected={interests}
+                  onChange={setInterests}
                 />
               </div>
 
