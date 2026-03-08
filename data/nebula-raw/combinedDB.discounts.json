@@ -1,0 +1,2424 @@
+[{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205429"
+  },
+  "category": "Accommodations",
+  "business": "Airbnb Houses Near UTD",
+  "address": "",
+  "phone": "972-214-5510",
+  "email": "timmy.bao@gmail.com",
+  "website": "https://www.airbnb.com/",
+  "discount": "10% discount to any Comet Card holder from UTD for standard rates booked from the Airbnb official site. The owner will make a special 10% discount after you make a reservation to that address."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20542a"
+  },
+  "category": "Accommodations",
+  "business": "Element Dallas Richardson",
+  "address": "2205 N. Glenville Drive, Richardson, Texas 75082",
+  "phone": "972.833.1771",
+  "email": "jlhoward@elementdallasrichardson.com",
+  "website": "http://www.marriott.com/daler",
+  "discount": "Receive up to 25% off retail rates by using UTD promo code – UTX"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20542b"
+  },
+  "category": "Accommodations",
+  "business": "Holiday Inn Express & Suites Plano East",
+  "address": "2001 E President George Bush Hwy. Plano, TX 75074",
+  "phone": "",
+  "email": "psellers@hiexpressplanoeast.com",
+  "website": "http://www.hiexpress.com/",
+  "discount": "$99.00 per night for King or Queen standard sleeping room and rates includes hot breakfast each morning of your stay."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20542c"
+  },
+  "category": "Accommodations",
+  "business": "Holiday Inn Richardson",
+  "address": "1655 North Central Expy, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "https://www.ihg.com/holidayinn/hotels/us/en/richardson/dalrs/hoteldetail",
+  "discount": "$79.00 for a king or double standard sleeping room."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20542d"
+  },
+  "category": "Accommodations",
+  "business": "Homewood Suites by Hilton North Dallas/Plano",
+  "address": "24705 Old Shepard Place Plano, TX 75093",
+  "phone": "",
+  "email": "Karen.Ellison@hilton.com",
+  "website": "http://hilton.com/",
+  "discount": "All Suite Hotel with fully equipped kitchens, Daily Complimentary hot buffet breakfast, evening complimentary light meal Mon-Thur. Monday – Thursday – $119 Fri – Sun $99. Based on availability. Rates not valid for groups of 10 or more."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20542e"
+  },
+  "category": "Accommodations",
+  "business": "SpringHill Suites Dallas Richardson University",
+  "address": "18180 Highland Springs Way, Dallas, Texas 75252",
+  "phone": "214-973-1470",
+  "email": "janet.stoltz@greshamjames.com",
+  "website": "http://www.marriott.com/dalph",
+  "discount": "SpringHill Suites Dallas Richardson/University Area\nRooms are 10% off for UTD Students with a valid UTD ID"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20542f"
+  },
+  "category": "Auto Services",
+  "business": "AAA Texas",
+  "address": "1225 Freeport Parkway, Coppell, TX 75019",
+  "phone": "214-399-9236",
+  "email": "Johnson.Kimberly@aaa-texas.com",
+  "website": "https://www.ace.aaa.com/",
+  "discount": "Special Rates for group memberships starting at $5/month or $43/year."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205430"
+  },
+  "category": "Auto Services",
+  "business": "AAMCO Transmissions",
+  "address": "3620 Inwood Rd, Dallas, TX 75209",
+  "phone": "",
+  "email": "",
+  "website": "http://www.aamco.com/",
+  "discount": "10% off general repairs or minor services.\n$100 off transmission rebuilds."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205431"
+  },
+  "category": "Auto Services",
+  "business": "Bold Auto Transport",
+  "address": "325 N ST PAUL STREET ST 3100-3425 DALLAS TEXAS 75201",
+  "phone": "4696636226",
+  "email": "matt@boldautotransport.com",
+  "website": "http://boldautotransport.com",
+  "discount": "Save $150 Now on Cross-Country Car Shipping with Bold Auto Transport – Reliable, Affordable Auto Transport for UT Dallas Students and Alumni\nNeed to ship your car across the country? Bold Auto Transport is offering an exclusive $150 discount on nationwide car shipping services for the UT Dallas community. Whether you’re moving to a new city or returning to campus, Bold Auto Transport provides fast, reliable vehicle transport across the U.S.\nUse our online auto transport calculator(https://boldautotransport.com/car-shipping-cost-calculator) to get an instant quote on your car shipping cost. Don’t miss out on this limited-time offer!\nHow to Redeem Your UT Dallas Discount:\nMention “UT Dallas” or use code “UTD150” when booking to claim your $150 savings."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205432"
+  },
+  "category": "Auto Services",
+  "business": "Central Auto Paint & Collision Repair",
+  "address": "1220 Shiloh Rd, Plano, TX 75074",
+  "phone": "",
+  "email": "",
+  "website": "http://www.capb.net/",
+  "discount": "10% off repair estimates.\n20% off your deductible."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205433"
+  },
+  "category": "Auto Services",
+  "business": "Courtesy Nissan of Richardson",
+  "address": "1777 N Central Expy, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://www.courtesynissan.com/",
+  "discount": "15% off repairs to Nissan and Infiniti vehicles (cannot be combined with other discounts)."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205434"
+  },
+  "category": "Auto Services",
+  "business": "Crest Cadillac-Infiniti",
+  "address": "2701 N Central Expy, Plano, TX 75075",
+  "phone": "866-459-4049",
+  "email": "tblackinton@crestcars.com",
+  "website": "http://www.crestcars.com/",
+  "discount": "$2,500-$7,000 off a new car."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205435"
+  },
+  "category": "Auto Services",
+  "business": "EBA Automotive Repair",
+  "address": "4906 Dilleyhay Dr. #800, Allen, TX 75002",
+  "phone": "",
+  "email": "",
+  "website": "http://www.ebaautomotive.com/",
+  "discount": "10% off all labor costs to UT Dallas staff and employees (excludes diagnostics and oil changes)."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205436"
+  },
+  "category": "Auto Services",
+  "business": "Firestone Complete Auto Care – Garland",
+  "address": "3443 W Campbell Rd, Garland, TX 75044",
+  "phone": "",
+  "email": "",
+  "website": "http://www.firestonecompleteautocare.com/",
+  "discount": "10% off tires or service."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205437"
+  },
+  "category": "Auto Services",
+  "business": "Firestone Complete Auto Care – Richardson",
+  "address": "1321 W Campbell Rd, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://www.firestonecompleteautocare.com/",
+  "discount": "10% off (excluding sale items)."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205438"
+  },
+  "category": "Auto Services",
+  "business": "Junk Car Reaper",
+  "address": "",
+  "phone": "",
+  "email": "reaper@junkcarreaper.com",
+  "website": "https://www.junkcarreaper.com",
+  "discount": "Junk Car Reaper pays cash for cars and junk cars. Receive an additional $25 to sell your clunker by mentioning code UTDALLAS25."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205439"
+  },
+  "category": "Auto Services",
+  "business": "MasterTech",
+  "address": "1300 Alma Dr. Plano, Tx.",
+  "phone": "972-578-1841",
+  "email": "Bill.mastertech@gmail.com",
+  "website": "",
+  "discount": "10% off both parts and labor up to $150 off (excluding sublet)."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20543a"
+  },
+  "category": "Auto Services",
+  "business": "National Charter Bus Dallas",
+  "address": "Downtown Dallas",
+  "phone": "",
+  "email": "perry@nationalbuscharter.com",
+  "website": "https://www.nationalbuscharter.com/dallas-charter-bus",
+  "discount": "We want to offer $150 off any charter bus, minibus or shuttle rental, each time a group books a bus. This discount does not expire.\nIn order to redeem the discount:\n1 – Email us at info@nationalbuscharter.com with the subject line “UTD discount with National Charter Bus”\n2 – Call us at 1-844-755-0510 to speak to a reservation agent."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20543b"
+  },
+  "category": "Auto Services",
+  "business": "Nexus Auto Transport",
+  "address": "",
+  "phone": "2242182949",
+  "email": "dennis@nexusautotransport.com",
+  "website": "https://nexusautotransport.com/",
+  "discount": "Take advantage of $100 discount on your car shipment nationwide. Mention UT Dallas when booking online or over the phone."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20543c"
+  },
+  "category": "Auto Services",
+  "business": "NuBrakes Mobile Brake Repair",
+  "address": "902 N Riverfront Blvd, Dallas, TX 75207",
+  "phone": "469-706-3497",
+  "email": "jake@nubrakes.com",
+  "website": "https://nubrakes.com/cities/dallas-brake-repair/",
+  "discount": "Free brake repair quote and 10% off your service using promo code UTDBRAKES during sign up or by calling 469-706-3497."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20543d"
+  },
+  "category": "Auto Services",
+  "business": "Number 1 Auto Transport Service",
+  "address": "13101 Preston Rd Suite #406 Dallas, TX 75240",
+  "phone": "855-422-4141",
+  "email": "mickey@number1autotransport.com",
+  "website": "https://number1autotransport.com/",
+  "discount": "$50 discount when booking an auto transport service."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20543e"
+  },
+  "category": "Auto Services",
+  "business": "On The Spot Dallas Mobile Car Wash",
+  "address": "2733 Gaston Ave Dallas, TX 75226",
+  "phone": "469-629-6775",
+  "email": "onthespotdallas@gmail.com",
+  "website": "https://www.mobiledetailing-dallas.com/",
+  "discount": "On The Spot Dallas Mobile Car Wash offers 50% discount on all services for your first car wash/detail on us! Additionally, we would like to offer 35% off for the UTD community. Use code “UTD” when making a reservation."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20543f"
+  },
+  "category": "Auto Services",
+  "business": "On Time Mobile Detailing",
+  "address": "3621 Glacier lane, Garland, TX 75042",
+  "phone": "214-923-1919",
+  "email": "ontimeautodetailing214@gmail.com",
+  "website": "http://www.ontimemobiledetailing.com",
+  "discount": "Teachers and Students will receive 20% off total service with proof of school ID"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205440"
+  },
+  "category": "Auto Services",
+  "business": "Park Place Motorcars",
+  "address": "6113 Lemmon Ave, Dallas, TX 75209",
+  "phone": "",
+  "email": "",
+  "website": "http://www.parkplace.com/",
+  "discount": "2% on new cars."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205441"
+  },
+  "category": "Auto Services",
+  "business": "RoadRunner Auto Transport",
+  "address": "",
+  "phone": "",
+  "email": "matt@roadrunnerautotransport.com",
+  "website": "https://www.roadrunnerautotransport.com",
+  "discount": "10% any car shipment to or from Dallas."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205442"
+  },
+  "category": "Auto Services",
+  "business": "SellMax",
+  "address": "6866 El Cajon Blvd. San Diego CA 92115",
+  "phone": "(800) 225-7500",
+  "email": "sean@sellmax.com",
+  "website": "https://sellmax.com/texas/arlington-cash-for-cars",
+  "discount": "Receive an additional $25.00 by mentioning promo code 25edu. SellMax is one of the largest used car buyers in the nation. This code is valid for students, alumni, faculty & staff of UT Dallas."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205443"
+  },
+  "category": "Auto Services",
+  "business": "Subaru Online Parts",
+  "address": "500 South Broadway Hicksville, NY 11801",
+  "phone": "",
+  "email": "marketing.subaruonlineparts@gmail.com",
+  "website": "https://www.subaruonlineparts.com/",
+  "discount": "We are offering a 5% discount for our Subaru Online Parts which is focused on providing maintenance and replacement parts exclusively to your employees, staff and students!\nTo get the discount, send an email to marketing.subaruonlineparts@gmail.com and we’ll provide you the code via email."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205444"
+  },
+  "category": "Auto Services",
+  "business": "Sweet’s Detailing",
+  "address": "1500 Dragon St Suite 16300 Dallas TX, 75207",
+  "phone": "214-709-6567",
+  "email": "Info@sweetsdetailing.com",
+  "website": "https://www.sweetsdetailing.com/",
+  "discount": "Teachers and students get 10% off the total of services that is provided with proof of school ID."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205445"
+  },
+  "category": "Auto Services",
+  "business": "Telos Auto Detailing",
+  "address": "702 SE 3rd St Grand Prairie TX 75051",
+  "phone": "",
+  "email": "info@telosdetailing.com",
+  "website": "https://www.yelp.com/biz/telos-auto-detailing-grand-prairie-2",
+  "discount": "10% off on bronze detailing package, 15% off on silver detailing package, 20% off on Gold detailing package"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205446"
+  },
+  "category": "Auto Services",
+  "business": "Top HIDs Automotive Lighting",
+  "address": "1709 S Cooper St, Arlington, TX 76010",
+  "phone": "",
+  "email": "",
+  "website": "https://www.tophids.com/",
+  "discount": "10% off."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205447"
+  },
+  "category": "Auto Services",
+  "business": "Volvo Dealers Accessories",
+  "address": "",
+  "phone": "",
+  "email": "marketing.volvodealers@gmail.com",
+  "website": "https://www.volvodealeraccessories.com/",
+  "discount": "Volvo Dealer Accessories excited to offer you a special discount of 5% off the total purchase when you check out with us. Just email us at marketing.volvodealers@gmail.com to get a code."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205448"
+  },
+  "category": "Auto Services",
+  "business": "Xtreme Auto Glass Pros",
+  "address": "2650 Lombardy Ln., Suite G Dallas, TX 75220",
+  "phone": "",
+  "email": "",
+  "website": "https://www.xtremeautoglasspros.com/",
+  "discount": "$10 off window repair or installation."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205449"
+  },
+  "category": "Child Care",
+  "business": "Guidepost Montessori at Richardson",
+  "address": "1140 W. Campbell Road Richardson, TX 75080",
+  "phone": "",
+  "email": "richardson@guidepostmontessori.com",
+  "website": "https://www.guidepostmontessori.com/schools/richardson-tx",
+  "discount": "Waived enrollment fee and 15% off monthly tuition"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20544a"
+  },
+  "category": "Child Care",
+  "business": "Kidventure, INC",
+  "address": "3809 Parry Ave, APT 106, Dallas, TX 75226",
+  "phone": "214-303-9789",
+  "email": "ryan@kidventure.com",
+  "website": "https://kidventure.com/",
+  "discount": "50% off pre- and/or post-camp (pre- and post-camp are $35 each per week).\n$100 off overnight camp."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20544b"
+  },
+  "category": "Child Care",
+  "business": "Little Steps Montessori School",
+  "address": "635 W Campbell Rd, Ste 230, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://lsmschool.com/",
+  "discount": "Free enrollment and 15% off monthly tuition.\nOFFERS CANNOT BE COMBINED.\nSome restrictions may apply.\nor\nFree enrollment and $100 off the second month’s tuition. Excludes infant care (6 weeks to 18 months).\nSome restrictions may apply."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20544c"
+  },
+  "category": "Clothes, Flowers and Gifts",
+  "business": "Custom Jewelers of Richardson",
+  "address": "2050 N Collins Blvd Suite 109, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "",
+  "discount": "10% off stock inventory.\n20% off repairs."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20544d"
+  },
+  "category": "Clothes, Flowers and Gifts",
+  "business": "Dibsies Personalization Station",
+  "address": "",
+  "phone": "",
+  "email": "",
+  "website": "https://www.dibsies.com/",
+  "discount": "Save 10% on any purchase using the promo code UTD10"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20544e"
+  },
+  "category": "Clothes, Flowers and Gifts",
+  "business": "Dr. Delphinium Flower & Orchid House",
+  "address": "513 W Campbell Rd, Richardson, TX 75080, 5806 W Lovers Ln, Dallas, TX 75225",
+  "phone": "",
+  "email": "",
+  "website": "http://www.drdelphinium.com/",
+  "discount": "10% off flower arrangements and plants."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20544f"
+  },
+  "category": "Clothes, Flowers and Gifts",
+  "business": "Gifts.com",
+  "address": "",
+  "phone": "800-580-2913",
+  "email": "bbastello@fdti.com",
+  "website": "https://www.gifts.com/",
+  "discount": "Offering 15% off using the code COMET15."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205450"
+  },
+  "category": "Clothes, Flowers and Gifts",
+  "business": "Juliet & Oliver",
+  "address": "",
+  "phone": "800-430-0597",
+  "email": "service@julietoliver.com",
+  "website": "https://www.julietoliver.com/",
+  "discount": "Offering 15% off for all students who use the discount code UTDallas15."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205451"
+  },
+  "category": "Clothes, Flowers and Gifts",
+  "business": "Lil Baby Cakes",
+  "address": "13335 15 Mile Road Sterling Heights, MI 48312",
+  "phone": "866-944-2253",
+  "email": "sales@lilbabycakes.com",
+  "website": "https://www.lilbabycakes.com/",
+  "discount": "Our mission is to create beautiful hand-crafted diaper cakes using premium ingredients, for a gift new Mom’s adore and can use for the care of the newborn. Starting with dozens of fluffy pure white Pampers, we embellish each layer with the finest ingredients such by Gund, premium baby products like Burt’s Bees and Johnson & Johnson, and of course, baby love. Use code UTD15 and receive 15% off our great products!"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205452"
+  },
+  "category": "Clothes, Flowers and Gifts",
+  "business": "Personal Creations",
+  "address": "",
+  "phone": "800-580-2913",
+  "email": "bbastello@fdti.com",
+  "website": "https://www.personalcreations.com/",
+  "discount": "Offering 15% off using the code COMET15."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205453"
+  },
+  "category": "Clothes, Flowers and Gifts",
+  "business": "ProFlowers.com",
+  "address": "",
+  "phone": "800-580-2913",
+  "email": "bbastello@fdti.com",
+  "website": "https://www.proflowers.com/",
+  "discount": "Offering 15% off using the code COMET15."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205454"
+  },
+  "category": "Clothes, Flowers and Gifts",
+  "business": "Shari’s Berries",
+  "address": "",
+  "phone": "800-580-2913",
+  "email": "bbastello@fdti.com",
+  "website": "https://www.berries.com/",
+  "discount": "Offering 15% off using the code COMET15."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205455"
+  },
+  "category": "Clothes, Flowers and Gifts",
+  "business": "The Black Tux",
+  "address": "2323 North Henderson Avenue, Suite 103B Dallas, TX 75206",
+  "phone": "",
+  "email": "",
+  "website": "https://www.theblacktux.com/",
+  "discount": "20% off your suit or tuxedo rental with promo code UTD20"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205456"
+  },
+  "category": "Clothes, Flowers and Gifts",
+  "business": "Whispering Blooms",
+  "address": "1221 Whispering Lane, Southlake, TX 76092",
+  "phone": "972-556-5510",
+  "email": "whisperingblooms1@gmail.com",
+  "website": "https://whisperingbloomstx.com",
+  "discount": "10% discount for UT Dallas teachers and students"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205457"
+  },
+  "category": "Dining",
+  "business": "7th Day Coffee",
+  "address": "743 Brick Row Drive, Suite 350, Richardson, TX 75081",
+  "phone": "214-264-3583",
+  "email": "7thdaycoffee@gmail.com",
+  "website": "http://www.7thdaycoffee.com",
+  "discount": "15% off your order with a valid UTD Comet card.\nAlso offers catering for events and fundraising opportunities for student organizations."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205458"
+  },
+  "category": "Dining",
+  "business": "Afrah Restaurant & Pastries",
+  "address": "314 E Main St, Richardson, TX 75081",
+  "phone": "",
+  "email": "",
+  "website": "http://afrah.com/",
+  "discount": "Free baklava with meal."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205459"
+  },
+  "category": "Dining",
+  "business": "Alonti Catering Kitchen",
+  "address": "2515 E. Rosemeade Pkwy #119 Carrollton, TX 75007",
+  "phone": "(972) 960-9740",
+  "email": "temery@alonti.com",
+  "website": "https://www.alonti.com/",
+  "discount": "20% off with Minimum of $125 order. Please contact Catering Sales Manager or Office for discount."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20545a"
+  },
+  "category": "Dining",
+  "business": "Asian Mint",
+  "address": "238 W. Campbell Road, Richardson, TX 75080",
+  "phone": "",
+  "email": "jessica@asianmint.com",
+  "website": "https://asianmint.com/richardson/",
+  "discount": "Free fountain drink with the purchase of a bowl."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20545b"
+  },
+  "category": "Dining",
+  "business": "Bawarchi Biryanis Richardson",
+  "address": "71801 N. Greenville Ave #25, Richardson, TX 75081",
+  "phone": "",
+  "email": "",
+  "website": "https://www.bawarchirichardson.com/",
+  "discount": "15% off with UTD student ID."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20545c"
+  },
+  "category": "Dining",
+  "business": "Bazaria Frozen Yogurt & Gelato Cafe",
+  "address": "700 W Spring Creek Pkwy, Ste 102, Plano, TX 75023",
+  "phone": "(214) 287-7477",
+  "email": "Deema.alasaad@gmail.com",
+  "website": "http://www.bazariasweetsusa.com",
+  "discount": "15% off with Student ID"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20545d"
+  },
+  "category": "Dining",
+  "business": "Brass Tap – North Dallas",
+  "address": "6959 Arapaho Rd, #108, Dallas, TX 75248",
+  "phone": "214-454-3144",
+  "email": "vidya@brasstapnorthdallas.com",
+  "website": "https://www.brasstapbeerbar.com/northdallas",
+  "discount": "Enjoy 15% off your tab when you show your UTD Student or Faculty ID!"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20545e"
+  },
+  "category": "Dining",
+  "business": "Buffalo Wild Wings",
+  "address": "",
+  "phone": "",
+  "email": "",
+  "website": "http://www.buffalowildwings.com/",
+  "discount": "10% off."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20545f"
+  },
+  "category": "Dining",
+  "business": "Burger Island",
+  "address": "525 W Arapaho Rd #8, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "",
+  "discount": "10% discount off total purchase."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205460"
+  },
+  "category": "Dining",
+  "business": "Campisi’s",
+  "address": "7632 Campbell Rd, Ste 315, Dallas, TX 75248",
+  "phone": "",
+  "email": "",
+  "website": "http://www.campisis.us/",
+  "discount": "Receive 10% off; Dine-in only."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205461"
+  },
+  "category": "Dining",
+  "business": "Cappuccino Italian Bistro",
+  "address": "1310 W Campbell Rd, Ste 135, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://www.cappuccinoitalianbistro.com/",
+  "discount": "10% off food."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205462"
+  },
+  "category": "Dining",
+  "business": "Chameli Restaurant",
+  "address": "201 S. Greenville Ave. Richardson, TX. 75081",
+  "phone": "972-638-9898",
+  "email": "chamelirestaurant@gmail.com",
+  "website": "https://www.chamelidallas.com/#biryani",
+  "discount": "15% for UTD Students"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205463"
+  },
+  "category": "Dining",
+  "business": "Chopped Halal Grill",
+  "address": "3000 Northside Blvd Ste #500, Richardson TX 75080",
+  "phone": "",
+  "email": "info@choppedhalalgrill.com",
+  "website": "http://Choppedhalalgrill.com",
+  "discount": "10% off for UTD students and Staff"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205464"
+  },
+  "category": "Dining",
+  "business": "Cinnaholic",
+  "address": "100 S Central Expwy, Unit 15 Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://www.cinnaholic.com/",
+  "discount": "Offering 15% off with UTD ID."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205465"
+  },
+  "category": "Dining",
+  "business": "Dickey’s Barbecue Pit",
+  "address": "2160 N Coit Rd, Ste 146, Richardson, Texas, 75080",
+  "phone": "4086146203",
+  "email": "TX-0970@DickeysFranchise.com",
+  "website": "https://www.dickeys.com/locations/texas/richardson/coit-road",
+  "discount": "10% off any meal with a valid UTD student ID.\n15% off catering orders over $150.\nUTD BBQ Meal for $9.99: Choice of pulled chicken or chopped brisket sandwich, one side, and a drink.\nWe offer delicious Barbecue for Sports, gatherings, cultural and many more events and also provide fundraising opportunities for student organizations."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205466"
+  },
+  "category": "Dining",
+  "business": "Dimassi’s Mediterranean Buffet",
+  "address": "300 W Campbell Rd, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "https://www.dimassis.com/dimassis-mediterranean-buffet-lcations/campbell-tx",
+  "discount": "10% off; Dine-in only."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205467"
+  },
+  "category": "Dining",
+  "business": "Feng Cha Teahouse",
+  "address": "2701 Custer Parkway, Suite 823, Richardson, TX 75080",
+  "phone": "972-685-0202",
+  "email": "yen.chen@cannectllc.com",
+  "website": "https://fengchausa.com/",
+  "discount": "10% off entire purchase."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205468"
+  },
+  "category": "Dining",
+  "business": "Frankie’s Mexican Cuisine",
+  "address": "314 E Main St, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://frankiesmexicancuisine.com/",
+  "discount": "20% off."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205469"
+  },
+  "category": "Dining",
+  "business": "Guitars and Growlers",
+  "address": "581 W Campbell Rd, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://www.guitarsandgrowlers.com/",
+  "discount": "10% off Food for UTD students, faculty and staff. Show ID."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20546a"
+  },
+  "category": "Dining",
+  "business": "i Fratelli Pizza",
+  "address": "226 W Campbell Rd, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://ifratelli.net/",
+  "discount": "10% off at Richardson location."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20546b"
+  },
+  "category": "Dining",
+  "business": "India Bazaar",
+  "address": "1425 E Beltline Rd, Richardson, TX 75081",
+  "phone": "972-552-0660",
+  "email": "support@indiabazaar.us",
+  "website": "https://www.indiabazaardfw.com/",
+  "discount": "9% off an entire purchase or 4% through enrolling in store loyalty program and 5% upon showing UTD student ID."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20546c"
+  },
+  "category": "Dining",
+  "business": "Japan House",
+  "address": "300 W. Plano Pkwy Plano, TX 75075",
+  "phone": "972-633-8000",
+  "email": "",
+  "website": "http://japanhouseplano.com/",
+  "discount": "10% discount"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20546d"
+  },
+  "category": "Dining",
+  "business": "Jimmy John’s Gourmet Sandwiches",
+  "address": "3000 Northside Blvd, Richardson, TX 75080",
+  "phone": "972-231-8300",
+  "email": "cjennings81@gmail.com",
+  "website": "http://jimmyjohns.com/",
+  "discount": "Weekend Happy Hour 5-9 p.m. 15% off all box lunch meals."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20546e"
+  },
+  "category": "Dining",
+  "business": "La Madeleine",
+  "address": "1320 W Campbell Rd, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://lamadeleine.com/",
+  "discount": "10% off."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20546f"
+  },
+  "category": "Dining",
+  "business": "Little Greek Fresh Grill",
+  "address": "1920 N Coit Rd, Ste 241 Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "https://littlegreekfreshgrill.com/store/richardson/",
+  "discount": "Free drink with purchase."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205470"
+  },
+  "category": "Dining",
+  "business": "Luna Grill",
+  "address": "City Line Market 1419 E. Renner Rd, #51, Richardson, TX 75082",
+  "phone": "",
+  "email": "",
+  "website": "http://www.lunagrill.com/",
+  "discount": "10% off any food purchase with UTD ID, not valid on beer or wine."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205471"
+  },
+  "category": "Dining",
+  "business": "Marshalls BBQ Catering & Special Events",
+  "address": "12895 Josey Ln, Ste 215, Farmers Branch, TX 75234",
+  "phone": "",
+  "email": "",
+  "website": "http://www.marshallscatering.com/",
+  "discount": "10% off catering."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205472"
+  },
+  "category": "Dining",
+  "business": "Masala Wok Indian + Asian Fare",
+  "address": "1310 W Campbell Rd, Ste 110, Richardson, TX 75080",
+  "phone": "972-644-9000",
+  "email": "service@masalawok.com",
+  "website": "http://masalawok.com",
+  "discount": "Any Two (2) Fried Rice or Noodle Bowls or Biryani Entrees* for $20. Present a valid UTD-ID to redeem. Valid at Richardson Location only. Order at the store for Dine-in or Take out.\n*Lamb & Shrimp are excluded."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205473"
+  },
+  "category": "Dining",
+  "business": "Modern Market",
+  "address": "CityLine Shopping Center 1419 E Renner Rd, Richardson, TX 75082",
+  "phone": "",
+  "email": "",
+  "website": "http://www.modernmarket.com/",
+  "discount": "$3 off."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205474"
+  },
+  "category": "Dining",
+  "business": "Mojo’s Java",
+  "address": "101 S Coit Rd RICHARDSON TX 75080 # 50, Located inside Cotton Wood Market",
+  "phone": "2148017884",
+  "email": "alexdeer@me.com",
+  "website": "http://www.mojosjavatx.com",
+  "discount": "10% Off any Beverage at Mojos Java with students and Staff ID"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205475"
+  },
+  "category": "Dining",
+  "business": "Nothing Bundt Cakes",
+  "address": "324 W Campbell Rd, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://www.nothingbundtcakes.com/",
+  "discount": "Comet Sweet Saturdays – 10% off on cake purchases all on Saturdays.\nNot valid with other offers.\nRichardson location only."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205476"
+  },
+  "category": "Dining",
+  "business": "Old Town Creamery",
+  "address": "6205 Coit Rd, Unit 344, Plano, TX 75024",
+  "phone": "",
+  "email": "",
+  "website": "http://oldtowncreamery.com/",
+  "discount": "25% off single-serving items, pre-ordered cakes, and pre-paid cakes."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205477"
+  },
+  "category": "Dining",
+  "business": "Olive Burger",
+  "address": "451 W Arapaho Rd, Ste 100, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://www.oliveburger.com/",
+  "discount": "10% off."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205478"
+  },
+  "category": "Dining",
+  "business": "Palio’s Pizza Cafe",
+  "address": "1469 W Campbell Road Richardson TX 75080",
+  "phone": "972-234-4002",
+  "email": "paliosrichardson@gmail.com",
+  "website": "https://www.paliospizzacafe.com/",
+  "discount": "15% off any order"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205479"
+  },
+  "category": "Dining",
+  "business": "Shady’s",
+  "address": "2701 Custer Pkwy, Ste 915, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://shadysburgers.com/",
+  "discount": "10% food discount, does not include alcohol.\nMust present Comet Card."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20547a"
+  },
+  "category": "Dining",
+  "business": "Sonny Bryan’s Smokehouse",
+  "address": "1310 W Campbell Rd, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://www.sonnybryans.com/",
+  "discount": "20% off (excludes alcohol)."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20547b"
+  },
+  "category": "Dining",
+  "business": "String Bean Restaurant",
+  "address": "1310 W Campbell Rd, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "",
+  "discount": "10% off (excludes alcohol)."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20547c"
+  },
+  "category": "Dining",
+  "business": "Sweet Firefly Gourmet Ice Cream and Candied Treats",
+  "address": "II Creeks Plaza 2701 Custer Pkwy, Ste 810, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "https://www.facebook.com/sweetfireflyrichardson",
+  "discount": "10% off."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20547d"
+  },
+  "category": "Dining",
+  "business": "Sweetwaters Coffee & Tea",
+  "address": "1316 Shire Blvd, Suite 110, Richardson, TX 75082",
+  "phone": "(469) 250-7975",
+  "email": "Info@swshireblvd.com",
+  "website": "http://Sweetwaterscafe.com",
+  "discount": "10% off beverages Monday through Wednesday from 1pm-4pm"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20547e"
+  },
+  "category": "Dining",
+  "business": "Taco Ocho",
+  "address": "930 E Campbell Rd, Ste 109, Richardson, TX 75081",
+  "phone": "",
+  "email": "",
+  "website": "http://www.tacoocho.com/",
+  "discount": "Free soft drink with purchase."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20547f"
+  },
+  "category": "Dining",
+  "business": "TeaLatte Bar",
+  "address": "7517 Campbell Rd #608 Dallas Tx 75248",
+  "phone": "",
+  "email": "TeaLatteBarRichardson@gmail.com",
+  "website": "http://tealattebarrichardson.com",
+  "discount": "15% off student discount\nAlumni-owned\nAlso offers catering for events and fundraising opportunities for student orgs"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205480"
+  },
+  "category": "Dining",
+  "business": "Tocotoco",
+  "address": "3801 W President George Bush Hwy, Suite 116 Plano, TX 75075",
+  "phone": "469-367-5595",
+  "email": "info@tocotoco.us",
+  "website": "",
+  "discount": "10% all orders – may not be combined with any other discount."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205481"
+  },
+  "category": "Dining",
+  "business": "Tongue In Cheek Ice Cream",
+  "address": "526 W. Arapaho Richardson, TX 75080",
+  "phone": "972-979-9902",
+  "email": "tongueincheekicecream@gmail.com",
+  "website": "https://tongueincheekicecream.com/",
+  "discount": "We are offering 20% off to all UTD students. We also provide catering for events on or off campus."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205482"
+  },
+  "category": "Dining",
+  "business": "Torchy’s Tacos",
+  "address": "300 W Campbell Rd, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://torchystacos.com/",
+  "discount": "10% off food at Richardson location, excludes alcohol."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205483"
+  },
+  "category": "Dining",
+  "business": "Urban Eatz",
+  "address": "1811 N Greenville Ave, Ste 100, Richardson, TX 75081",
+  "phone": "",
+  "email": "",
+  "website": "http://www.urbaneatz.com/",
+  "discount": "Free non-alcoholic beverage with meal."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205484"
+  },
+  "category": "Dining",
+  "business": "Vila Brazil",
+  "address": "518 W Arapaho Rd. #133, Richardson, TX 75080",
+  "phone": "",
+  "email": "ederdallas78@gmail.com",
+  "website": "https://www.vilabrazil.com/",
+  "discount": "15% off on a full price dinner Tuesday-Friday valid with UTD ID. Discount does not apply to salad bar and is not valid with any other promotion or discount."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205485"
+  },
+  "category": "Dining",
+  "business": "Yumilicious Frozen Yogurt",
+  "address": "700 E Campbell Rd, Richardson, TX 75081",
+  "phone": "",
+  "email": "",
+  "website": "http://yumilicious.co/",
+  "discount": "10% off."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205486"
+  },
+  "category": "Entertainment",
+  "business": "11th Hour Escape",
+  "address": "601 J Place #300 Plano, Tx 75074",
+  "phone": "",
+  "email": "",
+  "website": "https://dallas.11thhourescape.com/",
+  "discount": "For some group fun and excitement, visit 11th Hour Escape, the best escape room experience in town! 10% off for students and staff. Must call and show ID before booking for discount."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205487"
+  },
+  "category": "Entertainment",
+  "business": "Active Arena",
+  "address": "8008 State Hwy 121 #103, Frisco, TX 75034",
+  "phone": "",
+  "email": "groups@activearena.com",
+  "website": "http://activearena.com",
+  "discount": "10% off ticket prices for any UTD student with a valid student ID."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205488"
+  },
+  "category": "Entertainment",
+  "business": "Downwind Guide Service",
+  "address": "209 S Shady Shores Rd #300, Lake Dallas, TX 75065",
+  "phone": "",
+  "email": "",
+  "website": "http://downwindguideservice.com/",
+  "discount": "10% discount on weekend fishing guide services throughout north Texas exclusively for UTD staff, students, and alumni.\nUse code UTDFISH10."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205489"
+  },
+  "category": "Entertainment",
+  "business": "Great Big Game Show",
+  "address": "5752 Grandscape Blvd The Colony, TX 75056",
+  "phone": "",
+  "email": "hello@greatbiggameshow.com",
+  "website": "http://greatbiggameshow.com/the-colony",
+  "discount": "Experience all the thrills of a televised game show – the lights, music, and even the host! Great Big Game Show offers any student/faculty member with a valid UTD-ID a 10% discount on any game Mondays-Thursdays. To redeem, call (214) 239-3223 to make a reservation."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20548a"
+  },
+  "category": "Entertainment",
+  "business": "Hawaiian Waters",
+  "address": "4400 Paige Road, The Colony, TX 75056",
+  "phone": "",
+  "email": "dsmiley@hawaiianwaters.com",
+  "website": "http://hawaiianwaters.com",
+  "discount": "Discount on Daily Admission Tickets, Season Passes, and Meal Deals. Valid at Hawaiian Waters, Garland and The Colony"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20548b"
+  },
+  "category": "Entertainment",
+  "business": "J&S Party Rental",
+  "address": "4906 Dillehay Dr. #300 Allen, TX 75002",
+  "phone": "214-884-5713",
+  "email": "admin@jandspartyrental.com",
+  "website": "https://jandspartyrental.com/",
+  "discount": "We’re your one-stop shop for party rental supplies. We have everything from tents and tables to chairs and decorations. Whether you’re hosting a group of 30 or a wedding of 500, we take the hassle out of your party planning. $20 off your rental order with your UTD ID."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20548c"
+  },
+  "category": "Entertainment",
+  "business": "Madddogz Paintball Park",
+  "address": "2217 Patrick Road, Waxahachie, TX 75167",
+  "phone": "9729481227",
+  "email": "Madddogzpaintball1@gmail.com",
+  "website": "http://Madddogz.com",
+  "discount": "Deeply discounted entry for paintball activities. Entry would be $30 person rather than the normal rate of $43 per person. It includes the gun, thermal mask, 4 hour entry, 500 paintballs, and a safety briefing."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20548d"
+  },
+  "category": "Entertainment",
+  "business": "Plant & Sip",
+  "address": "Dallas/Fort Worth Metroplex",
+  "phone": "469-305-0644",
+  "email": "g.kaendler@eventsgk.com",
+  "website": "https://plantandsip.com/",
+  "discount": "Looking for a complete turnkey office party, team building or casual get together that is sure to please? Plant & Sip is the solution. We bring the music, the instructors, the setup and cleanup crew, and of course the fun! We bring our most entertaining party hosts to teach everyone how to design and plant their own succulent terrarium. We also have prizes and contests throughout the event. Our parties are completely customizable from the party theme to the music playlist. We offer 10% off our base price of $350 for a party up to 10 people!"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20548e"
+  },
+  "category": "Entertainment",
+  "business": "Price 4 Limo Dallas",
+  "address": "",
+  "phone": "866-265-5479",
+  "email": "travis@price4limo.com",
+  "website": "https://www.price4limo.com/locations/texas/charter-bus-dallas/",
+  "discount": "Price 4 Limo would like to offer a $100 off discount to any reservation with us. This applies to all vehicle rental including limousine, party bus and charter bus rentals. The promotion is valid indefinitely.\nTo redeem the discount, please contact us by emailing us from your university email address."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20548f"
+  },
+  "category": "Entertainment",
+  "business": "The Drawing Board",
+  "address": "1900 Jay Ell Dr. Richardson, TX 75081",
+  "phone": "",
+  "email": "",
+  "website": "https://www.thedrawingboarddfw.com",
+  "discount": "The Drawing Board is a unique place to host an event. We can handle anything from small business meetings to corporate parties, private birthday parties, reunions and banquets.\nTreat your guests to an amazing time at our event center.\nGet 15% off on event space rental with your UTD ID."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205490"
+  },
+  "category": "Entertainment",
+  "business": "The Escape Game Dallas at Grapevine Mills",
+  "address": "3000 Grapevine Mills Pkwy Suite 604 Grapevine, TX 76051",
+  "phone": "8287122118",
+  "email": "reece.collie@theescapegame.com",
+  "website": "http://theescapegame.com/dallas/",
+  "discount": "The Escape Game offers any Students/Faculty with a valid UTD ID Card a 10% discount on any game Mondays-Thursdays. To redeem, call 214-692-2180 to make a reservation."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205491"
+  },
+  "category": "Health and Beauty",
+  "business": "Altered States Wellness",
+  "address": "212 W Campbell Rd Richardson, TX 75080",
+  "phone": "214-687-6657",
+  "email": "jojo@alteredstatesfranchise.com",
+  "website": "https://alteredstateswellness.com",
+  "discount": "Use code COMET20 for 20% off any services including float therapy, infrared sauna, cold plunges, red light therapy, compression boots, or PEMF Mat. Mention in store for 15% off vitamins and supplements."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205492"
+  },
+  "category": "Health and Beauty",
+  "business": "Body Machine Fitness",
+  "address": "6153 Windhaven Pkwy, Ste 130 Plano, TX 75093",
+  "phone": "214-396-8585",
+  "email": "jhess@bodymachinefitness.com",
+  "website": "https://bodymachinefitness.com/",
+  "discount": "Students Receive 1 FREE CLASS and 25% off Memberships."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205493"
+  },
+  "category": "Health and Beauty",
+  "business": "Campbell Family Dentistry and Orthodontics",
+  "address": "2160 N Coit Road, Suite 140, Richardson, TX 75080",
+  "phone": "214-570-9993",
+  "email": "staff@cfdo.dental",
+  "website": "https://www.cfdo.dental/",
+  "discount": "Please call our office as we offer multiple options based on treatment needs."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205494"
+  },
+  "category": "Health and Beauty",
+  "business": "Cooper Fitness Center",
+  "address": "12100 Preston Rd, Dallas, TX 75230",
+  "phone": "",
+  "email": "jweaver@cooperfitnesscenter.com",
+  "website": "http://www.cooperaerobics.com/",
+  "discount": "Corporate rate on full membership.\nExtensive onboarding package ($2000+ value)."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205495"
+  },
+  "category": "Health and Beauty",
+  "business": "CPR Scholars",
+  "address": "825 Market St, Allen, TX 75002",
+  "phone": "",
+  "email": "",
+  "website": "",
+  "discount": "40% off CPR/First Aid/AED classes.\nUse discount code TDCDP."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205496"
+  },
+  "category": "Health and Beauty",
+  "business": "Destination Dallas Texas",
+  "address": "2655 Premier Dr, Plano, TX 75075",
+  "phone": "",
+  "email": "",
+  "website": "https://destinationdallastexas.com/",
+  "discount": "Discounted rates 50%, down to only $19.99 for students looking to train in a motivation, knowledgeable environment."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205497"
+  },
+  "category": "Health and Beauty",
+  "business": "EarQ Family Hearing Plan",
+  "address": "Richardson, TX",
+  "phone": "",
+  "email": "",
+  "website": "https://www.earq.com/",
+  "discount": "Minimum 35% off EarQ manufacturer suggested retail price, free annual hearing checkup, four-year service warranty, family coverage that includes parents, dependents, and other extended family members."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205498"
+  },
+  "category": "Health and Beauty",
+  "business": "Eyeglasses.com",
+  "address": "147 Post Road East Westport, CT 06880",
+  "phone": "(203) 858-9090",
+  "email": "mark@eyeglasses.com",
+  "website": "https://www.eyeglasses.com/",
+  "discount": "Use the code UTDALLAS15 to get an additional 15% off your online order."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f205499"
+  },
+  "category": "Health and Beauty",
+  "business": "F45 Training Breckinridge Park",
+  "address": "4251 E Renner Rd Suite #100 Richardson, TX 75082",
+  "phone": "469-480-9752",
+  "email": "lflynn@f45training.com",
+  "website": "https://f45training.com/breckinridgepark/home",
+  "discount": "We are offering a 12% membership discount to UTD students for F45 Breckinridge Park! Our discount will be for our unlimited class packages – which will be $75 billed bi-weekly. This option will be presented to UTD students upon their completion of our FREE 10-Day Trial."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20549a"
+  },
+  "category": "Health and Beauty",
+  "business": "Gtech Fitness",
+  "address": "13522 Wintercrest Dr. Montgomery, TX 77356",
+  "phone": "",
+  "email": "info@gtechfitness.com",
+  "website": "https://www.gtechfitness.com/",
+  "discount": "Offering 5% discount by using the code UTDGT"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20549b"
+  },
+  "category": "Health and Beauty",
+  "business": "Highland Park Orthodontics",
+  "address": "8222 Douglas Ave, Suite 650 Dallas, TX 75225",
+  "phone": "214-361-6644",
+  "email": "mitch@hportho.net",
+  "website": "https://www.hporthodallasbraces.com/",
+  "discount": "10% OFF All our Dallas Orthodontic services. Additional Information: Just present your UT Dallas student ID when you come in the office. That’s all you need to do and you’ll receive 10% off our normal fee for any service. That includes literally everything: braces, clear sapphire braces, Invisalign clear aligners, retainers and even permanent retainer repairs."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20549c"
+  },
+  "category": "Health and Beauty",
+  "business": "Hollywood Beauty Eyebrow Threading",
+  "address": "6850 N Shiloh Rd, Ste F1, Garland, TX 75044",
+  "phone": "",
+  "email": "support@hollywoodbeauty.salon",
+  "website": "http://dfweyebrows.com",
+  "discount": "30% off Eyebrow Threading for all UT Dallas Students. We are primarily a threading salon but also offer other services related to waxing, eyebrow tinting, and eyelash extensions."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20549d"
+  },
+  "category": "Health and Beauty",
+  "business": "Lasercare Eye Center",
+  "address": "440 W. Interstate 635, #300, Irving, TX 75063",
+  "phone": "",
+  "email": "",
+  "website": "http://www.dfweyes.com/",
+  "discount": "Free consultation and $2000 off laser eye surgery (LASIK, PRK or SMILE Vision Correction)."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20549e"
+  },
+  "category": "Health and Beauty",
+  "business": "Lombardo’s Barber Salon",
+  "address": "2701 Custer Pkwy Suite 805 Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://www.lombardosbarbersalon.com/",
+  "discount": "$5 off any haircut"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f20549f"
+  },
+  "category": "Health and Beauty",
+  "business": "Lucky’s Barber Shop LLC",
+  "address": "7630 Campbell Rd, Dallas, TX 75248",
+  "phone": "",
+  "email": "luckysbarbers@gmail.com",
+  "website": "https://www.luckysbarbershops.com/",
+  "discount": "50% off first haircut."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054a0"
+  },
+  "category": "Health and Beauty",
+  "business": "Lumin Fitness",
+  "address": "5240 N O’Connor Blvd, Suite 166 Irving TX 75039",
+  "phone": "",
+  "email": "hello@lumin.fitness",
+  "website": "https://lumin.fitness",
+  "discount": "Lumin Fitness has partnered with UTD to offer 50% off our 4x and 8x per month memberships!\n4x per month – $39 – Unlock Code: COMET4\n8x per month – $79 – Unlock Code: COMET8\nDownload the Lumin Fitness app, create a free account, go to “more” and enter the unlock code above!"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054a1"
+  },
+  "category": "Health and Beauty",
+  "business": "Paragon Dentistry",
+  "address": "705 S Custer Rd #150, Allen, TX 75013",
+  "phone": "",
+  "email": "",
+  "website": "https://allentxdentist.com/",
+  "discount": "Free in-office teeth whitening after any new patient checkup"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054a2"
+  },
+  "category": "Health and Beauty",
+  "business": "Precious Eyecare",
+  "address": "16731 Coit Rd, Dallas, TX 76092",
+  "phone": "469-399-7273",
+  "email": "eyedoctor@preciouseyes2020.com",
+  "website": "http://preciouseyes2020.com/",
+  "discount": "10% off eye exam for glasses or contact lens fitting with student ID. Cannot be used in combination with insurance benefits."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054a3"
+  },
+  "category": "Health and Beauty",
+  "business": "Pure Barre Richardson",
+  "address": "322 W. Campbell Rd Richardson, TX 75080",
+  "phone": "(469) 575-4645",
+  "email": "richardson@purebarre.com",
+  "website": "https://www.purebarre.com/location/richardson-tx",
+  "discount": "Students and staff receive $10 off any of our memberships.\nSpecial student offer: unlimited classes for $119/month"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054a4"
+  },
+  "category": "Health and Beauty",
+  "business": "Soul Friends Yoga Center",
+  "address": "17194 Preston Road, Suite 215, Dallas, Texas 75248",
+  "phone": "",
+  "email": "info@soulfriendsyogacenter.com",
+  "website": "https://www.soulfriendsyogacenter.com/",
+  "discount": "This is a UTD specific discount for UTD affiliates only. This discount is for 20% off of our autopay memberships, either a Mini Membership, or Unlimited Membership.\nHow UTD affiliates can access the discount:\n+ create a user profile from our online portal\n+ add autopay membership (either Mini or Unlimited) to their shopping cart\n+ at checkout, enter the discount code ‘UTD’\n+ 20% discount will be automatically applied to all monthly autopay payments"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054a5"
+  },
+  "category": "Health and Beauty",
+  "business": "Sugaring NYC Richardson",
+  "address": "3501 Custer Parkway Suite 103 Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://sugaringrichardson.com",
+  "discount": "10% off to all UTD Students"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054a6"
+  },
+  "category": "Health and Beauty",
+  "business": "The Mat Yoga Studio",
+  "address": "18484 Preston Rd, Ste 201, Dallas, TX 75252",
+  "phone": "",
+  "email": "",
+  "website": "http://www.thematyogastudio.com/",
+  "discount": "$109 for 10 classes and $89 for monthly unlimited Auto debt membership (requires a one-time $30 set-up fee and a 3-month commitment)"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054a7"
+  },
+  "category": "Health and Beauty",
+  "business": "Trophy Fitness",
+  "address": "2812 Vine Street S-300, Dallas, TX 75204",
+  "phone": "",
+  "email": "info@trophyfitnessclub.com",
+  "website": "https://www.trophyfitnessclub.com/",
+  "discount": "50% off enrollment fees."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054a8"
+  },
+  "category": "Health and Beauty",
+  "business": "UT Dallas/Callier Center for Communication Disorders",
+  "address": "2895 Facilities Way Richardson, TX 75080, 1966 Inwood Road Dallas, TX 75235",
+  "phone": "",
+  "email": "andrea.gohmert@utdallas.edu",
+  "website": "https://www.utdallas.edu/calliercenter/",
+  "discount": "Bring your comet card to receive 10% off premium level hearing devices, custom hearing protective devices, and/or assistive listening devices. This discount applies to product purchase only and does not include service fees typically handled through health insurance policies. UT Dallas Callier Center is a provider for BCBS of Texas and additional hearing aid services and benefits may be available through the employee insurance plan. This discount applies to the holder of the Comet card and does not apply to family members. Contact the Callier Center for Communication Disorders for more details."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054a9"
+  },
+  "category": "Health and Beauty",
+  "business": "Yoga Chikitsa",
+  "address": "324 W Campbell Rd, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "https://yoga-chikitsa.com",
+  "discount": "$65 for a 10-pack of classes.\n$75 for an unlimited pass."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054aa"
+  },
+  "category": "Home and Garden",
+  "business": "BestCanvas Inc.",
+  "address": "3443 NW 107th Street, Miami, FL 33167",
+  "phone": "",
+  "email": "",
+  "website": "https://www.canvasdiscount.com/",
+  "discount": "CanvasDiscount.com specializes in producing customized, high-quality Wall Décor and Photo Gift items. Receive an additional 15% off on all Photo Canvas Prints using coupon code UTDALLAS15 before checkout. One redemption per customer."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ab"
+  },
+  "category": "Home and Garden",
+  "business": "Canyon Creek Art & Frame",
+  "address": "2100 Alamo Rd, Ste R, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://www.canyoncreekart.com/",
+  "discount": "10% off custom framing.\n— or —\n10% off giclee prints."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ac"
+  },
+  "category": "Home and Garden",
+  "business": "DFW Stained Concrete",
+  "address": "1208 Hawthorne Ave, Fort Worth, TX 76110",
+  "phone": "(469) 382-4458",
+  "email": "dfwstainedconcrete1@gmail.com",
+  "website": "https://www.dfwstainedconcrete.com",
+  "discount": "We are giving a $50 discount on any of our concrete services like driveways, patios, repair and replacement, foundations, etc.  To claim the discount, we need Proof of University ID or an email from your university email address. You may also call us for more info."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ad"
+  },
+  "category": "Home and Garden",
+  "business": "Doorvana Garage Doors",
+  "address": "5001 Mosson Rd Fort Worth, Texas 76119",
+  "phone": "817-500-5988",
+  "email": "bobby@doorvana.com",
+  "website": "https://www.doorvana.com/",
+  "discount": "10% off all garage door services to existing students and alumni."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ae"
+  },
+  "category": "Home and Garden",
+  "business": "Extra Space Storage",
+  "address": "19211 Preston Rd, Dallas, TX 75252",
+  "phone": "",
+  "email": "",
+  "website": "https://www.extraspace.com/storage/facilities/us/texas/dallas/501768/",
+  "discount": "First month free."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054af"
+  },
+  "category": "Home and Garden",
+  "business": "FairClaims Roofing & Constructions",
+  "address": "6401 Eldorado Pkwy, Ste 124, McKinney, TX 75070",
+  "phone": "",
+  "email": "",
+  "website": "http://fairclaimsroofing.com/",
+  "discount": "10% off insurance replacement cost for roof replacement.\nFree roof inspections."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054b0"
+  },
+  "category": "Home and Garden",
+  "business": "FindStorageFast",
+  "address": "911 Greenwood Avenue Toronto, ON",
+  "phone": "(877) 225-0926",
+  "email": "darcy@findstoragefast.com",
+  "website": "https://www.findstoragefast.com/",
+  "discount": "Get $25 off any storage rental made online with your UT Dallas student email."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054b1"
+  },
+  "category": "Home and Garden",
+  "business": "HD Foundations Inc",
+  "address": "2700 W Pioneer Pkwy, Ste C, Arlington, TX 76013",
+  "phone": "",
+  "email": "",
+  "website": "http://hdfoundationrepair.com/",
+  "discount": "10% off installation of foundation piers (minimum of 10)."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054b2"
+  },
+  "category": "Home and Garden",
+  "business": "iDeal Floors",
+  "address": "1221 W Buckingham Rd, Garland, TX 75040",
+  "phone": "",
+  "email": "",
+  "website": "http://www.idealfloors.com/",
+  "discount": "20% discount on merchandise to any UT Dallas staff member."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054b3"
+  },
+  "category": "Home and Garden",
+  "business": "LawnStarter",
+  "address": "3548 Duchess Trail, Dallas, TX 75229",
+  "phone": "(817) 369-3602",
+  "email": "jeshue@lawnstarter.com",
+  "website": "https://www.lawnstarter.com/dallas-tx-landscaping",
+  "discount": "$20 off from the first service with the promo code EDU20."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054b4"
+  },
+  "category": "Home and Garden",
+  "business": "Life Storage",
+  "address": "140 Centennial Blvd, Richardson, TX 75081",
+  "phone": "",
+  "email": "",
+  "website": "https://www.lifestorage.com/storage-units/texas/dallas/",
+  "discount": "10% off per month. Must be completed through lifestorage.com/storage-units/texas/dallas."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054b5"
+  },
+  "category": "Home and Garden",
+  "business": "MRCOOL HVAC Supply",
+  "address": "22571 SE 313th PL, Black Diamond, WA, 98010",
+  "phone": "833-928-0535",
+  "email": "nicolas@mrcoolhvacsupply.com",
+  "website": "https://mrcoolhvacsupply.com/",
+  "discount": "10% discount to any UTD student, staff, faculty, and alumni for orders made on the MRCOOL HVAC Supply website. The customer will need to use code “IUPUI10” at checkout and submit a photo of their UTD ID."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054b6"
+  },
+  "category": "Home and Garden",
+  "business": "Nelson Cabinetry",
+  "address": "3301 Conflans Rd #301, Irving, TX 75061",
+  "phone": "",
+  "email": "evan@nelsonkb.com",
+  "website": "http://nelsonkb.com",
+  "discount": "10% off on all our kitchen and bathroom cabinets. Nelson Cabinetry is an online distributor of high quality Ready-to-Assemble kitchen and bathroom cabinetry."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054b7"
+  },
+  "category": "Home and Garden",
+  "business": "Omni Cleaning Service",
+  "address": "4906 Dillehay Dr Suite 300 Allen, TX 75002",
+  "phone": "",
+  "email": "",
+  "website": "https://omnicleanservice.net/",
+  "discount": "$10 Off Carpet Cleaning for students & staff."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054b8"
+  },
+  "category": "Home and Garden",
+  "business": "Portman Foundation Repair",
+  "address": "1713 Parkside Ave, Irving, TX 75061",
+  "phone": "(469) 957-7343",
+  "email": "info@portmanfoundationrepair.com",
+  "website": "https://portmanfoundationrepair.com",
+  "discount": "Completely Free Foundation Repair Inspection and 15% off installation of foundation piers (minimum of 10)."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054b9"
+  },
+  "category": "Home and Garden",
+  "business": "QDIsurfaces",
+  "address": "2605 Freewood Dr, Dallas, TX 75220",
+  "phone": "",
+  "email": "",
+  "website": "https://qdisurfaces.com/",
+  "discount": "10% discount for students, staff and alumni to use with their contractor when purchasing natural stone, glass, porcelain, and ceramic flooring."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ba"
+  },
+  "category": "Home and Garden",
+  "business": "RightSpace Storage",
+  "address": "231 W FM 544 Murphy, TX 75094",
+  "phone": "949-373-8208",
+  "email": "juan@optivestproperties.com",
+  "website": "https://rightspacestorage.com/",
+  "discount": "An additional 10% off for 3 months that applies after any move-in promotion for all reservations made through our website."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054bb"
+  },
+  "category": "Home and Garden",
+  "business": "Safeguard Security Cameras",
+  "address": "3225 Turtle Creek Blvd, Dallas, TX 75219",
+  "phone": "",
+  "email": "",
+  "website": "http://www.safeguardsecuritycameras.com/",
+  "discount": "10% off security camera solutions for staff, alumni and current students. Use discount code SSCUTD10."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054bc"
+  },
+  "category": "Home and Garden",
+  "business": "Sniper Termite and Pest Control LLC",
+  "address": "8008 Meadowbrook Dr, Fort Worth, TX 76120",
+  "phone": "",
+  "email": "",
+  "website": "http://snipertermiteandpest.com/",
+  "discount": "25% off first bill for new customers."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054bd"
+  },
+  "category": "Home and Garden",
+  "business": "Squeaky Clean Windows",
+  "address": "2140 E. Southlake Blvd., #L-629, Southlake, TX 76092",
+  "phone": "",
+  "email": "",
+  "website": "http://www.squeakycleanwindowsdallas.com/",
+  "discount": "$20 off any window and screen cleaning."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054be"
+  },
+  "category": "Home and Garden",
+  "business": "The FrameSmith",
+  "address": "18208 Preston Rd, Dallas, TX 75252",
+  "phone": "",
+  "email": "",
+  "website": "http://www.theframesmith.com/",
+  "discount": "10% off custom framing."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054bf"
+  },
+  "category": "Home and Garden",
+  "business": "US Steam",
+  "address": "7920 Rodeo Trail, Ste 240, Mansfield, TX 76063",
+  "phone": "",
+  "email": "chris@ussteam.net",
+  "website": "https://ussteam.net/",
+  "discount": "10% discount off Residential Steam Cleaners."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054c0"
+  },
+  "category": "Home and Garden",
+  "business": "US Storage Centers",
+  "address": "1815 Shady Oaks Drive, Denton, TX 76205",
+  "phone": "",
+  "email": "contactus@usstorage.net",
+  "website": "https://www.usstoragecenters.com/storage-units/tx/denton/1815-shady-oaks-dr",
+  "discount": "Receive up to 50% Off 2 Months. Call or visit our website to learn more"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054c1"
+  },
+  "category": "Home and Garden",
+  "business": "US Storage Centers",
+  "address": "1815 Shady Oaks Drive, Denton, TX 76205",
+  "phone": "",
+  "email": "contactus@usstorage.net",
+  "website": "https://www.usstoragecenters.com/storage-units/tx/denton/1815-shady-oaks-dr",
+  "discount": "Receive up to 50% Off 2 Months. Call or visit our website to learn more"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054c2"
+  },
+  "category": "Home and Garden",
+  "business": "Walcraft Cabinetry",
+  "address": "256 Buena Vista St #200",
+  "phone": "8885475573",
+  "email": "Simon@walcraftcabinetry.com",
+  "website": "https://walcraftcabinetry.com/",
+  "discount": "20% off on all our kitchen cabinetry for university employees. We also offer free kitchen design assistance and nationwide delivery for qualifying purchases. Note: Proof of University ID, or an email from your university email address will be required to finalize your purchase"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054c3"
+  },
+  "category": "Home and Garden",
+  "business": "Wallpaper Boulevard",
+  "address": "633 N Franklin St Tampa, FL 33602",
+  "phone": "813-441-9750",
+  "email": "sales@wallpaperblvd.com",
+  "website": "http://www.wallpaperboulevard.com",
+  "discount": "Save 15% on wallpaper, borders, decals, murals and custom vinyl orders. UT Dallas students, staff and alumni are eligible for discount. Use UTDallas15 at checkout."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054c4"
+  },
+  "category": "Housing",
+  "business": "Brooks Taylor Team of Dallas Luxury Realty",
+  "address": "17250 Dallas Parkway, Dallas, TX 75248",
+  "phone": "214-228-5426",
+  "email": "kassie@luxuryrealtytx.com",
+  "website": "https://www.dallasluxuryrealty.com/",
+  "discount": "Free home evaluation and analysis"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054c5"
+  },
+  "category": "Housing",
+  "business": "Carriage Homes on the Lake",
+  "address": "3232 North Garland Ave, Garland, TX 75040",
+  "phone": "972-496-3333",
+  "email": "carriageam@citygatepg.com",
+  "website": "http://www.carriagehomesonthelake.com/",
+  "discount": "Waived application and administration fee for all UT Dallas Employees."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054c6"
+  },
+  "category": "Housing",
+  "business": "Ebby Halliday Realtors",
+  "address": "4455 Sigma Road, Dallas, TX 75244",
+  "phone": "972-980-6644",
+  "email": "tina@ebby.com",
+  "website": "http://www.ebby.com/",
+  "discount": "20% discount on the listing side or purchase side of a home for UT Dallas employees."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054c7"
+  },
+  "category": "Housing",
+  "business": "First Lending Mortgage",
+  "address": "9555 Lebanon Road, Suite 901, Frisco, TX 75035",
+  "phone": "214-535-2107",
+  "email": "olivia@first-lending.com",
+  "website": "http://www.first-lending.com/",
+  "discount": "$200 off closing costs for all UTD employees, UTD faculty, and students, including international students."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054c8"
+  },
+  "category": "Housing",
+  "business": "Graves Roofing & Restoration",
+  "address": "2026 Hwy 66 Ste B Rockwall, TX 75087",
+  "phone": "",
+  "email": "",
+  "website": "",
+  "discount": "10% Discount for roof repairs and full roof replacements for students, alumni, and staff."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054c9"
+  },
+  "category": "Housing",
+  "business": "Guaranteed Rate",
+  "address": "17400 Dallas Parkway Dallas, TX 75287",
+  "phone": "833-936-0663",
+  "email": "UTDallas@Rate.com",
+  "website": "http://www.Rate.com/UTDallas",
+  "discount": "UT Dallas Faculty, Staff and Students receive $1,440 savings with waived lender fees! Start your refinance or purchase your dream home today by calling (833) 936-0663 or visiting www.Rate.com/UTDallas."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ca"
+  },
+  "category": "Housing",
+  "business": "Keller Williams Realty",
+  "address": "501 W. Pres. George Bush Hwy, Ste 125 Richardson, TX 75080",
+  "phone": "770-715-6772",
+  "email": "",
+  "website": "",
+  "discount": "20% discount on the listing side or purchase side of a home."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054cb"
+  },
+  "category": "Housing",
+  "business": "LaSalle Apartments",
+  "address": "18725 N Dallas Pkwy, Dallas, TX 75287",
+  "phone": "",
+  "email": "",
+  "website": "http://www.lasalleapartmenthomes.com/",
+  "discount": "50% off application fee.\n50% off first deposit."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054cc"
+  },
+  "category": "Housing",
+  "business": "Monterra",
+  "address": "301 W Las Colinas Blvd, Irving, TX 75038",
+  "phone": "",
+  "email": "",
+  "website": "http://www.monterralascolinas.com/",
+  "discount": "No deposit nor application fees."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054cd"
+  },
+  "category": "Housing",
+  "business": "Nitin Gupta, CRS, GRI, REALTOR® – Competitive Edge Realty",
+  "address": "8005 Fallmeadow Cir Plano, TX 75024",
+  "phone": "469-269-6541",
+  "email": "nitin@nitinguptadfw.com",
+  "website": "https://www.nitinguptadfw.com/",
+  "discount": "The UTD Preferred Realtor Program is a cash incentive program prepared for the employees and students of UTD as a token of appreciation for contributing to and participating in the future of our country through education. The employee or the student, who is the principal in the real estate transaction, will receive a 30% cash incentive each time they buy and/or sell a home using the program. The employee or the student MUST register before listing his home or viewing homes with an agent at http://NitinGuptaDFW.com/isd or by calling Nitin Gupta at 469-269-6541."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ce"
+  },
+  "category": "Housing",
+  "business": "Quicken Loans",
+  "address": "",
+  "phone": "",
+  "email": "",
+  "website": "https://www.quickenloans.com/l/progpi?gclid=EAIaIQobChMIttHhqv_S2AIVm42zCh0FZg0KEAAYASAAEgJ8uvD_BwE&qls=GBR_00000048.0000675126&ef_id=Wlj2YgAAAUT6odfE:20180112175442:s",
+  "discount": "The Mortgage Insiders Program would give UT Dallas faculty and staff $500 cash-back at closing, additional monthly discount, access to our VIP banking team, and the ability to participate in our educational webinars."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054cf"
+  },
+  "category": "Housing",
+  "business": "Rental Cash Back",
+  "address": "13355 Noel Rd, Dallas, Texas 75240",
+  "phone": "214-295-4888",
+  "email": "info@viprealtyinfo.com",
+  "website": "http://www.RentalCashBack.com",
+  "discount": "Free Apartment Search with a Rental Cash Rebate of up to $1,500. UT Students Get Paid to Move with our FREE Apartment Locating Service."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054d0"
+  },
+  "category": "Miscellaneous",
+  "business": "AlphaGraphics",
+  "address": "5725 Spring Valley Road Dallas, TX 75254",
+  "phone": "",
+  "email": "us416@alphagraphics.com",
+  "website": "https://www.alphagraphics.com/centers/dallas-texas-us416.html",
+  "discount": "20% off digital printing and finishing – documents, flyers, brochures, cards, booklets, and more. 20% off large format printing – signs, banners, boards, posters, decals, and more."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054d1"
+  },
+  "category": "Miscellaneous",
+  "business": "Black Tie Moving",
+  "address": "1000 West Crosby Rd. #114 Carrollton, TX 75006",
+  "phone": "469-253-4565",
+  "email": "Communication@blacktiemoving.com",
+  "website": "https://www.blacktiemoving.com/",
+  "discount": "10% Off All Student Moves 10% off all student moves including apartments, homes, etc.! To redeem: Just mention Black Tie’s College & Grad Student Discount Program. *Some restrictions apply. Must be current active college or graduate student to be eligible. You can find more information on our discount program here: https://www.blacktiemoving.com/studentmove Our Dallas site here: https://www.blacktiemoving.com/dallas/"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054d2"
+  },
+  "category": "Miscellaneous",
+  "business": "Bumblejax",
+  "address": "3663 1st Ave S. Seattle, WA 98134",
+  "phone": "206-714-3529",
+  "email": "tate@bumblejax.com",
+  "website": "https://www.bumblejax.com/",
+  "discount": "We would like to offer all students and faculty 25% off their first purchase of any product and order size. Please just contact us with a student or faculty email address and mention the UTDallas promotion."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054d3"
+  },
+  "category": "Miscellaneous",
+  "business": "Company Folders",
+  "address": "",
+  "phone": "",
+  "email": "",
+  "website": "http://www.companyfolders.com/",
+  "discount": "We’re the ultimate folder boutique with the largest selection. Each of our hundred plus folders is fully customizable with a variety of stocks, coatings, foils, imprint methods and more. If you’re looking for a totally custom, one-of-a-kind folder, no problem. We strive for the very best quality in all that we do, including the products and service we provide. Use code UTDallasEDU10 and receive 10% off our great products!!"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054d4"
+  },
+  "category": "Miscellaneous",
+  "business": "CPR Cell Phone Repair",
+  "address": "2851 Craig Drive, Suite 202D McKinney, TX 75072",
+  "phone": "",
+  "email": "repairs@cpr-mckinney.com",
+  "website": "https://www.cellphonerepair.com/mckinney-tx/",
+  "discount": "Fast, Affordable Tablet, Laptop, Game Console and Cell Phone Repair. CPR Cell Phone Repair is the largest independent repair store chain in the world. We offer Lifetime Warranty on almost all of our repairs, with most repairs completed within an hour. We also buy, sell, and trade refurbished phones, tablets, laptops, and desktops, with options for financing! We can offer faculty, students, and alumni of UTD 10% discount on all repairs services."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054d5"
+  },
+  "category": "Miscellaneous",
+  "business": "CubeSmart Self Storage",
+  "address": "17613 Coit Road Dallas, TX 75252",
+  "phone": "",
+  "email": "",
+  "website": "https://www.cubesmart.com/texas-self-storage/dallas-self-storage/3075.html",
+  "discount": "One month free on storage unit rentals by reserving via https://www.cubesmart.com/texas-self-storage/dallas-self-storage/3075.html."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054d6"
+  },
+  "category": "Miscellaneous",
+  "business": "DHC Translation",
+  "address": "10406 Beardslee Blvd",
+  "phone": "",
+  "email": "markp@dhctranslations.com",
+  "website": "https://dhctranslations.com/",
+  "discount": "Staff/students get a 10% discount with code EDU10 for use at https://dhctranslations.com"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054d7"
+  },
+  "category": "Miscellaneous",
+  "business": "Echo Neon",
+  "address": "3131 Mckinney Ave, Dallas, Texas 75204",
+  "phone": "",
+  "email": "marketing@echoneon.com",
+  "website": "https://www.echoneon.com/",
+  "discount": "Use code UTD10 to receive a 10% discount on custom glass neon signs, LED neon signs, and other creative lights available at Echo Neon"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054d8"
+  },
+  "category": "Miscellaneous",
+  "business": "Getaway",
+  "address": "",
+  "phone": "516-474-9379",
+  "email": "shayna@getaway.house",
+  "website": "",
+  "discount": "We offer a student discount program where all bookings made with an edu email address receive 15% off. We provide UT Dallas students with an additional $20 off to help them recharge from the stress of college. Visit getaway.house to learn more."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054d9"
+  },
+  "category": "Miscellaneous",
+  "business": "Grade Potential Tutoring",
+  "address": "6430 Lakewood Blvd, Dallas, TX 75214",
+  "phone": "",
+  "email": "",
+  "website": "http://www.gradepotentialtutoring.com/dallas-TX-tutors",
+  "discount": "$50 off."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054da"
+  },
+  "category": "Miscellaneous",
+  "business": "HAMSWAN",
+  "address": "",
+  "phone": "",
+  "email": "info@Hamswan.com",
+  "website": "https://www.hamswan.com/",
+  "discount": "20% for students who use the promo code UTDALLAS on our website."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054db"
+  },
+  "category": "Miscellaneous",
+  "business": "Murf Inc.",
+  "address": "341 South Main Street, Suite 500 Salt Lake City, Utah 84111",
+  "phone": "(302) 574-6664",
+  "email": "community@murf.ai",
+  "website": "https://murf.ai/",
+  "discount": "20% discount to any Comet Card holder from UTD on Murf AI’s online voiceover maker subscriptions. To get the discount, email the code UTD20 from your UTD email to community@murf.ai."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054dc"
+  },
+  "category": "Miscellaneous",
+  "business": "Neonsigns.com",
+  "address": "20829 Valley Blvd. Walnut, CA 91789",
+  "phone": "",
+  "email": "cici@uspp.biz",
+  "website": "http://Neonsigns.com",
+  "discount": "Neonsigns.com can offer exclusive discounts for schools, and it is valid for a long time. Set your order with the Email Suffix @utdallas.edu, and enter the discount code UTDALLAS10OFF at checkout, you can enjoy the extra 10% discount.\nAny questions please contact: Info@bps.com / cici@uspp.biz"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054dd"
+  },
+  "category": "Miscellaneous",
+  "business": "Nexus Badminton",
+  "address": "",
+  "phone": "",
+  "email": "Admin@nexusbadminton.com",
+  "website": "http://www.nexusbadminton.com",
+  "discount": "20 percent off on our website www.nexusbadminton.com with code “student20”"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054de"
+  },
+  "category": "Miscellaneous",
+  "business": "Preply Inc.",
+  "address": "1371 Beacon Street, Suite 301 Brookline, MA 02446",
+  "phone": "",
+  "email": "vlad.t@preply.com",
+  "website": "http://www.preply.com/",
+  "discount": "Get 100% discount for the first lesson at Preply. Preply is an online language platform that connects language tutors and students worldwide."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054df"
+  },
+  "category": "Miscellaneous",
+  "business": "Signazon.com",
+  "address": "11969 Plano Rd, Ste 190, Dallas, TX 74243",
+  "phone": "",
+  "email": "",
+  "website": "http://www.signazon.com/",
+  "discount": "10% off online orders.\nUse discount code WHOOSH10 at checkout.\nFax: 469-206-0178"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054e0"
+  },
+  "category": "Miscellaneous",
+  "business": "SmartMove",
+  "address": "",
+  "phone": "",
+  "email": "Bob.dudley@transunion.com",
+  "website": "http://www.mysmartmove.com/",
+  "discount": "An online rental screening tool from TransUnion that provides electronic credit and other reports for tenant screening. Screening can be completed in minutes. Renter information is protected, like social security numbers or bank account information. And doing a SmartMove check does not impact a renter’s credit score. Visit www.mysmartmove.com and receive 20% off using the discount code: UTDsave20."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054e1"
+  },
+  "category": "Miscellaneous",
+  "business": "Tomedes",
+  "address": "9450 SW Gemini Dr #34540 Beaverton, OR 97008",
+  "phone": "985-239-0142",
+  "email": "rio@tomedes.com",
+  "website": "https://www.tomedes.com/",
+  "discount": "Use code AWESOMETOM for a 10% discount on language, interpretation and translation services from Tomedes. This can be used by students and researchers to aid them in their research and studies."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054e2"
+  },
+  "category": "Miscellaneous",
+  "business": "Vanan Translation",
+  "address": "4444 Germanna HWY, Suite 365 Locust Grove, VA 22508",
+  "phone": "(434) 290-4267",
+  "email": "contact@vanantranslation.com",
+  "website": "https://vanantranslation.com/",
+  "discount": "We Offer 15% discount for Academic Students and Staffs Use this Code : VTUTDALLAS15%OFF Our Services: Typing Services, Academic Translation Services, Academic Transcription Services, Book Translation Services, Video Transcription Services, Presentation Transcription Services, Voiceover Services, Captioning Services, Closed Captioning Services, and Subtitling Services"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054e3"
+  },
+  "category": "Pet Care",
+  "business": "Pappy’s Pet Lodge",
+  "address": "401 W President George Bush Hwy, Richardson, TX 75080",
+  "phone": "",
+  "email": "",
+  "website": "http://www.pappyspetlodge.com",
+  "discount": "10% off lodging and daycare services"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054e4"
+  },
+  "category": "Professional Services",
+  "business": "Bellhop Moving",
+  "address": "",
+  "phone": "",
+  "email": "tyler.brown@bellhop.com",
+  "website": "https://www.getbellhops.com/tx/dallas/movers/",
+  "discount": "UT Dallas employees with an @utdallas.edu email address can use the discount code UTDallas10 for 10% off of their move with Bellhop."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054e5"
+  },
+  "category": "Professional Services",
+  "business": "European Wax Center",
+  "address": "7615 Campbell Road, Dallas, TX 75248",
+  "phone": "469-899-9500",
+  "email": "Alex.west0805@waxcenter.com",
+  "website": "https://locations.waxcenter.com/tx/dallas/dallas-pavillion-north-0805.html",
+  "discount": "We are pleased to offer a 15% discount on any services or products at our location. Please note that staff and students will need to present a valid staff or student ID at the time of their reservation to receive this discount."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054e6"
+  },
+  "category": "Professional Services",
+  "business": "PackToDo",
+  "address": "885 Levering Ave, Los Angeles, CA 90024",
+  "phone": "",
+  "email": "sales@packtodo.com",
+  "website": "https://packtodo.com/",
+  "discount": "Custom Packaging Experts – Get 15% Off!\nSpecializing in custom packaging solutions. Enjoy 15% off your order (max discount $100) with code PACKTODO at checkout. Excludes sample orders."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054e7"
+  },
+  "category": "Professional Services",
+  "business": "Real Deal Sober Living",
+  "address": "10219 Sunridge Trail, Dallas TX",
+  "phone": "",
+  "email": "discounts@rdsoberliving.com",
+  "website": "https://rdsoberliving.com/",
+  "discount": "All of your students, staff and faculty are able to receive high levels of care and accountability at fraction of price + a 20% special discount with the coupon code: Realdeal20 on the invoice value. In order to redeem the code, they can email us with the discount code to Contact@rdsoberliving.com. The discount will expire December 2024."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054e8"
+  },
+  "category": "Professional Services",
+  "business": "Sentinel Mouthguards",
+  "address": "400 83rd Avenue North. Saint Petersburg, FL. 33702",
+  "phone": "888-317-0724",
+  "email": "info@sentinelmouthguards.com",
+  "website": "https://sentinelmouthguards.com",
+  "discount": "Enjoy 15% off all custom night guards, athletic mouthguards, teeth whitening and dental retainers at Sentinel Mouthguards! Our high-quality, custom-fit products provide superior protection and comfort—perfect for teeth grinders, athletes, and anyone looking to safeguard their smile.\nUse coupon code: COMET15 at checkout to claim your discount.\nShop now and experience the perfect fit for a healthier, happier smile!\nSentinel Mouthguards – Protecting Smiles Since 2012"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054e9"
+  },
+  "category": "Professional Services",
+  "business": "Steadily Landlord Insurance",
+  "address": "10651 Lackman Road Lenexa, KS 66215",
+  "phone": "(888) 966-1611",
+  "email": "dnix@steadily.com",
+  "website": "https://steadily.com/",
+  "discount": "Use offer code UTLANDLORD when purchasing rental property insurance from Steadily Landlord Insurance and we’ll include an internet-connected home security system for protection against theft, fire, and water leaks for your home on or off-campus."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ea"
+  },
+  "category": "Professional Services",
+  "business": "Villi",
+  "address": "",
+  "phone": "469-746-5646",
+  "email": "moniquevaldez@myvilli.com",
+  "website": "http://www.myvilli.com",
+  "discount": "Villi is excited to offer the UT Texas employees with a special 15% discount on our services.  Villi provides on-demand, hands-off assistance to support family caregivers in the workforce, people recovering from an injury, critical illness, older adults, or just regular folks who are facing life challenges who simply need a little help. We invite you to explore Villi’s services at www.myvilli.com. Once you create an account, you can post your job and enter in code: UTexas15 at checkout. Discount is valid until 3.31.2025\nIt often takes a village—or, in this case, a Villi.\nTerms:\nPromotional code must be entered on the job posting.\nPromotional code only applies to hourly services and excludes mileage rates.\nPromotional codes cannot be combined with other discounts or offers."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054eb"
+  },
+  "category": "Technology",
+  "business": "ACE Data Recovery",
+  "address": "17778 Preston Rd, Dallas TX 75252",
+  "phone": "972-528-6580",
+  "email": "dhunt@datarecovery.net",
+  "website": "https://www.datarecovery.net/",
+  "discount": "A 10% discount for any and all your data recovery needs will be applied to the quote issued."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ec"
+  },
+  "category": "Technology",
+  "business": "Chirp",
+  "address": "",
+  "phone": "",
+  "email": "saldrich.chirp@gmail.com",
+  "website": "https://www.chirpbooks.com/",
+  "discount": "By using the custom discount code UTDALLAS5, your students will be able to get $5 towards their first audiobook on Chirp."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ed"
+  },
+  "category": "Technology",
+  "business": "Create Neon",
+  "address": "1968 S. Coast, Hwy #5024, Laguna Beach, CA 92651",
+  "phone": "",
+  "email": "kashif@createneon.com",
+  "website": "http://createneon.com",
+  "discount": "Elevate your surroundings with Create Neon – the ultimate destination for bespoke neon signs in the USA! Create Neon helps you with personalizing the ambiance with our top-notch custom neon signs maker which enables you to create your own sign, preview it, and buy it at a special discount for students and faculty. You will also get a discount on custom logo neon signs, just share your logo/image with us and we will turn it into a neon sign and send it to you via FREE shipping.\nDon’t wait and embrace the art of self-expression with an exclusive $25 discount on all products using code student25. Valid until DEC 31, 2025"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ee"
+  },
+  "category": "Technology",
+  "business": "Das Keyboard",
+  "address": "14400 Piper Glen Dr Austin, Texas 78738",
+  "phone": "512-673-0722",
+  "email": "joanna@metadot.com",
+  "website": "http://www.daskeyboard.com",
+  "discount": "30% off keyboards, headsets, desk mats"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054ef"
+  },
+  "category": "Technology",
+  "business": "Samsung Electronics",
+  "address": "6625 Excellence Way Plano, TX 75023",
+  "phone": "916-350-0874",
+  "email": "rmugno@sea.samung.com",
+  "website": "http://samsung.com/us/shop/offer-program/education/#easysignup",
+  "discount": "Samsung would like to provide the employees and students of The University of Texas at Dallas exclusive member discounts on the entire Samsung portfolio including laptops, tablets, Galaxy phones, televisions, home appliances, smartwatches and just about anything else with a Samsung logo. This added value Education Offers Program provides discounts up to 30% with free shipping!"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054f0"
+  },
+  "category": "Technology",
+  "business": "Starwhip",
+  "address": "2334 Lynn Ogden Lane Beaumont,Texas,77701US",
+  "phone": "",
+  "email": "info@starwhip.com",
+  "website": "https://starwhip.com/",
+  "discount": "10% discount on all our kitchen gadgets’ series products exclusively for UTDALLAS’s students and employees, use promo code UTDALLAS10 when purchasing online."
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054f1"
+  },
+  "category": "Technology",
+  "business": "Voodoo Neon",
+  "address": "1415 North Loop West Ste 300-14 Houston TX 77008",
+  "phone": "385-316-1631",
+  "email": "",
+  "website": "https://voodooneon.com",
+  "discount": "Voodoo Neon specialize in custom made neon LED signs for business and home decor. We manufacture only the highest quality standards and partner with the best suppliers to produce high quality products for the US and International markets. We offer FREE Quotes and design mockups, build your own sign online or choose from our pre-designed collection of quality signs for business or home decor. Get 10% discounts in all orders using: UTDALLAS10"
+},
+{
+  "_id": {
+    "$oid": "69a8e507bb6850505f2054f2"
+  },
+  "category": "Technology",
+  "business": "Xentain Solutions Inc.",
+  "address": "3010 Waterview Parkway, Richardson, TX 75080",
+  "phone": "(336) 588-5318",
+  "email": "joseph@xentain.com",
+  "website": "https://xentain.com?promo=utdallas",
+  "discount": "Cloud solutions hosted right here on campus. Perfect for UT Dallas students who need a VPS, dedicated server, or need to co-locate hardware nearby. Located right next to the testing center, you won’t find a cloud provider closer to you than us.\nGet 15% off all invoices for the duration of your time as a UT Dallas student. Visit https://xentain.com?promo=utdallas for more information."
+}]

@@ -1,0 +1,2991 @@
+[{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d7c"
+  },
+  "name": "Animation",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": [
+    {
+      "level": "MFA",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/bass/mfa-animation/",
+      "cip_code": "10.0304.00",
+      "stem_designated": false,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "animation",
+    "film",
+    "television",
+    "digital art",
+    "virtual",
+    "vr",
+    "immersive",
+    "interactive",
+    "modeling",
+    "model",
+    "simulation",
+    "multimedia",
+    "storytelling",
+    "content",
+    "creator",
+    "storytelling",
+    "production",
+    "producer",
+    "motion",
+    "capture",
+    "mocap",
+    "cinema",
+    "cinematography,"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d7d"
+  },
+  "name": "Animation and Games",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": [
+    {
+      "level": "BA",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/bass/ba-arts-animation-and-games/",
+      "cip_code": "10.0304.00",
+      "stem_designated": false,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "game",
+    "gaming",
+    "video",
+    "vr",
+    "virtual",
+    "reality",
+    "interactive",
+    "haptic",
+    "production",
+    "design",
+    "designer",
+    "narrative",
+    "development",
+    "simulation",
+    "animation",
+    "film",
+    "television",
+    "digital art",
+    "virtual",
+    "vr",
+    "immersive",
+    "interactive",
+    "modeling",
+    "model",
+    "simulation",
+    "multimedia",
+    "storytelling",
+    "content",
+    "creator",
+    "storytelling",
+    "production",
+    "producer",
+    "motion",
+    "capture",
+    "mocap",
+    "cinema",
+    "cinematography,"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d7e"
+  },
+  "name": "Art History",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": null,
+  "areas_of_interest": [
+    "historiography",
+    "development",
+    "antiques",
+    "antiquity",
+    "art history",
+    "art research",
+    "art historian",
+    "educator",
+    "museum professional",
+    "collections manager",
+    "arts nonprofit"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d7f"
+  },
+  "name": "Arts, Technology, and Emerging Communication",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": null,
+  "areas_of_interest": [
+    "communication",
+    "gaming",
+    "design",
+    "journalism\n\njournalist",
+    "critic",
+    "writer",
+    "author",
+    "public relations",
+    "digital art",
+    "artist",
+    "visual",
+    "audio",
+    "video",
+    "influencer",
+    "social media",
+    "videographer",
+    "graphics",
+    "animation",
+    "producer",
+    "production",
+    "editor",
+    "designer",
+    "scriptwriting",
+    "photography",
+    "photographer",
+    "film",
+    "filmmaking",
+    "filmmaker",
+    "animator",
+    "game",
+    "design",
+    "ux",
+    "user experience",
+    "media"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d80"
+  },
+  "name": "Game Development",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": null,
+  "areas_of_interest": [
+    "game",
+    "gaming",
+    "video",
+    "vr",
+    "virtual",
+    "reality",
+    "interactive",
+    "haptic",
+    "production",
+    "design",
+    "designer",
+    "narrative",
+    "development",
+    "simulation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d81"
+  },
+  "name": "History",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": null,
+  "areas_of_interest": [
+    "education",
+    "teaching",
+    "liberal arts",
+    "history",
+    "historian",
+    "teacher",
+    "museum",
+    "law",
+    "government",
+    "nonprofit",
+    "research"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d82"
+  },
+  "name": "Humanities",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": null,
+  "areas_of_interest": [
+    "liberal arts",
+    "humanities",
+    "history",
+    "philosophy",
+    "literature",
+    "creative writing",
+    "art history",
+    "film studies",
+    "performing arts",
+    "humanistic study",
+    "history of ideas",
+    "history",
+    "language",
+    "rhetoric",
+    "translation studies",
+    "visual and performing arts"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d83"
+  },
+  "name": "Latin American Studies",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": null,
+  "areas_of_interest": [
+    "south america",
+    "central america",
+    "mexico",
+    "latin american studies",
+    "immigration",
+    "migration",
+    "history",
+    "economics",
+    "geopolitics",
+    "politics",
+    "linguistic studies",
+    "literary studies",
+    "cultural studies",
+    "spanish",
+    "translation",
+    "translator",
+    "interpretor",
+    "education",
+    "teacher"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d84"
+  },
+  "name": "Literature",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": null,
+  "areas_of_interest": [
+    "liberal arts",
+    "writing",
+    "author",
+    "poet",
+    "editor",
+    "journalist",
+    "journalism",
+    "critic",
+    "publisher",
+    "translation",
+    "literature",
+    "literary methods",
+    "language",
+    "advertising",
+    "public relations",
+    "publishing",
+    "editing",
+    "grant writing",
+    "translating",
+    "teaching",
+    "nonprofit",
+    "law",
+    "teacher"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d85"
+  },
+  "name": "Media Arts and Design",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": null,
+  "areas_of_interest": [
+    "communication",
+    "gaming",
+    "design",
+    "journalism\n\njournalist",
+    "critic",
+    "writer",
+    "author",
+    "public relations",
+    "digital art",
+    "artist",
+    "visual",
+    "audio",
+    "video",
+    "influencer",
+    "social media",
+    "videographer",
+    "graphics",
+    "animation",
+    "producer",
+    "production",
+    "editor",
+    "designer",
+    "scriptwriting",
+    "photography",
+    "photographer",
+    "film",
+    "filmmaking",
+    "filmmaker",
+    "animator",
+    "game",
+    "design",
+    "ux",
+    "user experience",
+    "media"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d86"
+  },
+  "name": "Philosophy",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": null,
+  "areas_of_interest": [
+    "liberal arts",
+    "ethics",
+    "philosophy",
+    "writing",
+    "law"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d87"
+  },
+  "name": "Professional Communication and Digital Media Studies",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": null,
+  "areas_of_interest": []
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d88"
+  },
+  "name": "Visual and Performing Arts",
+  "school": "Harry W. Bass Jr. School of Arts, Humanities, and Technology",
+  "degree_options": null,
+  "areas_of_interest": [
+    "liberal arts",
+    "arts",
+    "performing arts",
+    "visual",
+    "teaching",
+    "teacher",
+    "guitar",
+    "piano",
+    "professor",
+    "acting",
+    "singing",
+    "sculpting",
+    "photography",
+    "design",
+    "graphics",
+    "nonprofit",
+    "museum",
+    "artist",
+    "music",
+    "painting",
+    "dancing",
+    "dance",
+    "music",
+    "musician",
+    "writing",
+    "writer",
+    "producer",
+    "director",
+    "theater",
+    "theatre",
+    "actor",
+    "singer",
+    "artist",
+    "drawing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d89"
+  },
+  "name": "Accounting",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": null,
+  "areas_of_interest": [
+    "cpa",
+    "macroeconomics",
+    "taxes",
+    "financial law",
+    "auditing",
+    "accounting",
+    "finance management",
+    "mathematics",
+    "math"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d8a"
+  },
+  "name": "Accounting and Analytics",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/ms-in-accounting/",
+      "cip_code": "30.7104.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "cpa",
+    "macroeconomics",
+    "taxes",
+    "financial law",
+    "auditing",
+    "accounting",
+    "analytics",
+    "finance",
+    "management",
+    "mathematics",
+    "math",
+    "accountant"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d8b"
+  },
+  "name": "Business Administration",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "DBA",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/doctor-of-business-administration/",
+      "cip_code": "52.1301.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "business",
+    "business administration",
+    "management",
+    "business analytics",
+    "business economics",
+    "energy management",
+    "entrepreneurship",
+    "real estate investment management",
+    "risk management and insurance",
+    "sales"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d8c"
+  },
+  "name": "Business Analytics and Artificial Intelligence",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/bs-in-business-analytics-and-artificial-intelligence/",
+      "cip_code": "30.7102.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/ms-business-analytics-and-artificial-intelligence/",
+      "cip_code": "30.7102.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "business analytics",
+    "business",
+    "management",
+    "finance",
+    "information technology",
+    "it",
+    "logistics",
+    "marketing",
+    "ai",
+    "artificial intelligence"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d8d"
+  },
+  "name": "Computer Information Systems and Technology",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/bs-computer-information-systems-and-technology/",
+      "cip_code": "11.0103.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "computer information systems and technology",
+    "its",
+    "technology",
+    "business analyst data analyst",
+    "network administrator",
+    "system analyst",
+    "application developer",
+    "software developer",
+    "technical consultant"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d8e"
+  },
+  "name": "Cybersecurity and Risk Management",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/bachelor-of-science-in-cybersecurity-and-risk-management/",
+      "cip_code": "11.1003.00",
+      "stem_designated": false,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": []
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d8f"
+  },
+  "name": "Energy Management",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/ms-in-energy-management/",
+      "cip_code": "52.1301.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "solar",
+    "battery",
+    "petroleum",
+    "sustainability",
+    "supply chain",
+    "energy management",
+    "energy",
+    "oil",
+    "gas",
+    "upstream",
+    "midstream",
+    "downstream",
+    "coal",
+    "renewable",
+    "nuclear",
+    "electrical"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d90"
+  },
+  "name": "Finance",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/master-of-science-in-finance/",
+      "cip_code": "27.0305.01",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "probability",
+    "quantitative",
+    "macroeconomics",
+    "microeconomics",
+    "finance",
+    "corporate finance",
+    "financial",
+    "investment",
+    "personal financial",
+    "planning",
+    "real estate",
+    "management",
+    "risk management and insurance",
+    "business",
+    "mathematics",
+    "math",
+    "blockchain",
+    "cryptocurrency"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d91"
+  },
+  "name": "Financial Technology and Analytics",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/ms-financial-technology-analytics/",
+      "cip_code": "27.0305.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "financial technology",
+    "analytics",
+    "financial services",
+    "blockchain",
+    "cryptocurrency",
+    "data analytics",
+    "robotic process agent",
+    "blockchain",
+    "credit risk",
+    "financial risk manager",
+    "financial trading",
+    "business",
+    "mathematics",
+    "math"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d92"
+  },
+  "name": "Global Business",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": null,
+  "areas_of_interest": [
+    "negotiation",
+    "microeconomics",
+    "macroeconomics",
+    "marketing",
+    "strategy",
+    "project management",
+    "pmp",
+    "entrepreneurship",
+    "venture capital",
+    "startup",
+    "innovation",
+    "real estate",
+    "risk management",
+    "global business",
+    "international business",
+    "international trade",
+    "law",
+    "international law",
+    "international relations",
+    "international government",
+    "international politics",
+    "international finance",
+    "finance",
+    "business",
+    "management"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d93"
+  },
+  "name": "Healthcare Administration and Leadership",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "MBA",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/master-of-business-administration-in-healthcare-administration-and-leadership/",
+      "cip_code": "51.0701.00",
+      "stem_designated": false,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": []
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d94"
+  },
+  "name": "Healthcare Leadership and Management",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": null,
+  "areas_of_interest": [
+    "pharmaceutical",
+    "insurance",
+    "hospital",
+    "consulting",
+    "six sigma",
+    "audit",
+    "risk management",
+    "project management",
+    "pmp",
+    "healthcare",
+    "health care",
+    "healthcare leadership",
+    "healthcare management",
+    "business analysis",
+    "business",
+    "management",
+    "health"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d95"
+  },
+  "name": "Healthcare Management",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": null,
+  "areas_of_interest": [
+    "healthcare",
+    "health care",
+    "healthcare leadership",
+    "healthcare management",
+    "business analysis",
+    "business",
+    "management",
+    "health",
+    "quality assurance",
+    "health information technology",
+    "clinic management",
+    "hr",
+    "human resources",
+    "accounting",
+    "information systems",
+    "economics",
+    "healthcare law",
+    "healthcare regulations",
+    "marketing",
+    "operations management",
+    "management",
+    "international business",
+    "strategic planning",
+    "supply chain management",
+    "project management",
+    "pmp"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d96"
+  },
+  "name": "Human Resource Management",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": null,
+  "areas_of_interest": [
+    "shrm",
+    "chro",
+    "compensation",
+    "benefits",
+    "labor",
+    "organaziational behavior",
+    "human resources ",
+    "hr",
+    "business",
+    "management",
+    "talent acquisition",
+    "training and development",
+    "employee relations",
+    "employment law"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d97"
+  },
+  "name": "Information Technology and Management",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/ms-information-technology-and-management/",
+      "cip_code": "11.0401.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "information technology and management",
+    "information technology",
+    "it",
+    "management",
+    "business",
+    "technology",
+    "programming",
+    "data management",
+    "systems analysis",
+    "project management",
+    "pmp",
+    "financial management",
+    "business economics",
+    "statistics and data analysis",
+    "operations management",
+    "innovation",
+    "entrepreneurship"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d98"
+  },
+  "name": "Innovation and Entrepreneurship",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": null,
+  "areas_of_interest": [
+    "innovation",
+    "entrepreneurship",
+    "entrepreneur",
+    "business",
+    "management",
+    "new venture development",
+    "entrepreneurial finance",
+    "angel investment",
+    "venture capital investment",
+    "strategic marketing",
+    "product marketing",
+    "business development",
+    "pmp",
+    "project management",
+    "startup",
+    "seed fund",
+    "social entrepreneurship",
+    "nonprofit",
+    "crowdfunding"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d99"
+  },
+  "name": "International Management Studies",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": null,
+  "areas_of_interest": [
+    "international management",
+    "business",
+    "international business",
+    "global business",
+    "management culture",
+    "finance",
+    "human relations",
+    "organizational behavior",
+    "information",
+    "management technology",
+    "information management",
+    "information technology",
+    "it",
+    "innovation",
+    "entrepreneurship",
+    "marketing",
+    "supply chain"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d9a"
+  },
+  "name": "Leadership and Organizational Development",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": null,
+  "areas_of_interest": [
+    "coaching",
+    "project management",
+    "pmp",
+    "conflict management",
+    "leadership and organizational development",
+    "executive coaching",
+    "professional coaching",
+    "transformational leadership",
+    "organizational consulting",
+    "human resources",
+    "hr",
+    "management"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d9b"
+  },
+  "name": "Management Science",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/ms-management-science/",
+      "cip_code": "52.1301.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/phd-management-science/",
+      "cip_code": "52.1301.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "supply chain",
+    "internal audit",
+    "real estate",
+    "innovation",
+    "entrepreneurship",
+    "management",
+    "business management",
+    "business analytics",
+    "information technology management",
+    "information technology",
+    "it",
+    "project management",
+    "pmp",
+    "consulting"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d9c"
+  },
+  "name": "Marketing",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/ms-marketing/",
+      "cip_code": "30.7102.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "content marketing",
+    "communication",
+    "marketing",
+    "selling",
+    "retail",
+    "digital marketing",
+    "negotiations",
+    "buying",
+    "prospecting",
+    "data analysis",
+    "research",
+    "business",
+    "sales",
+    "management",
+    "market analytics",
+    "advertising",
+    "promotions",
+    "digital marketing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d9d"
+  },
+  "name": "Supply Chain Management",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/ms-supply-chain-management/",
+      "cip_code": "52.1301.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "supply chain management",
+    "logistics",
+    "business",
+    "management",
+    "product development",
+    "sourcing",
+    "production",
+    "resource management",
+    "logistics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d9e"
+  },
+  "name": "Supply Chain Management and Analytics",
+  "school": "Naveen Jindal School of Management",
+  "degree_options": null,
+  "areas_of_interest": [
+    "supply chain",
+    "logistics",
+    "business",
+    "management",
+    "product development",
+    "sourcing",
+    "production",
+    "resource management",
+    "global business",
+    "international business"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0d9f"
+  },
+  "name": "Systems Engineering and Management",
+  "school": "Erik Jonsson School of Engineering and Computer Science, Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/ms-systems-engineering-and-management/",
+      "cip_code": "14.2701.00",
+      "stem_designated": true,
+      "joint_program": true
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/master-of-science-in-systems-engineering-and-management/",
+      "cip_code": "14.2701.00",
+      "stem_designated": true,
+      "joint_program": true
+    }
+  ],
+  "areas_of_interest": [
+    "systems engineering",
+    "engineering",
+    "technology",
+    "business",
+    "management"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0da0"
+  },
+  "name": "Actuarial Science",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/bs-actuarial-science/",
+      "cip_code": "52.1304.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ms-actuarial-science/",
+      "cip_code": "52.1304.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "validation by educational experience",
+    "vee",
+    "cas",
+    "actuaries",
+    "actuary",
+    "mathematics",
+    "math",
+    "statistics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0da1"
+  },
+  "name": "Artificial Intelligence for Biomedical Sciences",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/master-of-science-in-artificial-intelligence-for-biomedical-sciences/",
+      "cip_code": "26.0102.00",
+      "stem_designated": false,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": []
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0da2"
+  },
+  "name": "Biochemistry",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/bs-biochemistry/",
+      "cip_code": "26.0202.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "premed",
+    "pre-med",
+    "pre-dental",
+    "predental",
+    "pharmacology",
+    "internal medicine",
+    "physiology",
+    "biochemistry",
+    "chemistry",
+    "biology",
+    "biological sciences",
+    "research",
+    "health sciences",
+    "health science",
+    "physics",
+    "mathematics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0da3"
+  },
+  "name": "Bioinformatics and Computational Biology",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ms-bioinformatics/",
+      "cip_code": "26.1103.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "biopharmaceutical",
+    "software",
+    "bioinformatics",
+    "genetics",
+    "computational biology",
+    "biological sciences",
+    "biology",
+    "research",
+    "engineering",
+    "health sciences",
+    "health science"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0da4"
+  },
+  "name": "Biology",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "BA",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ba-bs-biology/",
+      "cip_code": "26.0101.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ba-bs-biology/",
+      "cip_code": "26.0101.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "anatomy",
+    "healthcare",
+    "health care",
+    "biology",
+    "premed",
+    "pre-med",
+    "pre-dental",
+    "predental",
+    "biological sciences",
+    "genetics",
+    "molecular biology",
+    "cell biology",
+    "biochemistry",
+    "biomolecular structure",
+    "microbiology",
+    "molecular biology",
+    "cell biology",
+    "neurobiology",
+    "health sciences",
+    "health science"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0da5"
+  },
+  "name": "Biomedical Sciences",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/bs-in-biomedical-sciences/",
+      "cip_code": "26.0102.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "biomedical",
+    "biology",
+    "chemistry",
+    "calculus",
+    "physics",
+    "anatomy",
+    "physiology",
+    "science",
+    "machine learning",
+    "informatics",
+    "programming",
+    "biostatistics",
+    "epidemiology",
+    "life science"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0da6"
+  },
+  "name": "Biotechnology",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ms-biotechnology/",
+      "cip_code": "26.1201.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "anatomy",
+    "osteopathy",
+    "optometry",
+    "optometrist",
+    "pharmacy",
+    "pharmacist",
+    "physician assistant",
+    "physical therapy",
+    "rehab",
+    "biotechnology",
+    "biomedicine",
+    "biology",
+    "biological sciences",
+    "molecular biology",
+    "cell biology",
+    "chemistry",
+    "research",
+    "engineering",
+    "computer science",
+    "health care",
+    "healthcare",
+    "health sciences",
+    "health science",
+    "technology"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0da7"
+  },
+  "name": "Chemistry",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "BA",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ba-bs-chemistry/",
+      "cip_code": "40.0501.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ba-bs-chemistry/",
+      "cip_code": "40.0501.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ms-chemistry/",
+      "cip_code": "40.0501.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/phd-chemistry/",
+      "cip_code": "40.0501.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "healthcare",
+    "health care",
+    "chemistry",
+    "science",
+    "health sciences",
+    "health science",
+    "research"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0da8"
+  },
+  "name": "Data Science",
+  "school": "School of Natural Sciences and Mathematics, Erik Jonsson School of Engineering and Computer Science",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bs-data-science-ecs/",
+      "cip_code": "30.7001.00",
+      "stem_designated": true,
+      "joint_program": true
+    },
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/bs-data-science-nsm/",
+      "cip_code": "30.7001.00",
+      "stem_designated": true,
+      "joint_program": true
+    }
+  ],
+  "areas_of_interest": [
+    "data",
+    "database",
+    "statistics",
+    "statistician",
+    "actuary",
+    "biostatistician",
+    "analyst",
+    "statistical",
+    "probability",
+    "machine learning",
+    "graph theory"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0da9"
+  },
+  "name": "Data Science and Statistics",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ms-data-science-and-statistics/",
+      "cip_code": "27.0501.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/phd-data-science-and-statistics/",
+      "cip_code": "27.0501.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "data",
+    "database",
+    "statistics",
+    "statistician",
+    "actuary",
+    "biostatistician",
+    "analyst",
+    "statistical",
+    "probability",
+    "machine learning",
+    "graph theory"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0daa"
+  },
+  "name": "Geosciences",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/bs-geosciences/",
+      "cip_code": "40.0601.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ms-geosciences/",
+      "cip_code": "40.0601.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/phd-geosciences/",
+      "cip_code": "40.0601.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "archaeology",
+    "earth",
+    "hydrogeology",
+    "paleontology",
+    "sedimentology",
+    "climate",
+    "climatology",
+    "stratigraphy",
+    "geosciences",
+    "geology",
+    "geophysics",
+    "geochemistry",
+    "paleobiology",
+    "geomorphology",
+    "paleoclimatology",
+    "science",
+    "research"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dab"
+  },
+  "name": "Mathematics",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "BA",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ba-bs-mathematics/",
+      "cip_code": "27.0101.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ba-bs-mathematics/",
+      "cip_code": "27.0101.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ms-mathematics/",
+      "cip_code": "27.0101.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/phd-mathematics/",
+      "cip_code": "27.0101.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "mathematician",
+    "statistician",
+    "actuary",
+    "calculus",
+    "probability",
+    "variables",
+    "number theory",
+    "linear",
+    "algebra",
+    "geometry",
+    "mathematics",
+    "math",
+    "science",
+    "applied mathematics",
+    "mathematics education",
+    "statistics",
+    "actuarial science",
+    "data science"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dac"
+  },
+  "name": "Mathematics Education",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": null,
+  "areas_of_interest": [
+    "teaching",
+    "education",
+    "stem teacher",
+    "elementary",
+    "middle school",
+    "high school",
+    "mathematics",
+    "math",
+    "teacher",
+    "teaching",
+    "professor"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dad"
+  },
+  "name": "Molecular and Cell Biology",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ms-molecular-and-cell-biology/",
+      "cip_code": "26.0406.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/phd-molecular-and-cell-biology/",
+      "cip_code": "26.0406.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "cell biology",
+    "biochemistry",
+    "molecular biology",
+    "cell biology",
+    "quantitative biology",
+    "biological sciences",
+    "biology",
+    "science",
+    "research",
+    "biophysics",
+    "genomics",
+    "systems biology",
+    "computational biology",
+    "microbiology",
+    "cell biology",
+    "pathobiology",
+    "cancer",
+    "neurobiology",
+    "infectious disease",
+    "health",
+    "health sciences",
+    "health research",
+    "experimental research",
+    "computational research",
+    "small molecule mass spectrometry",
+    "cell imaging",
+    "cell sorting systems",
+    "gene expression",
+    "protein structure",
+    "carcinogenesis",
+    "neurodegeneration",
+    "bacterial pathogenicity",
+    "metabolism",
+    "signaling networks"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dae"
+  },
+  "name": "Molecular Biology",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/bs-molecular-biology/",
+      "cip_code": "26.0204.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "neurobiology",
+    "microbiology",
+    "molecular biology",
+    "science",
+    "biochemistry",
+    "biophysics",
+    "genetics",
+    "cell biology",
+    "chemistry",
+    "mathematics",
+    "math",
+    "physics",
+    "computer science",
+    "biotechnology",
+    "genetic engineering",
+    "health sciences",
+    "health",
+    "biology"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0daf"
+  },
+  "name": "Physics",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "BA",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ba-bs-physics/",
+      "cip_code": "40.0801.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ba-bs-physics/",
+      "cip_code": "40.0801.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/ms-physics/",
+      "cip_code": "40.0801.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/phd-physics/",
+      "cip_code": "40.0801.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "physics",
+    "space science",
+    "cosmology",
+    "astrophysics",
+    "particle physics",
+    "high-energy physics",
+    "nanotechnology",
+    "materials science",
+    "science",
+    "math",
+    "mathematics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0db0"
+  },
+  "name": "Science Education",
+  "school": "School of Natural Sciences and Mathematics",
+  "degree_options": [
+    {
+      "level": "MAT",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/mat-science-education/",
+      "cip_code": "30.0101.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "science education",
+    "teacher",
+    "teaching",
+    "professor",
+    "science",
+    "technology",
+    "engineering",
+    "mathematics",
+    "stem",
+    "education research"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0db1"
+  },
+  "name": "Biomedical Engineering",
+  "school": "Erik Jonsson School of Engineering and Computer Science",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bs-biomedical-engineering/",
+      "cip_code": "14.0501.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/ms-biomedical-engineering/",
+      "cip_code": "14.0501.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/phd-biomedical-engineering/",
+      "cip_code": "14.0501.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "anatomy",
+    "clinician",
+    "lab",
+    "laboratory",
+    "biomedical engineering",
+    "bioengineering",
+    "engineering",
+    "biology",
+    "biological sciences",
+    "technology",
+    "health care",
+    "healthcare",
+    "health sciences",
+    "health science"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0db2"
+  },
+  "name": "Computational and Geospatial Science",
+  "school": "Erik Jonsson School of Engineering and Computer Science, School of Economic, Political and Policy Sciences",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/bachelor-of-science-in-computational-and-geospatial-science/",
+      "cip_code": "11.0101.00",
+      "stem_designated": false,
+      "joint_program": true
+    },
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bachelor-of-science-in-computational-and-geospatial-science-2/",
+      "cip_code": "11.0101.00",
+      "stem_designated": false,
+      "joint_program": true
+    }
+  ],
+  "areas_of_interest": []
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0db3"
+  },
+  "name": "Computer Engineering",
+  "school": "Erik Jonsson School of Engineering and Computer Science",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bs-computer-engineering/",
+      "cip_code": "14.0901.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/ms-computer-engineering/",
+      "cip_code": "14.0901.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/phd-computer-engineering/",
+      "cip_code": "14.0901.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "artificial intelligence",
+    "ai",
+    "animation",
+    "digital forensics",
+    "machine learning",
+    "data security",
+    "computer engineering",
+    "computer science",
+    "electrical engineering",
+    "computer engineer",
+    "hardware",
+    "software",
+    "robotics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0db4"
+  },
+  "name": "Computer Science",
+  "school": "Erik Jonsson School of Engineering and Computer Science",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bs-computer-science/",
+      "cip_code": "11.0101.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/ms-computer-science/",
+      "cip_code": "11.0101.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/phd-computer-science/",
+      "cip_code": "11.0101.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "artificial intelligence",
+    "ai",
+    "computer science",
+    "software",
+    "robotics",
+    "computer vision",
+    "digital forensics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0db5"
+  },
+  "name": "Cyber Security, Technology, and Policy",
+  "school": "Erik Jonsson School of Engineering and Computer Science, School of Economic, Political and Policy Sciences",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/ms-cyber-security-technology-and-policy/",
+      "cip_code": "11.1003.00",
+      "stem_designated": true,
+      "joint_program": true
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/master-of-science-in-cyber-security-technology-and-policy/",
+      "cip_code": "11.1003.00",
+      "stem_designated": true,
+      "joint_program": true
+    }
+  ],
+  "areas_of_interest": [
+    "cyber security",
+    "technology",
+    "computer science",
+    "cybersecurity",
+    "informational system",
+    "cognitive psychology",
+    "public policy",
+    "privacy",
+    "ethics",
+    "data security",
+    "data regulations"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0db6"
+  },
+  "name": "Cybersecurity Technology and Policy",
+  "school": "Erik Jonsson School of Engineering and Computer Science, School of Economic, Political and Policy Sciences",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/bs-cybersecurity-technology-and-policy-epps/",
+      "cip_code": "11.1003.00",
+      "stem_designated": false,
+      "joint_program": true
+    },
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bs-cybersecurity-technology-and-policy-ecs/",
+      "cip_code": "11.1003.00",
+      "stem_designated": false,
+      "joint_program": true
+    }
+  ],
+  "areas_of_interest": []
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0db7"
+  },
+  "name": "Data Science",
+  "school": "School of Natural Sciences and Mathematics, Erik Jonsson School of Engineering and Computer Science",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bs-data-science-ecs/",
+      "cip_code": "30.7001.00",
+      "stem_designated": true,
+      "joint_program": true
+    },
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/nsm/bs-data-science-nsm/",
+      "cip_code": "30.7001.00",
+      "stem_designated": true,
+      "joint_program": true
+    }
+  ],
+  "areas_of_interest": [
+    "data",
+    "database",
+    "statistics",
+    "statistician",
+    "actuary",
+    "biostatistician",
+    "analyst",
+    "statistical",
+    "probability",
+    "machine learning",
+    "graph theory"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0db8"
+  },
+  "name": "Electrical Engineering",
+  "school": "Erik Jonsson School of Engineering and Computer Science",
+  "degree_options": [
+    {
+      "level": "BSE",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bs-electrical-engineering/",
+      "cip_code": "14.1001.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MSE",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/ms-electrical-engineering/",
+      "cip_code": "14.1001.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/phd-electrical-engineering/",
+      "cip_code": "14.1001.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "telecommunication",
+    "robotics",
+    "navigation",
+    "automotive",
+    "mechanics",
+    "circuit",
+    "circuitry",
+    "wireless",
+    "digital",
+    "electrical engineering",
+    "electrical networks",
+    "electronics",
+    "electromagnetic",
+    "computing",
+    "communications",
+    "hardware",
+    "software",
+    "research"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0db9"
+  },
+  "name": "Engineering",
+  "school": "Erik Jonsson School of Engineering and Computer Science",
+  "degree_options": [
+    {
+      "level": "BA",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bachelor-of-arts-in-engineering/",
+      "cip_code": "14.0101.00",
+      "stem_designated": false,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": []
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dba"
+  },
+  "name": "Materials Science and Engineering",
+  "school": "Erik Jonsson School of Engineering and Computer Science",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bachelor-of-science-in-materials-science-and-engineering/",
+      "cip_code": "14.1801.00",
+      "stem_designated": false,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/ms-materials-science-and-engineering/",
+      "cip_code": "14.1801.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/phd-materials-science-and-engineering/",
+      "cip_code": "14.1801.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "thermodynamics",
+    "quantum mechanics",
+    "metallurgy",
+    "microscopy",
+    "materials science",
+    "engineering",
+    "metals",
+    "semiconductors",
+    "composites",
+    "polymers",
+    "nanomaterials",
+    "biomaterials",
+    "science",
+    "engineering",
+    "design",
+    "mechanical engineering",
+    "electrical engineering",
+    "chemical engineering",
+    "chemistry",
+    "physics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dbb"
+  },
+  "name": "Mechanical Engineering",
+  "school": "Erik Jonsson School of Engineering and Computer Science",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bs-mechanical-engineering/",
+      "cip_code": "14.1901.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/ms-mechanical-engineering/",
+      "cip_code": "14.1901.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/phd-mechanical-engineering/",
+      "cip_code": "14.1901.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "automotive",
+    "aircraft",
+    "heating",
+    "air conditioning",
+    "hvac",
+    "power generation",
+    "oil",
+    "gas",
+    "petroleum",
+    "manufacturing",
+    "defense",
+    "military",
+    "medical devices",
+    "nanotechnology",
+    "mechanical engineering",
+    "analysis",
+    "design",
+    "mechanical systems",
+    "thermal systems",
+    "engineering",
+    "wind energy",
+    "microelectromechanical systems",
+    "nanostructure materials"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dbc"
+  },
+  "name": "Software Engineering",
+  "school": "Erik Jonsson School of Engineering and Computer Science",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bs-software-engineering/",
+      "cip_code": "14.0903.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/ms-software-engineering/",
+      "cip_code": "14.0903.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/phd-software-engineering/",
+      "cip_code": "14.0903.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "software",
+    "engineering",
+    "engineer",
+    "computer science",
+    "mathematics",
+    "math",
+    "developer"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dbd"
+  },
+  "name": "Systems Engineering",
+  "school": "Erik Jonsson School of Engineering and Computer Science",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bs-in-systems-engineering/",
+      "cip_code": "14.2701.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "systems engineering",
+    "engineering",
+    "technology",
+    "business",
+    "management"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dbe"
+  },
+  "name": "Systems Engineering and Management",
+  "school": "Erik Jonsson School of Engineering and Computer Science, Naveen Jindal School of Management",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/ms-systems-engineering-and-management/",
+      "cip_code": "14.2701.00",
+      "stem_designated": true,
+      "joint_program": true
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/jindal/master-of-science-in-systems-engineering-and-management/",
+      "cip_code": "14.2701.00",
+      "stem_designated": true,
+      "joint_program": true
+    }
+  ],
+  "areas_of_interest": [
+    "systems engineering",
+    "engineering",
+    "technology",
+    "business",
+    "management"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dbf"
+  },
+  "name": "Applied Cognition and Neuroscience",
+  "school": "School of Behavioral and Brain Sciences",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/bbs/ms-applied-cognition-and-neuroscience/",
+      "cip_code": "26.1501.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "human behavior",
+    "artificial intelligence",
+    "user experience",
+    "ux",
+    "brain imaging",
+    "machine learning",
+    "applied cognition",
+    "neuroscience",
+    "psychology",
+    "computer science",
+    "philosophy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dc0"
+  },
+  "name": "Audiology",
+  "school": "School of Behavioral and Brain Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "aud",
+    "hearing",
+    "neurophysiology",
+    "counseling",
+    "audiology",
+    "embryology",
+    "genetics",
+    "audiologist",
+    "researcher",
+    "professor",
+    "health science"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dc1"
+  },
+  "name": "Child Learning and Development",
+  "school": "School of Behavioral and Brain Sciences",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/bbs/bs-child-learning-and-development/",
+      "cip_code": "42.2703.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "education",
+    "psychology",
+    "social work",
+    "family medicine",
+    "public health",
+    "family law",
+    "public policy",
+    "child",
+    "children",
+    "child development",
+    "research",
+    "teaching",
+    "social services",
+    "health sciences",
+    "health science"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dc2"
+  },
+  "name": "Cognition and Neuroscience",
+  "school": "School of Behavioral and Brain Sciences",
+  "degree_options": [
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/bbs/phd-cognition-and-neuroscience/",
+      "cip_code": "26.1501.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "brain",
+    "biotechnology",
+    "cognitive",
+    "neuroanatomy",
+    "alzheimer’s",
+    "parkinson’s",
+    "als",
+    "amyotrophic lateral sclerosis",
+    "multiple sclerosis",
+    "cognition",
+    "neuroscience",
+    "neurodegeneration",
+    "neuroplasticity",
+    "neuro-engineering",
+    "health sciences",
+    "health science",
+    "research"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dc3"
+  },
+  "name": "Cognitive Science",
+  "school": "School of Behavioral and Brain Sciences",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/bbs/bs-cognitive-science/",
+      "cip_code": "30.2501.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "brain",
+    "cognitive",
+    "neuroanatomy",
+    "alzheimer’s",
+    "parkinson’s",
+    "als",
+    "amyotrophic lateral sclerosis",
+    "cognitive science",
+    "neuroscience",
+    "psychology",
+    "computational modeling",
+    "artificial intelligence",
+    "health sciences",
+    "health science",
+    "research"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dc4"
+  },
+  "name": "Human Development and Early Childhood Disorders",
+  "school": "School of Behavioral and Brain Sciences",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/bbs/ms-human-development-and-early-childhood-disorders/",
+      "cip_code": "42.2703.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "brain",
+    "children",
+    "child",
+    "infant",
+    "toddler",
+    "pediatrics",
+    "psychopathology",
+    "human development",
+    "early childhood disorders",
+    "early childhood",
+    "clinical",
+    "education",
+    "physical development",
+    "cognitive development",
+    "emotional development",
+    "developmental delays",
+    "developmental disorders",
+    "early intervention specialist",
+    "developmental specialist",
+    "infant mental health",
+    "pediatric health care",
+    "pediatric healthcare",
+    "children’s health",
+    "health",
+    "healthcare",
+    "health care",
+    "health sciences"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dc5"
+  },
+  "name": "Neuroscience",
+  "school": "School of Behavioral and Brain Sciences",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/bbs/bs-neuroscience/",
+      "cip_code": "26.1501.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "pharmacology",
+    "neurophysiology",
+    "neuroanatomy",
+    "neuroscience",
+    "neuropathology",
+    "neurotoxicology",
+    "cognition",
+    "neurology",
+    "medicine",
+    "neuroimmunology",
+    "physiology",
+    "neurogenetics",
+    "pediatric",
+    "brain function",
+    "brain",
+    "neuronal systems",
+    "cognitive function",
+    "neuroscientist",
+    "research",
+    "science",
+    "health",
+    "health sciences",
+    "health care",
+    "healthcare",
+    "prehealth",
+    "pre-health"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dc6"
+  },
+  "name": "Psychology",
+  "school": "School of Behavioral and Brain Sciences",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/bbs/ms-psychology/",
+      "cip_code": "42.2704.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/bbs/phd-psychology/",
+      "cip_code": "42.2704.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "psychology",
+    "human behavior",
+    "brain sciences",
+    "child development",
+    "mental health",
+    "research ",
+    "data analysis",
+    "health",
+    "health care",
+    "healthcare",
+    "health sciences",
+    "psychologist",
+    "therapist",
+    "therapy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dc7"
+  },
+  "name": "Speech, Language, and Hearing Sciences",
+  "school": "School of Behavioral and Brain Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "speech",
+    "language",
+    "pathologist",
+    "health professional",
+    "health care",
+    "healthcare",
+    "health",
+    "health sciences",
+    "audiologist",
+    "hearing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dc8"
+  },
+  "name": "Speech-Language Pathology",
+  "school": "School of Behavioral and Brain Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "speech",
+    "language",
+    "pathologist",
+    "health professional",
+    "health care",
+    "healthcare",
+    "health",
+    "health sciences",
+    "audiologist",
+    "hearing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dc9"
+  },
+  "name": "Applied Sociology",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "sociology",
+    "social sciences",
+    "social behavior",
+    "sociologists",
+    "research",
+    "law",
+    "social work",
+    "counseling",
+    "criminal justice",
+    "public administration",
+    "sociologist"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dca"
+  },
+  "name": "Computational and Geospatial Science",
+  "school": "Erik Jonsson School of Engineering and Computer Science, School of Economic, Political and Policy Sciences",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/bachelor-of-science-in-computational-and-geospatial-science/",
+      "cip_code": "11.0101.00",
+      "stem_designated": false,
+      "joint_program": true
+    },
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bachelor-of-science-in-computational-and-geospatial-science-2/",
+      "cip_code": "11.0101.00",
+      "stem_designated": false,
+      "joint_program": true
+    }
+  ],
+  "areas_of_interest": []
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dcb"
+  },
+  "name": "Criminology",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "police",
+    "detective",
+    "officer",
+    "investigator",
+    "advocacy",
+    "corrections",
+    "criminology",
+    "prevention",
+    "law enforcement",
+    "sociology",
+    "law",
+    "political science",
+    "history",
+    "psychology",
+    "research",
+    "social sciences",
+    "criminal justice",
+    "statistics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dcc"
+  },
+  "name": "Cyber Security, Technology, and Policy",
+  "school": "Erik Jonsson School of Engineering and Computer Science, School of Economic, Political and Policy Sciences",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/ms-cyber-security-technology-and-policy/",
+      "cip_code": "11.1003.00",
+      "stem_designated": true,
+      "joint_program": true
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/master-of-science-in-cyber-security-technology-and-policy/",
+      "cip_code": "11.1003.00",
+      "stem_designated": true,
+      "joint_program": true
+    }
+  ],
+  "areas_of_interest": [
+    "cyber security",
+    "technology",
+    "computer science",
+    "cybersecurity",
+    "informational system",
+    "cognitive psychology",
+    "public policy",
+    "privacy",
+    "ethics",
+    "data security",
+    "data regulations"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dcd"
+  },
+  "name": "Cybersecurity Technology and Policy",
+  "school": "Erik Jonsson School of Engineering and Computer Science, School of Economic, Political and Policy Sciences",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/bs-cybersecurity-technology-and-policy-epps/",
+      "cip_code": "11.1003.00",
+      "stem_designated": false,
+      "joint_program": true
+    },
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/ecs/bs-cybersecurity-technology-and-policy-ecs/",
+      "cip_code": "11.1003.00",
+      "stem_designated": false,
+      "joint_program": true
+    }
+  ],
+  "areas_of_interest": []
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dce"
+  },
+  "name": "Economics",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/bs-economics/",
+      "cip_code": "45.0603.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/ms-economics/",
+      "cip_code": "45.0603.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/phd-economics/",
+      "cip_code": "45.0603.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "macroeconomics",
+    "microeconomics",
+    "probability",
+    "economics",
+    "economists",
+    "business",
+    "macroeconomists",
+    "finance",
+    "data analytics",
+    "mathematics",
+    "math"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dcf"
+  },
+  "name": "Geospatial Information Sciences",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/bs-geospatial-information-sciences/",
+      "cip_code": "45.0702.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/ms-geospatial-information-sciences/",
+      "cip_code": "45.0702.00",
+      "stem_designated": true,
+      "joint_program": false
+    },
+    {
+      "level": "PhD",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/phd-geospatial-information-sciences/",
+      "cip_code": "45.0702.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "gps",
+    "global positioning services",
+    "sustainability",
+    "sustainable",
+    "drone",
+    "migration",
+    "mobility",
+    "urban planning",
+    "infrastructure",
+    "geospatial information sciences",
+    "remote sensing",
+    "geography",
+    "mapping",
+    "topography",
+    "gis",
+    "spatial big data analytics",
+    "environmental modeling",
+    "business intelligence",
+    "precision agriculture",
+    "smart cities",
+    "public safety",
+    "community resilience"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dd0"
+  },
+  "name": "International Political Economy",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "international political economy",
+    "international environment",
+    "internship abroad",
+    "international business",
+    "global business",
+    "management",
+    "international politics",
+    "international law",
+    "international economics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dd1"
+  },
+  "name": "Political Science",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "political science",
+    "government",
+    "politics",
+    "international relations",
+    "law",
+    "political",
+    "public policy",
+    "education",
+    "political"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dd2"
+  },
+  "name": "Public Affairs",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "public affairs",
+    "public service",
+    "leadership",
+    "government",
+    "politics",
+    "nonprofit",
+    "law",
+    "economics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dd3"
+  },
+  "name": "Public Health",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "public health",
+    "mental health",
+    "addiction",
+    "development",
+    "sustainability",
+    "social policy",
+    "government",
+    "health",
+    "health care",
+    "healthcare",
+    "epidemiology",
+    "education"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dd4"
+  },
+  "name": "Public Policy",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "development",
+    "infrastructure",
+    "government",
+    "urban design",
+    "public policy",
+    "political science",
+    "economics",
+    "research methods",
+    "statistics",
+    "domestic public policy",
+    "climate change",
+    "poverty",
+    "health care",
+    "healthcare",
+    "economics ",
+    "politics",
+    "policymaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dd5"
+  },
+  "name": "Public Policy and Political Economy",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "government",
+    "policymaking",
+    "politics",
+    "public policy",
+    "political economy",
+    "research",
+    "teacher",
+    "professor",
+    "social science",
+    "social research",
+    "policy analyst",
+    "government official",
+    "foreign  policy",
+    "security policy",
+    "public administration"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dd6"
+  },
+  "name": "Social Data Analytics and Research",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": [
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/ms-social-data-analytics-and-research/",
+      "cip_code": "45.0102.00",
+      "stem_designated": true,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": [
+    "social data analytics",
+    "research",
+    "science",
+    "criminology",
+    "economics",
+    "geospatial information sciences",
+    "gis",
+    "political science",
+    "public and",
+    "nonprofit management",
+    "public policy",
+    "political economy",
+    "sociology",
+    "research",
+    "data analysis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dd7"
+  },
+  "name": "Sociology",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": null,
+  "areas_of_interest": [
+    "sociology",
+    "social sciences",
+    "social behavior",
+    "sociologists",
+    "research",
+    "law",
+    "social work",
+    "counseling",
+    "criminal justice",
+    "public administration",
+    "sociologist"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a8ec65f30ca7b7e40d0dd8"
+  },
+  "name": "Sustainability Planning and Policy",
+  "school": "School of Economic, Political and Policy Sciences",
+  "degree_options": [
+    {
+      "level": "BS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/bachelor-of-science-in-sustainability-planning-and-policy/",
+      "cip_code": "30.3301.00",
+      "stem_designated": false,
+      "joint_program": false
+    },
+    {
+      "level": "MS",
+      "public_url": "https://academics.utdallas.edu/fact-sheets/epps/master-of-science-in-sustainability-planning-and-policy/",
+      "cip_code": "30.3301.00",
+      "stem_designated": false,
+      "joint_program": false
+    }
+  ],
+  "areas_of_interest": []
+}]

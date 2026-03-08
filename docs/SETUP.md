@@ -21,9 +21,7 @@ git remote add origin https://github.com/YOUR_USERNAME/HACKAI.git
 
 # Push all branches
 git push -u origin main
-git push origin group-1
-git push origin group-2
-git push origin group-3
+git push origin Antony Shriya Sreya
 ```
 
 ### 3. Invite Teammates
@@ -39,7 +37,7 @@ Each teammate should run:
 ```bash
 git clone https://github.com/YOUR_USERNAME/HACKAI.git
 cd HACKAI
-git checkout group-1   # Replace with group-2 or group-3
+git checkout Antony   # Replace with Shriya or Sreya
 ```
 
 ## Branch Overview
@@ -47,6 +45,6 @@ git checkout group-1   # Replace with group-2 or group-3
 | Branch | Purpose |
 |--------|---------|
 | `main` | Production-ready merged code |
-| `group-1` | Group 1 development |
-| `group-2` | Group 2 development |
-| `group-3` | Group 3 development |
+| `Antony` | Antony development |
+| `Shriya` | Shriya development |
+| `Sreya` | Sreya development |

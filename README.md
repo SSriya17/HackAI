@@ -10,21 +10,21 @@ This repository is structured for a **3-group hackathon**. Each group has its ow
 
 ```
 HACKAI/
-├── group-1/          # Group 1's workspace
-├── group-2/          # Group 2's workspace  
-├── group-3/          # Group 3's workspace
+├── Antony/           # Antony's workspace
+├── Shriya/           # Shriya's workspace  
+├── Sreya/            # Sreya's workspace
 ├── shared/           # Shared resources, utils, assets
 ├── docs/             # Documentation
 └── README.md
 ```
 
-## 👥 Groups & Branches
+## 👥 Teams & Branches
 
-| Group | Branch | Focus Area |
-|-------|--------|------------|
-| **Group 1** | `group-1` | _Define your focus_ |
-| **Group 2** | `group-2` | _Define your focus_ |
-| **Group 3** | `group-3` | _Define your focus_ |
+| Team | Branch | Focus Area |
+|------|--------|------------|
+| **Antony** | `Antony` | _Define your focus_ |
+| **Shriya** | `Shriya` | _Define your focus_ |
+| **Sreya** | `Sreya` | _Define your focus_ |
 
 ## 🚀 Quick Start
 
@@ -49,8 +49,8 @@ See **[docs/GITHUB_SETUP.md](docs/GITHUB_SETUP.md)** for full instructions. Quic
 git clone https://github.com/YOUR_USERNAME/HACKAI.git
 cd HACKAI
 
-# Switch to your group's branch
-git checkout group-1   # or group-2, group-3
+# Switch to your branch
+git checkout Antony   # or Shriya, Sreya
 ```
 
 ### Development Workflow
@@ -66,7 +66,7 @@ When your group's feature is ready:
 
 ```bash
 git checkout main
-git merge group-1   # or group-2, group-3
+git merge Antony   # or Shriya, Sreya
 git push origin main
 ```
 
