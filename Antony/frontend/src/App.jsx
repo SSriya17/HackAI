@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
+import StudentLandingPage from './pages/StudentLandingPage';
+import ProfessorLandingPage from './pages/ProfessorLandingPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import StudentSetup from './pages/StudentSetup';
@@ -12,22 +14,23 @@ import ProfessorApplicants from './pages/ProfessorApplicants';
 import ProfessorCourses from './pages/ProfessorCourses';
 import ProfessorProfile from './pages/ProfessorProfile';
 import StudentMatches from './pages/StudentMatches';
-import './App.css';
-
+import InterviewPrepPage from './pages/InterviewPrepPage';
 function App() {
   return (
     <BrowserRouter>
-      <div className="app-container">
-        <header className="app-header">
-          <Link to="/" className="logo-container" style={{ textDecoration: 'none' }}>
-            <img src="/RAlign_logo.png" alt="RAlign Logo" className="logo-image" />
+      <div className="min-h-screen flex flex-col">
+        <header className="flex items-center justify-between p-6 bg-transparent w-full">
+          <Link to="/" className="flex items-center gap-3" style={{ textDecoration: 'none' }}>
+            <img src="/RAlign_logo.png" alt="RAlign Logo" className="max-w-[450px] h-auto object-contain drop-shadow-lg" />
           </Link>
           {/* Header actions can go here based on route */}
         </header>
 
-        <main className="app-main">
+        <main className="flex-1 flex flex-col w-full">
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/for-students" element={<StudentLandingPage />} />
+            <Route path="/for-professors" element={<ProfessorLandingPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
             <Route path="/student/setup" element={<StudentSetup />} />
@@ -40,6 +43,7 @@ function App() {
             <Route path="/professor/courses" element={<ProfessorCourses />} />
             <Route path="/professor/profile" element={<ProfessorProfile />} />
             <Route path="/student/matches" element={<StudentMatches />} />
+            <Route path="/interview-prep" element={<InterviewPrepPage />} />
           </Routes>
         </main>
       </div>

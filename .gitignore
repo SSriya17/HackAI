@@ -46,3 +46,4 @@ htmlcov/
 *.bak
 *.tmp
 .cache/
+data/nebula-raw/combinedDB.trends_*.json

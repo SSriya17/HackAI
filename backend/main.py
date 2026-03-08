@@ -20,7 +20,7 @@ async def lifespan(app: FastAPI):
     db.init_db(settings.database_url)
     async with db.engine.begin() as conn:
         await conn.run_sync(db.Base.metadata.create_all)
-    init_providers(nebula_api_key=settings.nebula_api_key)
+    init_providers(nebula_api_key=settings.nebula_api_key, nebula_data_path=settings.nebula_data_path)
     yield
     await db.engine.dispose()
 
@@ -34,11 +34,13 @@ app = FastAPI(
     redoc_url="/redoc",
 )
 
+_origins = [o.strip() for o in settings.cors_origins.split(",") if o.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
+    allow_origins=_origins if _origins else ["*"],
+    allow_credentials=False,
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
 

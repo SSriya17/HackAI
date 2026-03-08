@@ -1,18 +1,28 @@
 import { useState, useEffect } from 'react';
-import DashboardLayout from '../components/DashboardLayout';
-import Card from '../components/Card';
-import TextInput from '../components/TextInput';
+import { useUser, saveUser } from '@/hooks/useUser';
+import DashboardLayout from '@/components/DashboardLayout';
+import { Card, CardContent } from '@/components/ui/card';
+import InputField from '@/components/ui/input-field';
+import { Button } from '@/components/ui/button';
 
 export default function ProfessorProfile() {
+  const user = useUser();
   const [labName, setLabName] = useState('');
-  const [spots, setSpots] = useState('');
-  const [hours, setHours] = useState('');
+  const [labSpots, setLabSpots] = useState('');
+  const [labHours, setLabHours] = useState('');
+  const [isSaved, setIsSaved] = useState(false);
 
   useEffect(() => {
-    setLabName(localStorage.getItem('labName') || 'Intelligent Systems Lab');
-    setSpots(localStorage.getItem('labSpots') || '2');
-    setHours(localStorage.getItem('labHours') || '10');
-  }, []);
+    setLabName(user.labName || '');
+    setLabSpots(user.labSpots || '');
+    setLabHours(user.labHours || '');
+  }, [user.labName, user.labSpots, user.labHours]);
+
+  const handleSave = () => {
+    saveUser({ labName, labSpots, labHours });
+    setIsSaved(true);
+    setTimeout(() => setIsSaved(false), 2000);
+  };
 
   const navItems = [
     { label: 'Dashboard', path: '/professor/dashboard' },
@@ -24,34 +34,22 @@ export default function ProfessorProfile() {
   return (
     <DashboardLayout navItems={navItems} title="Lab Profile">
       <Card>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', maxWidth: '500px' }}>
-          <div>
-            <h3 style={{ marginBottom: '1rem', fontFamily: 'var(--font-serif)', fontSize: '1.25rem' }}>Lab Details</h3>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '0.875rem', marginBottom: '1.5rem' }}>This information is visible to students looking for research opportunities.</p>
+        <CardContent className="pt-6">
+          <div className="flex flex-col gap-6 max-w-[500px]">
+            <div>
+              <h3 className="font-serif text-xl mb-4 text-primary">Lab Details</h3>
+              <p className="text-muted-foreground text-sm mb-6">This information is visible to students looking for research opportunities.</p>
+            </div>
+            <InputField label="LAB / RESEARCH GROUP NAME" id="profile-labname" value={labName} onChange={(e) => setLabName(e.target.value)} />
+            <div className="flex gap-4">
+              <InputField label="SPOTS OPEN" id="profile-spots" value={labSpots} onChange={(e) => setLabSpots(e.target.value)} />
+              <InputField label="EXPECTED HOURS / WEEK" id="profile-hours" value={labHours} onChange={(e) => setLabHours(e.target.value)} />
+            </div>
+            <Button variant="primary" className="mt-4" onClick={handleSave}>
+              {isSaved ? 'Saved!' : 'Save Changes'}
+            </Button>
           </div>
-          
-          <TextInput 
-            label="LAB / RESEARCH GROUP NAME" 
-            id="profile-labname" 
-            value={labName}
-            readOnly
-          />
-
-          <div style={{ display: 'flex', gap: '1rem' }}>
-            <TextInput 
-              label="SPOTS OPEN" 
-              id="profile-spots" 
-              value={spots}
-              readOnly
-            />
-            <TextInput 
-              label="EXPECTED HOURS / WEEK" 
-              id="profile-hours" 
-              value={hours}
-              readOnly
-            />
-          </div>
-        </div>
+        </CardContent>
       </Card>
     </DashboardLayout>
   );

@@ -10,10 +10,10 @@ This repository is structured for a **3-group hackathon**. Each group has its ow
 
 ```
 HACKAI/
-├── backend/          # RA Match API (Sreya + Shriya)
+├── backend/          # RA Match API
 ├── Antony/           # Antony's workspace (frontend)
-├── Shriya/           # Shriya's workspace (backend)
-├── Sreya/            # Sreya's workspace (backend)
+├── Shriya/           # Shriya's workspace
+├── Sreya/            # Sreya's workspace
 ├── shared/           # Shared resources, utils, assets
 ├── docs/             # Documentation
 └── README.md
@@ -24,9 +24,8 @@ HACKAI/
 | Team | Branch | Focus Area |
 |------|--------|------------|
 | **Antony** | `Antony` | Frontend / UX |
-| **Sreya + Shriya** | `Sreya` | Backend (RA Match API) |
-
-_Backend uses one branch (`Sreya`) – both Sreya and Shriya commit there._
+| **Shriya** | `Shriya` | _Define your focus_ |
+| **Sreya** | `Sreya` | Backend (RA Match API) |
 
 ## 🚀 Quick Start
 

@@ -1,0 +1,674 @@
+[{
+  "_id": "26F",
+  "timeline": "future",
+  "sessions": [
+    {
+      "name": "Full-term session",
+      "last_registration": "2026-08-20",
+      "begin": "2026-08-24",
+      "late_registration": [
+        "2026-08-21",
+        "2026-08-31"
+      ],
+      "census_day": "2026-09-09",
+      "drop_deadlines": {
+        "without_w": "2026-09-09",
+        "undergrad_approval_required": "2026-11-09",
+        "graduate_withdrawl_ends": "2026-11-09"
+      },
+      "end": "2026-12-09",
+      "reading_days": [
+        "2026-12-10"
+      ],
+      "exams": [
+        "2026-12-11",
+        "2026-12-16"
+      ],
+      "final_grading_period": [
+        "2026-12-11",
+        "2026-12-21"
+      ]
+    },
+    {
+      "name": "1st 8-week session",
+      "last_registration": "2026-08-20",
+      "begin": "2026-08-24",
+      "late_registration": [
+        "2026-08-21",
+        "2026-08-31"
+      ],
+      "census_day": "2026-08-31",
+      "drop_deadlines": {
+        "without_w": "2026-08-31",
+        "undergrad_approval_required": "2026-09-28",
+        "graduate_withdrawl_ends": "2026-09-28"
+      },
+      "end": "2026-10-12",
+      "reading_days": [],
+      "exams": [
+        "2026-10-13",
+        "2026-10-17"
+      ],
+      "final_grading_period": [
+        "2026-10-13",
+        "2026-10-17"
+      ]
+    },
+    {
+      "name": "2nd 8-week session",
+      "last_registration": "2026-10-15",
+      "begin": "2026-10-19",
+      "late_registration": [
+        "2026-10-16",
+        "2026-10-26"
+      ],
+      "census_day": "2026-10-26",
+      "drop_deadlines": {
+        "without_w": "2026-10-26",
+        "undergrad_approval_required": "2026-11-25",
+        "graduate_withdrawl_ends": "2026-11-25"
+      },
+      "end": "2026-12-09",
+      "reading_days": [
+        "2026-12-10"
+      ],
+      "exams": [
+        "2026-12-11",
+        "2026-12-16"
+      ],
+      "final_grading_period": [
+        "2026-12-11",
+        "2026-12-21"
+      ]
+    }
+  ],
+  "enrollment_opens": "2026-03-30",
+  "schedule_planner_available": "2026-03-30",
+  "online_add_swap_ends": "2026-08-31",
+  "last_readmission": "2026-08-14",
+  "last_from_waitlist": "2026-08-21",
+  "midterms_due": "2026-10-17",
+  "university_closings": [
+    [
+      "2026-09-07",
+      "2026-09-07"
+    ],
+    [
+      "2026-11-26",
+      "2026-11-29"
+    ]
+  ],
+  "no_classes": [
+    [
+      "2026-11-23",
+      "2026-11-25"
+    ]
+  ]
+},
+{
+  "_id": "26U",
+  "timeline": "past",
+  "sessions": [
+    {
+      "name": "11-week session",
+      "last_registration": "2026-05-28",
+      "begin": "2026-06-01",
+      "late_registration": [
+        "2026-05-29",
+        "2026-06-04"
+      ],
+      "census_day": "2026-06-16",
+      "drop_deadlines": {
+        "without_w": "2026-06-16",
+        "undergrad_approval_required": "2026-07-16",
+        "graduate_withdrawl_ends": "2026-07-16"
+      },
+      "end": "2026-08-12",
+      "reading_days": [],
+      "exams": [
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "final_grading_period": [
+        "2026-08-13",
+        "2026-08-18"
+      ]
+    },
+    {
+      "name": "1st 5-week session",
+      "last_registration": "2026-05-28",
+      "begin": "2026-06-01",
+      "late_registration": [
+        "2026-05-29",
+        "2026-06-04"
+      ],
+      "census_day": "2026-06-04",
+      "drop_deadlines": {
+        "without_w": "2026-06-04",
+        "undergrad_approval_required": "2026-06-23",
+        "graduate_withdrawl_ends": "2026-06-23"
+      },
+      "end": "2026-07-03",
+      "reading_days": [],
+      "exams": [
+        "2026-07-06",
+        "2026-07-07"
+      ],
+      "final_grading_period": [
+        "2026-07-06",
+        "2026-07-10"
+      ]
+    },
+    {
+      "name": "2nd 5-week session",
+      "last_registration": "2026-07-06",
+      "begin": "2026-07-08",
+      "late_registration": [
+        "2026-07-07",
+        "2026-07-13"
+      ],
+      "census_day": "2026-07-13",
+      "drop_deadlines": {
+        "without_w": "2026-07-13",
+        "undergrad_approval_required": "2026-07-30",
+        "graduate_withdrawl_ends": "2026-07-30"
+      },
+      "end": "2026-08-12",
+      "reading_days": [],
+      "exams": [
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "final_grading_period": [
+        "2026-08-13",
+        "2026-08-18"
+      ]
+    },
+    {
+      "name": "8-week session",
+      "last_registration": "2026-06-04",
+      "begin": "2026-06-08",
+      "late_registration": [
+        "2026-06-05",
+        "2026-06-15"
+      ],
+      "census_day": "2026-06-15",
+      "drop_deadlines": {
+        "without_w": "2026-06-15",
+        "undergrad_approval_required": "2026-07-13",
+        "graduate_withdrawl_ends": "2026-07-13"
+      },
+      "end": "2026-07-25",
+      "reading_days": [],
+      "exams": [
+        "2026-07-27",
+        "2026-07-28"
+      ],
+      "final_grading_period": [
+        "2026-07-27",
+        "2026-08-01"
+      ]
+    }
+  ],
+  "enrollment_opens": "2026-04-06",
+  "schedule_planner_available": "2026-02-09",
+  "online_add_swap_ends": "2026-06-04",
+  "last_readmission": "2026-05-22",
+  "last_from_waitlist": "2026-05-29",
+  "midterms_due": "2026-07-07",
+  "university_closings": [
+    [
+      "2026-05-25",
+      "2026-05-25"
+    ],
+    [
+      "2026-06-19",
+      "2026-06-19"
+    ],
+    [
+      "2026-07-04",
+      "2026-07-04"
+    ]
+  ],
+  "no_classes": []
+},
+{
+  "_id": "27S",
+  "timeline": "future",
+  "sessions": [
+    {
+      "name": "Full-term session",
+      "last_registration": "2027-01-14",
+      "begin": "2027-01-19",
+      "late_registration": [
+        "2027-01-15",
+        "2027-01-26"
+      ],
+      "census_day": "2027-02-03",
+      "drop_deadlines": {
+        "without_w": "2027-02-03",
+        "undergrad_approval_required": "2027-04-06",
+        "graduate_withdrawl_ends": "2027-04-06"
+      },
+      "end": "2027-05-06",
+      "reading_days": [
+        "2027-05-07"
+      ],
+      "exams": [
+        "2027-05-10",
+        "2027-05-14"
+      ],
+      "final_grading_period": [
+        "2027-05-10",
+        "2027-05-19"
+      ]
+    },
+    {
+      "name": "1st 8-week session",
+      "last_registration": "2027-01-14",
+      "begin": "2027-01-19",
+      "late_registration": [
+        "2027-01-15",
+        "2027-01-26"
+      ],
+      "census_day": "2027-01-26",
+      "drop_deadlines": {
+        "without_w": "2027-01-26",
+        "undergrad_approval_required": "2027-02-22",
+        "graduate_withdrawl_ends": "2027-02-22"
+      },
+      "end": "2027-03-08",
+      "reading_days": [],
+      "exams": [
+        "2027-03-09",
+        "2027-03-10"
+      ],
+      "final_grading_period": [
+        "2027-03-09",
+        "2027-03-15"
+      ]
+    },
+    {
+      "name": "2nd 8-week session",
+      "last_registration": "2027-03-18",
+      "begin": "2027-03-22",
+      "late_registration": [
+        "2027-03-19",
+        "2027-03-29"
+      ],
+      "census_day": "2027-03-29",
+      "drop_deadlines": {
+        "without_w": "2027-03-29",
+        "undergrad_approval_required": "2027-04-26",
+        "graduate_withdrawl_ends": "2027-04-26"
+      },
+      "end": "2027-05-06",
+      "reading_days": [
+        "2027-05-07"
+      ],
+      "exams": [
+        "2027-05-10",
+        "2027-05-14"
+      ],
+      "final_grading_period": [
+        "2027-05-10",
+        "2027-05-19"
+      ]
+    }
+  ],
+  "enrollment_opens": "2026-10-19",
+  "schedule_planner_available": "2026-10-19",
+  "online_add_swap_ends": "2027-01-26",
+  "last_readmission": "2027-01-09",
+  "last_from_waitlist": "2027-01-15",
+  "midterms_due": "2027-03-13",
+  "university_closings": [
+    [
+      "2027-01-18",
+      "2027-01-18"
+    ]
+  ],
+  "no_classes": [
+    [
+      "2027-03-15",
+      "2027-03-21"
+    ]
+  ]
+},
+{
+  "_id": "27F",
+  "timeline": "future",
+  "sessions": [
+    {
+      "name": "Full-term session",
+      "last_registration": "2027-08-19",
+      "begin": "2027-08-23",
+      "late_registration": [
+        "2027-08-20",
+        "2027-08-30"
+      ],
+      "census_day": "2027-09-08",
+      "drop_deadlines": {
+        "without_w": "2027-09-08",
+        "undergrad_approval_required": "2027-11-08",
+        "graduate_withdrawl_ends": "2027-11-08"
+      },
+      "end": "2027-12-07",
+      "reading_days": [
+        "2027-12-08"
+      ],
+      "exams": [
+        "2027-12-09",
+        "2027-12-15"
+      ],
+      "final_grading_period": [
+        "2027-12-09",
+        "2027-12-20"
+      ]
+    },
+    {
+      "name": "1st 8-week session",
+      "last_registration": "2027-08-19",
+      "begin": "2027-08-23",
+      "late_registration": [
+        "2027-08-20",
+        "2027-08-30"
+      ],
+      "census_day": "2027-08-30",
+      "drop_deadlines": {
+        "without_w": "2027-08-30",
+        "undergrad_approval_required": "2027-09-22",
+        "graduate_withdrawl_ends": "2027-09-22"
+      },
+      "end": "2027-10-09",
+      "reading_days": [],
+      "exams": [
+        "2027-10-11",
+        "2027-10-12"
+      ],
+      "final_grading_period": [
+        "2027-10-11",
+        "2027-10-18"
+      ]
+    },
+    {
+      "name": "2nd 8-week session",
+      "last_registration": "2027-10-11",
+      "begin": "2027-10-13",
+      "late_registration": [
+        "2027-10-12",
+        "2027-10-20"
+      ],
+      "census_day": "2027-10-20",
+      "drop_deadlines": {
+        "without_w": "2027-10-20",
+        "undergrad_approval_required": "2027-11-23",
+        "graduate_withdrawl_ends": "2027-11-23"
+      },
+      "end": "2027-12-07",
+      "reading_days": [
+        "2027-12-08"
+      ],
+      "exams": [
+        "2027-12-09",
+        "2027-12-15"
+      ],
+      "final_grading_period": [
+        "2027-12-09",
+        "2027-12-20"
+      ]
+    }
+  ],
+  "enrollment_opens": "2027-03-29",
+  "schedule_planner_available": "2027-03-29",
+  "online_add_swap_ends": "2027-08-30",
+  "last_readmission": "2027-08-13",
+  "last_from_waitlist": "2027-08-20",
+  "midterms_due": "2027-10-16",
+  "university_closings": [
+    [
+      "2027-09-06",
+      "2027-09-06"
+    ],
+    [
+      "2027-11-25",
+      "2027-11-28"
+    ]
+  ],
+  "no_classes": [
+    [
+      "2027-11-22",
+      "2027-11-24"
+    ]
+  ]
+},
+{
+  "_id": "27U",
+  "timeline": "future",
+  "sessions": [
+    {
+      "name": "11-week session",
+      "last_registration": "2027-05-27",
+      "begin": "2027-06-01",
+      "late_registration": [
+        "2027-05-28",
+        "2027-06-04"
+      ],
+      "census_day": "2027-06-16",
+      "drop_deadlines": {
+        "without_w": "2027-06-16",
+        "undergrad_approval_required": "2027-07-15",
+        "graduate_withdrawl_ends": "2027-07-15"
+      },
+      "end": "2027-08-11",
+      "reading_days": [],
+      "exams": [
+        "2027-08-12",
+        "2027-08-13"
+      ],
+      "final_grading_period": [
+        "2027-08-12",
+        "2027-08-17"
+      ]
+    },
+    {
+      "name": "1st 5-week session",
+      "last_registration": "2027-05-27",
+      "begin": "2027-06-01",
+      "late_registration": [
+        "2027-05-28",
+        "2027-06-04"
+      ],
+      "census_day": "2027-06-04",
+      "drop_deadlines": {
+        "without_w": "2027-06-04",
+        "undergrad_approval_required": "2027-06-23",
+        "graduate_withdrawl_ends": "2027-06-23"
+      },
+      "end": "2027-07-05",
+      "reading_days": [],
+      "exams": [
+        "2027-07-06",
+        "2027-07-07"
+      ],
+      "final_grading_period": [
+        "2027-07-06",
+        "2027-07-12"
+      ]
+    },
+    {
+      "name": "2nd 5-week session",
+      "last_registration": "2027-07-06",
+      "begin": "2027-07-08",
+      "late_registration": [
+        "2027-07-07",
+        "2027-07-13"
+      ],
+      "census_day": "2027-07-13",
+      "drop_deadlines": {
+        "without_w": "2027-07-13",
+        "undergrad_approval_required": "2027-08-02",
+        "graduate_withdrawl_ends": "2027-08-02"
+      },
+      "end": "2027-08-11",
+      "reading_days": [],
+      "exams": [
+        "2027-08-12",
+        "2027-08-13"
+      ],
+      "final_grading_period": [
+        "2027-08-12",
+        "2027-08-17"
+      ]
+    },
+    {
+      "name": "8-week session",
+      "last_registration": "2027-06-03",
+      "begin": "2027-06-07",
+      "late_registration": [
+        "2027-06-04",
+        "2027-06-14"
+      ],
+      "census_day": "2027-06-14",
+      "drop_deadlines": {
+        "without_w": "2027-06-14",
+        "undergrad_approval_required": "2027-07-07",
+        "graduate_withdrawl_ends": "2027-07-07"
+      },
+      "end": "2027-07-24",
+      "reading_days": [],
+      "exams": [
+        "2027-07-26",
+        "2027-07-27"
+      ],
+      "final_grading_period": [
+        "2027-07-26",
+        "2027-08-02"
+      ]
+    }
+  ],
+  "enrollment_opens": "2027-04-05",
+  "schedule_planner_available": "2027-03-22",
+  "online_add_swap_ends": "2027-06-04",
+  "last_readmission": "2027-05-22",
+  "last_from_waitlist": "2027-05-28",
+  "midterms_due": "2027-07-06",
+  "university_closings": [
+    [
+      "2027-05-31",
+      "2027-05-31"
+    ],
+    [
+      "2027-06-19",
+      "2027-06-19"
+    ],
+    [
+      "2027-07-04",
+      "2027-07-04"
+    ]
+  ],
+  "no_classes": []
+},
+{
+  "_id": "26S",
+  "timeline": "current",
+  "sessions": [
+    {
+      "name": "Full-term session",
+      "last_registration": "2026-01-15",
+      "begin": "2026-01-20",
+      "late_registration": [
+        "2026-01-16",
+        "2026-01-27"
+      ],
+      "census_day": "2026-02-04",
+      "drop_deadlines": {
+        "without_w": "2026-02-04",
+        "undergrad_approval_required": "2026-04-08",
+        "graduate_withdrawl_ends": "2026-04-08"
+      },
+      "end": "2026-05-08",
+      "reading_days": [
+        "2026-05-09"
+      ],
+      "exams": [
+        "2026-05-11",
+        "2026-05-15"
+      ],
+      "final_grading_period": [
+        "2026-05-11",
+        "2026-05-20"
+      ]
+    },
+    {
+      "name": "1st 8-week session",
+      "last_registration": "2026-01-15",
+      "begin": "2026-01-20",
+      "late_registration": [
+        "2026-01-16",
+        "2026-01-27"
+      ],
+      "census_day": "2026-01-27",
+      "drop_deadlines": {
+        "without_w": "2026-01-27",
+        "undergrad_approval_required": "2026-02-23",
+        "graduate_withdrawl_ends": "2026-02-23"
+      },
+      "end": "2026-03-09",
+      "reading_days": [],
+      "exams": [
+        "2026-03-10",
+        "2026-03-14"
+      ],
+      "final_grading_period": [
+        "2026-03-10",
+        "2026-03-14"
+      ]
+    },
+    {
+      "name": "2nd 8-week session",
+      "last_registration": "2026-03-19",
+      "begin": "2026-03-23",
+      "late_registration": [
+        "2026-03-20",
+        "2026-03-30"
+      ],
+      "census_day": "2026-03-30",
+      "drop_deadlines": {
+        "without_w": "2026-03-30",
+        "undergrad_approval_required": "2026-04-27",
+        "graduate_withdrawl_ends": "2026-04-27"
+      },
+      "end": "2026-05-08",
+      "reading_days": [
+        "2026-05-09"
+      ],
+      "exams": [
+        "2026-05-11",
+        "2026-05-15"
+      ],
+      "final_grading_period": [
+        "2026-05-11",
+        "2026-05-20"
+      ]
+    }
+  ],
+  "enrollment_opens": "2025-10-20",
+  "schedule_planner_available": "2025-10-20",
+  "online_add_swap_ends": "2026-01-27",
+  "last_readmission": "2026-01-10",
+  "last_from_waitlist": "2026-01-16",
+  "midterms_due": "2026-03-14",
+  "university_closings": [
+    [
+      "2026-01-19",
+      "2026-01-19"
+    ]
+  ],
+  "no_classes": [
+    [
+      "2026-03-16",
+      "2026-03-22"
+    ]
+  ]
+}]

@@ -27,6 +27,7 @@ async def generate_email(
         student_name=body.student_name,
         student_lab_preferences=body.student_lab_preferences,
         student_skills=body.student_skills,
+        professor_courses=body.professor_courses or [],
     )
     
     # Log the email if generation was successful
@@ -50,6 +51,20 @@ async def generate_email(
 async def get_email_logs(db: AsyncSession = Depends(get_db)):
     """Fetch all sent cold emails and their statuses."""
     r = await db.execute(select(EmailLog).order_by(EmailLog.created_at.desc()))
+    return r.scalars().all()
+
+
+@router.get("/logs/professor/{professor_name}", response_model=List[EmailLogResponse])
+async def get_professor_email_logs(
+    professor_name: str, 
+    db: AsyncSession = Depends(get_db)
+):
+    """Fetch all cold emails (applications) sent to a specific professor."""
+    r = await db.execute(
+        select(EmailLog)
+        .where(EmailLog.professor_name == professor_name)
+        .order_by(EmailLog.created_at.desc())
+    )
     return r.scalars().all()
 
 

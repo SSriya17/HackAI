@@ -1,48 +1,31 @@
-import { useState, useEffect } from 'react';
-import DashboardLayout from '../components/DashboardLayout';
-import Card from '../components/Card';
-import TextInput from '../components/TextInput';
-import Button from '../components/Button';
-import './DashboardViews.css';
+import { useUser } from '@/hooks/useUser';
+import DashboardLayout from '@/components/DashboardLayout';
+import { Card, CardContent } from '@/components/ui/card';
+import InputField from '@/components/ui/input-field';
 
 export default function StudentSettings() {
-  const [email, setEmail] = useState('');
-  const [name, setName] = useState('');
-
-  useEffect(() => {
-    setEmail(localStorage.getItem('userEmail') || 'Not provided');
-    setName(localStorage.getItem('userName') || 'Antony Varkey'); // fallback name
-  }, []);
+  const { fullName, email } = useUser();
 
   const navItems = [
     { label: 'Dashboard', path: '/student/dashboard' },
     { label: 'Find Matches', path: '/student/matches' },
-    { label: 'Applications', path: '/student/applications' },
+    { label: 'Interview Prep', path: '/interview-prep' },
     { label: 'Settings', path: '/student/settings' }
   ];
 
   return (
     <DashboardLayout navItems={navItems} title="Settings">
       <Card>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', maxWidth: '500px' }}>
-          <div>
-            <h3 style={{ marginBottom: '1rem', fontFamily: 'var(--font-serif)', fontSize: '1.25rem' }}>Account Details</h3>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '0.875rem', marginBottom: '1.5rem' }}>This information was saved during your signup or login.</p>
+        <CardContent className="pt-6">
+          <div className="flex flex-col gap-6 max-w-[500px]">
+            <div>
+              <h3 className="font-serif text-xl mb-4 text-primary">Account Details</h3>
+              <p className="text-muted-foreground text-sm mb-6">This information was saved during your signup or login.</p>
+            </div>
+            <InputField label="FULL NAME" id="settings-name" value={fullName || ''} readOnly />
+            <InputField label="EMAIL ADDRESS" id="settings-email" value={email || ''} readOnly />
           </div>
-          
-          <TextInput 
-            label="FULL NAME" 
-            id="settings-name" 
-            value={name}
-            readOnly
-          />
-          <TextInput 
-            label="EMAIL ADDRESS" 
-            id="settings-email" 
-            value={email}
-            readOnly
-          />
-        </div>
+        </CardContent>
       </Card>
     </DashboardLayout>
   );

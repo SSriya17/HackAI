@@ -8,9 +8,12 @@ import re
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 
+import random
+
 from app.config import settings
 from app.models.db import get_db
 from app.models.interview import InterviewSession, InterviewMessage
+from app.providers.registry import get_provider
 
 router = APIRouter()
 
@@ -171,6 +174,31 @@ async def get_interview_history(user_id: str = "guest", db: AsyncSession = Depen
     except Exception as e:
         print(f"Error getting history: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/interview/professors")
+async def get_interview_professors(limit: int = 10):
+    """Return professors for interview prep (from raw/Nebula). Use when student has no matches."""
+    provider = get_provider("utd")
+    if not provider:
+        return []
+    try:
+        profs = await provider.search_professors("", limit=max(20, limit * 2))
+        random.shuffle(profs)
+        result = []
+        for p in profs[:limit]:
+            courses = p.courses or []
+            course_strs = [f"{c.subject_prefix} {c.course_number}" for c in courses[:3] if c.subject_prefix]
+            research = ", ".join(course_strs) or "Computer Science research"
+            result.append({
+                "professor_id": p.id,
+                "professor_name": p.full_name,
+                "research_context": research,
+            })
+        return result
+    except Exception as e:
+        print(f"Error fetching interview professors: {e}")
+        return []
+
 
 @router.get("/interview/history/{session_id}")
 async def get_interview_session(session_id: int, db: AsyncSession = Depends(get_db)):

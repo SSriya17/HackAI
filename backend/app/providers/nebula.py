@@ -70,13 +70,18 @@ class NebulaProvider(UniversityDataProvider):
             return None
 
     async def search_professors(self, query: str, limit: int = 20) -> list[ProfessorProfile]:
+        """Search professors. Nebula /professor uses first_name/last_name, not q. Use /professor/all."""
+        return await self.get_all_professors(limit=limit)
+
+    async def get_all_professors(self, limit: int = 100) -> list[ProfessorProfile]:
+        """Fetch all professors from Nebula API. Real data only."""
         try:
-            raw_list = await self._get("/professor", params={"q": query, "limit": limit})
+            raw_list = await self._get("/professor/all")
             if not isinstance(raw_list, list):
                 return []
             return [self._to_professor(p) for p in raw_list[:limit]]
         except (httpx.HTTPError, KeyError):
-            return []
+            raise
 
     async def get_professor_courses(self, professor_id: str) -> list[CourseInfo]:
         try:

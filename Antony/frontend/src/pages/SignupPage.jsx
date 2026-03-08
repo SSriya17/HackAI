@@ -1,88 +1,117 @@
 import { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
-import Card from '../components/Card';
-import TextInput from '../components/TextInput';
-import Button from '../components/Button';
-import './Setup.css';
+import { useNavigate, Link, useSearchParams } from 'react-router-dom';
+import { Card, CardContent } from '@/components/ui/card';
+import InputField from '@/components/ui/input-field';
+import { Button } from '@/components/ui/button';
+import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Label } from '@/components/ui/label';
+import { saveUser } from '@/hooks/useUser';
+
+const YEAR_OPTIONS = [
+  { label: 'Freshman', value: 'Freshman' },
+  { label: 'Sophomore', value: 'Sophomore' },
+  { label: 'Junior', value: 'Junior' },
+  { label: 'Senior', value: 'Senior' },
+  { label: 'Graduate', value: 'Graduate' },
+];
 
 export default function SignupPage() {
-  const [role, setRole] = useState('student');
-  const [name, setName] = useState('');
+  const [searchParams] = useSearchParams();
+  const [role, setRole] = useState(searchParams.get('role') || 'student');
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [year, setYear] = useState('');
+  const [major, setMajor] = useState('');
+  const [department, setDepartment] = useState('');
+  const [title, setTitle] = useState('');
   const navigate = useNavigate();
 
   const handleSignup = (e) => {
     e.preventDefault();
-    localStorage.setItem('userEmail', email);
-    localStorage.setItem('userName', name);
-    localStorage.setItem('userRole', role);
-    
+    saveUser({
+      firstName: firstName.trim(),
+      lastName: lastName.trim(),
+      email: email.trim(),
+      role,
+      year: year.trim() || undefined,
+      major: major.trim() || undefined,
+      department: department.trim() || undefined,
+      title: title.trim() || undefined,
+    });
+
     if (role === 'student') {
-      navigate('/student/setup');
+      navigate('/student/matches');
     } else {
       navigate('/professor/setup');
     }
   };
 
   return (
-    <div className="setup-container" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ width: '100%', maxWidth: '450px' }}>
-        <div style={{ textAlign: 'center', marginTop: '4rem', marginBottom: '2rem' }}>
-          <h2 className="step-title">Create an account</h2>
-          <p className="step-subtitle">Join RAlign to connect with research opportunities</p>
+    <div className="flex items-center justify-center min-h-[80vh] py-8">
+      <div className="w-full max-w-[500px]">
+        <div className="text-center mt-12 mb-8">
+          <h2 className="font-serif text-3xl mb-2 text-primary">Create an account</h2>
+          <p className="text-muted-foreground mb-8 text-lg">Join RAlign to connect with research opportunities</p>
         </div>
-        
-        <Card className="setup-card">
-          <form onSubmit={handleSignup} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-            
-            <div style={{ display: 'flex', gap: '1rem', backgroundColor: 'var(--bg-color)', padding: '0.25rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)' }}>
-              <Button 
-                type="button"
-                variant={role === 'student' ? 'primary' : 'ghost'} 
-                className="w-full" 
-                onClick={() => setRole('student')}
-              >
-                Student
-              </Button>
-              <Button 
-                type="button"
-                variant={role === 'professor' ? 'primary' : 'ghost'} 
-                className="w-full"
-                onClick={() => setRole('professor')}
-              >
-                Professor
-              </Button>
-            </div>
 
-            <TextInput 
-              label="FULL NAME" 
-              id="name" 
-              placeholder="Antony Varkey" 
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required 
-            />
-            <TextInput 
-              label="EMAIL ADDRESS" 
-              id="email" 
-              type="email" 
-              placeholder="name@university.edu" 
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required 
-            />
-            <TextInput label="PASSWORD" id="password" type="password" placeholder="••••••••" required />
-            
-            <div className="form-actions mt-4">
-              <Button type="submit" className="w-full">Sign Up &rarr;</Button>
-            </div>
-            
-            <div style={{ textAlign: 'center', marginTop: '1rem' }}>
-              <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>
-                Already have an account? <Link to="/login" style={{ color: 'var(--accent-color)', cursor: 'pointer', textDecoration: 'none' }}>Log in</Link>
-              </p>
-            </div>
-          </form>
+        <Card>
+          <CardContent className="pt-6">
+            <form onSubmit={handleSignup} className="flex flex-col gap-6">
+              <Tabs value={role} onValueChange={setRole} className="w-full">
+                <TabsList className="w-full grid grid-cols-2 h-10 bg-muted p-1">
+                  <TabsTrigger value="student">Student</TabsTrigger>
+                  <TabsTrigger value="professor">Professor</TabsTrigger>
+                </TabsList>
+              </Tabs>
+
+              <div className="flex gap-4">
+                <InputField label="FIRST NAME" id="firstName" placeholder="First name" value={firstName} onChange={(e) => setFirstName(e.target.value)} required />
+                <InputField label="LAST NAME" id="lastName" placeholder="Last name" value={lastName} onChange={(e) => setLastName(e.target.value)} required />
+              </div>
+
+              <InputField label="EMAIL ADDRESS" id="email" type="email" placeholder="name@university.edu" value={email} onChange={(e) => setEmail(e.target.value)} required />
+              <InputField label="PASSWORD" id="password" type="password" placeholder="••••••••" value={password} onChange={(e) => setPassword(e.target.value)} required />
+
+              {role === 'student' && (
+                <>
+                  <div className="flex flex-col gap-2">
+                    <Label className="font-mono text-xs uppercase tracking-widest text-primary">YEAR</Label>
+                    <select
+                      id="year"
+                      value={year}
+                      onChange={(e) => setYear(e.target.value)}
+                      className="h-11 w-full rounded-lg border border-input bg-transparent px-3 py-2 text-sm"
+                    >
+                      <option value="">Select year</option>
+                      {YEAR_OPTIONS.map((o) => (
+                        <option key={o.value} value={o.value}>{o.label}</option>
+                      ))}
+                    </select>
+                  </div>
+                  <InputField label="MAJOR" id="major" placeholder="e.g. Computer Science" value={major} onChange={(e) => setMajor(e.target.value)} />
+                </>
+              )}
+
+              {role === 'professor' && (
+                <>
+                  <InputField label="DEPARTMENT" id="department" placeholder="e.g. Computer Science" value={department} onChange={(e) => setDepartment(e.target.value)} />
+                  <InputField label="TITLE" id="title" placeholder="e.g. Associate Professor" value={title} onChange={(e) => setTitle(e.target.value)} />
+                </>
+              )}
+
+              <Button type="submit" variant="primary" className="w-full">
+                Sign Up →
+              </Button>
+
+              <div className="text-center">
+                <p className="text-sm text-muted-foreground">
+                  Already have an account? <Link to="/login" className="text-primary hover:underline">Log in</Link>
+                </p>
+              </div>
+            </form>
+          </CardContent>
         </Card>
       </div>
     </div>
