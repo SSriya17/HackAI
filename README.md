@@ -10,8 +10,9 @@ This repository is structured for a **3-group hackathon**. Each group has its ow
 
 ```
 HACKAI/
-├── Antony/           # Antony's workspace
-├── Shriya/           # Shriya's workspace  
+├── backend/          # RA Match API
+├── Antony/           # Antony's workspace (frontend)
+├── Shriya/           # Shriya's workspace
 ├── Sreya/            # Sreya's workspace
 ├── shared/           # Shared resources, utils, assets
 ├── docs/             # Documentation
@@ -22,16 +23,17 @@ HACKAI/
 
 | Team | Branch | Focus Area |
 |------|--------|------------|
-| **Antony** | `Antony` | _Define your focus_ |
+| **Antony** | `Antony` | Frontend / UX |
 | **Shriya** | `Shriya` | _Define your focus_ |
-| **Sreya** | `Sreya` | _Define your focus_ |
+| **Sreya** | `Sreya` | Backend (RA Match API) |
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
 - Git
-- [Add your tech stack requirements here]
+- Python 3.10+ (for backend)
+- Node.js (for frontend, if applicable)
 
 ### First-Time Setup (Repo Owner)
 

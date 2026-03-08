@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     nebula_api_key: str = ""
-    nebula_data_path: str = ""  # e.g. ../data/nebula-raw or /path/to/data/nebula-raw
+    nebula_data_path: str = ""
     openai_api_key: str = ""
     gemini_api_key: str = ""
     groq_api_key: str = ""

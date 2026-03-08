@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #020617;
+  --foreground: #f8fafc;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-comet-orange to-galaxy-green;
+  }
+
+  .glass-card {
+    @apply bg-black/40 border border-white/10 rounded-2xl;
+  }
+
+  .comet-border {
+    @apply border border-comet-orange;
+  }
+
+  .galaxy-border {
+    @apply border border-galaxy-green;
+  }
+}
