@@ -1,0 +1,152 @@
+.setup-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+.step-content {
+  margin-top: 1rem;
+}
+
+.step-badge {
+  display: inline-block;
+  border: 1px solid var(--border-color);
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-full);
+  margin-bottom: 1.5rem;
+}
+
+.step-pane {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.step-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.step-subtitle {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.setup-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-row > * {
+  flex: 1;
+}
+
+.form-actions {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.form-actions.split {
+  justify-content: space-between;
+}
+
+.form-actions.split button:first-child {
+  flex: 0 0 30%;
+}
+
+.form-actions.split button:last-child {
+  flex: 1;
+}
+
+.form-actions.right-align {
+  justify-content: flex-end;
+}
+
+.w-full {
+  width: 100%;
+}
+
+/* Course Search Styles */
+.course-search {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.search-btn {
+  height: 48px; /* Match input height */
+  padding: 0 1.5rem;
+}
+
+.course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.course-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background-color: var(--bg-color);
+}
+
+.course-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-code {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+.course-name {
+  color: var(--text-primary);
+}
+
+.remove-btn {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.remove-btn:hover {
+  color: var(--accent-color);
+}
+
+/* Skills Section */
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.add-more-btn {
+  align-self: flex-start;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.add-more-btn:hover {
+  color: var(--text-primary);
+}
