@@ -1,4 +1,6 @@
 """Pydantic schemas for API request/response."""
+from typing import List, Optional, Dict
+from datetime import datetime
 from pydantic import BaseModel
 
 
@@ -8,11 +10,11 @@ class ProfessorSurveyCreate(BaseModel):
     university_id: str = "utd"
     research_keywords: str
     required_skills: str
-    preferred_majors: str | None = None
+    preferred_majors: Optional[str] = None
     experience_level: str  # undergrad, masters, phd, any
     hours_per_week: int
     paid: bool = True
-    description: str | None = None
+    description: Optional[str] = None
 
 
 class ProfessorSurveyResponse(BaseModel):
@@ -21,11 +23,11 @@ class ProfessorSurveyResponse(BaseModel):
     university_id: str
     research_keywords: str
     required_skills: str
-    preferred_majors: str | None
+    preferred_majors: Optional[str]
     experience_level: str
     hours_per_week: int
     paid: bool
-    description: str | None
+    description: Optional[str]
 
     class Config:
         from_attributes = True
@@ -41,7 +43,7 @@ class StudentSurveyCreate(BaseModel):
     lab_preferences: str
     experience_level: str  # none, some, experienced
     hours_available: int
-    schedule_slots: str | None = None
+    schedule_slots: Optional[str] = None
 
 
 class StudentSurveyResponse(BaseModel):
@@ -54,7 +56,7 @@ class StudentSurveyResponse(BaseModel):
     lab_preferences: str
     experience_level: str
     hours_available: int
-    schedule_slots: str | None
+    schedule_slots: Optional[str]
 
     class Config:
         from_attributes = True
@@ -74,7 +76,7 @@ class MatchBreakdownResponse(BaseModel):
 class ProfessorMatchResponse(BaseModel):
     professor_id: str
     professor_name: str
-    email: str | None
+    email: Optional[str]
     university_id: str
     compatibility: float
     breakdown: MatchBreakdownResponse
@@ -106,8 +108,28 @@ class ProfessorProfileResponse(BaseModel):
     first_name: str
     last_name: str
     full_name: str
-    email: str | None
-    phone: str | None
-    office: str | None
-    courses: list[dict]
+    email: Optional[str]
+    phone: Optional[str]
+    office: Optional[str]
+    courses: List[Dict]
     university_id: str
+
+
+# ---- Email Logs & Dashboard ---- #
+class EmailLogResponse(BaseModel):
+    id: int
+    student_name: str
+    professor_name: str
+    professor_id: str
+    email_text: str
+    status: str
+    created_at: datetime
+    updated_at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+class EmailStatusUpdate(BaseModel):
+    status: str  # sent, in_review, interview, accepted, rejected
+

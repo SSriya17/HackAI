@@ -1,4 +1,5 @@
 """Matching endpoints - student↔professor compatibility."""
+from typing import List, Optional
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
@@ -16,7 +17,7 @@ from app.providers.registry import get_provider
 router = APIRouter(prefix="/matches", tags=["matches"])
 
 
-def _schedule_conflict(student_slots: str | None, _professor_slots: str | None) -> bool:
+def _schedule_conflict(student_slots: Optional[str], _professor_slots: Optional[str]) -> bool:
     """Simple heuristic: if student has no slots, assume no conflict."""
     if not student_slots:
         return False
@@ -25,14 +26,14 @@ def _schedule_conflict(student_slots: str | None, _professor_slots: str | None) 
 
 
 def _student_took_professor_course(
-    professor_course_titles: list[str],
-    _student_courses: list[str],
+    professor_course_titles: List[str],
+    _student_courses: List[str],
 ) -> bool:
     """Check if student took any of professor's courses. Placeholder - would use Nebula."""
     return False
 
 
-@router.get("/students/{student_id}/professors", response_model=list[ProfessorMatchResponse])
+@router.get("/students/{student_id}/professors", response_model=List[ProfessorMatchResponse])
 async def get_student_matches(
     student_id: int,
     limit: int = Query(20, le=50),
@@ -98,7 +99,7 @@ async def get_student_matches(
     return results[:limit]
 
 
-@router.get("/professors/{professor_id}/students", response_model=list[StudentMatchResponse])
+@router.get("/professors/{professor_id}/students", response_model=List[StudentMatchResponse])
 async def get_professor_matches(
     professor_id: str,
     limit: int = Query(20, le=50),

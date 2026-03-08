@@ -7,10 +7,10 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
-from typing import Any
+from typing import Any, List, Optional, Set, Dict
 
 
-def _normalize_tags(s: str) -> set[str]:
+def _normalize_tags(s: str) -> Set[str]:
     """Normalize and tokenize comma/space-separated tags into lowercase set."""
     if not s or not isinstance(s, str):
         return set()
@@ -27,7 +27,7 @@ def _jaccard(a: set[str], b: set[str]) -> float:
     return len(a & b) / len(a | b)
 
 
-def _overlap_score(a: set[str], b: set[str]) -> float:
+def _overlap_score(a: Set[str], b: Set[str]) -> float:
     """Overlap: how much of the smaller set is covered. 0..1."""
     if not a or not b:
         return 0.0
@@ -46,7 +46,7 @@ SKILL_CLUSTERS = {
 }
 
 
-def _expand_cluster(tags: set[str]) -> set[str]:
+def _expand_cluster(tags: Set[str]) -> Set[str]:
     """Add cluster members for fuzzy matching."""
     out = set(tags)
     for cluster in SKILL_CLUSTERS.values():
@@ -63,7 +63,7 @@ class MatchBreakdown:
     experience_match: float
     course_bonus: float  # 0..0.2 extra
     total: float
-    details: dict[str, Any]
+    details: Dict[str, Any]
 
 
 def compute_compatibility(
@@ -77,7 +77,7 @@ def compute_compatibility(
     student_hours: int,
     student_major: str = "",
     professor_majors: str = "",
-    professor_course_titles: list[str] | None = None,
+    professor_course_titles: Optional[List[str]] = None,
     student_took_any: bool = False,
     schedule_conflict: bool = False,
     *,

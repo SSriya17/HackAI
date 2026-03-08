@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 import app.models.db as db
 from app.providers.registry import init_providers
-from app.api import professors, students, matches, email
+from app.api import professors, students, matches, email, voice, interview
 
 
 @asynccontextmanager
@@ -46,6 +46,8 @@ app.include_router(professors.router, prefix="/api")
 app.include_router(students.router, prefix="/api")
 app.include_router(matches.router, prefix="/api")
 app.include_router(email.router, prefix="/api")
+app.include_router(voice.router, prefix="/api")
+app.include_router(interview.router, prefix="/api")
 
 
 @app.get("/")

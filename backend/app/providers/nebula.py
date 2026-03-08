@@ -1,5 +1,6 @@
 """Nebula Labs API provider for UTD - Coursebook, professors, courses."""
 import httpx
+from typing import Optional, Union, List
 from .base import UniversityDataProvider, ProfessorProfile, CourseInfo
 
 
@@ -58,7 +59,7 @@ class NebulaProvider(UniversityDataProvider):
             university_id=self.university_id,
         )
 
-    async def get_professor(self, professor_id: str) -> ProfessorProfile | None:
+    async def get_professor(self, professor_id: str) -> Optional[ProfessorProfile]:
         try:
             raw = await self._get(f"/professor/{professor_id}")
             if not raw:

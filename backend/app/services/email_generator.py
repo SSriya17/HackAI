@@ -3,7 +3,9 @@ Cold email generator - pulls professor research from Semantic Scholar (free API)
 Generates contextual "why I'm interested in your work" paragraph.
 """
 import httpx
-from typing import Optional
+from typing import Optional, List, Dict
+from openai import AsyncOpenAI
+from app.config import settings
 
 
 SEMANTIC_SCHOLAR_BASE = "https://api.semanticscholar.org/graph/v1"
@@ -41,14 +43,69 @@ async def _get_author_papers(author_id: str, limit: int = 5) -> list[dict]:
         return data.get("data", [])
 
 
-def _generate_interest_paragraph(
+async def _generate_email_with_llm(
     professor_name: str,
-    papers: list[dict],
+    papers: List[Dict],
+    student_name: str,
+    student_lab_prefs: str,
+    student_skills: str,
+) -> str:
+    """Generate a convincing cold email using OpenAI."""
+    if not settings.openai_api_key:
+        # Fallback to template if no API key
+        return _generate_template_email(professor_name, papers, student_lab_prefs)
+
+    client = AsyncOpenAI(api_key=settings.openai_api_key)
+    
+    papers_context = ""
+    if papers:
+        papers_context = "Recent research papers by the professor:\n"
+        for p in papers:
+            papers_context += f"- {p.get('title')} ({p.get('year')}): {p.get('abstract', '')[:300]}...\n"
+
+    prompt = f"""
+You are a helpful assistant that writes professional and convincing cold emails for students seeking research opportunities.
+
+Student Name: {student_name}
+Student Skills: {student_skills}
+Student Research Interests: {student_lab_prefs}
+
+Professor Name: {professor_name}
+{papers_context}
+
+Task:
+Write a professional, concise, and personalized cold email from the student to the professor. 
+The email should:
+1. Express interest in joining the professor's lab as a research assistant.
+2. Reference at least one of the professor's recent papers or research areas specifically to show genuine interest.
+3. Briefly mention how the student's skills and interests align with the lab's work.
+4. Request a brief meeting or interview to discuss potential opportunities.
+5. Keep it under 200 words.
+
+Email:
+"""
+    try:
+        response = await client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=500,
+            temperature=0.7,
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"LLM Error: {e}")
+        return _generate_template_email(professor_name, papers, student_lab_prefs)
+
+
+def _generate_template_email(
+    professor_name: str,
+    papers: List[Dict],
     student_lab_prefs: str,
 ) -> str:
-    """Generate a paragraph referencing specific research."""
+    """Fallback template-based email."""
     if not papers:
         return (
+            f"Dear Professor {professor_name.split()[-1] if professor_name else 'Researcher'},\n\n"
             f"I am writing to express my interest in joining your research group as an undergraduate research assistant. "
             f"I am particularly interested in {student_lab_prefs}, and I believe I could contribute meaningfully to your lab. "
             f"I would welcome the opportunity to discuss how my background might align with your research."
@@ -60,7 +117,6 @@ def _generate_interest_paragraph(
 
     interest_ref = ""
     if abstract:
-        # Use first 2 sentences of abstract as context
         sentences = abstract.replace(". ", ".|").split("|")[:2]
         interest_ref = " ".join(sentences).strip()
     else:
@@ -91,7 +147,7 @@ async def generate_cold_email(
     author = await _search_author(professor_name)
     if not author:
         return {
-            "email_text": _generate_interest_paragraph(professor_name, [], student_lab_preferences),
+            "email_text": _generate_template_email(professor_name, [], student_lab_preferences),
             "papers_used": [],
             "success": False,
         }
@@ -99,7 +155,13 @@ async def generate_cold_email(
     author_id = author.get("authorId")
     papers = await _get_author_papers(author_id, limit=3) if author_id else []
 
-    email_text = _generate_interest_paragraph(professor_name, papers, student_lab_preferences)
+    email_text = await _generate_email_with_llm(
+        professor_name=professor_name,
+        papers=papers,
+        student_name=student_name,
+        student_lab_prefs=student_lab_preferences,
+        student_skills=student_skills,
+    )
     papers_used = [{"title": p.get("title"), "year": p.get("year")} for p in papers]
 
     return {

@@ -47,3 +47,21 @@ class StudentSurvey(Base):
     schedule_slots: Mapped[str] = mapped_column(Text, nullable=True)
 
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+
+class EmailLog(Base):
+    """Log of sent cold emails and their application status."""
+    __tablename__ = "email_logs"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    student_name: Mapped[str] = mapped_column(String(255))
+    professor_name: Mapped[str] = mapped_column(String(255))
+    professor_id: Mapped[str] = mapped_column(String(64))
+    email_text: Mapped[str] = mapped_column(Text)
+    
+    # Status: sent, in_review, interview, accepted, rejected
+    status: Mapped[str] = mapped_column(String(32), default="sent")
+    
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+

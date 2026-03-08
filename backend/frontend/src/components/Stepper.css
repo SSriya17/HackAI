@@ -1,0 +1,84 @@
+.stepper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.stepper-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.step-item:last-child {
+  flex: 0;
+}
+
+.step-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-color);
+  color: var(--text-muted);
+  transition: all var(--transition);
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.step-circle.active {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+}
+
+.step-circle.completed {
+  color: var(--text-secondary);
+  border-color: var(--text-secondary);
+}
+
+.check-icon {
+  stroke-width: 3;
+}
+
+.step-line-container {
+  flex: 1;
+  height: 2px;
+  background-color: var(--border-color);
+  margin: 0 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.step-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background: var(--accent-gradient);
+  transition: width 0.4s ease;
+}
+
+.step-line.completed {
+  width: 100%;
+}
+
+.step-line.active-gradient {
+  width: 50%;
+  background: var(--accent-gradient);
+}

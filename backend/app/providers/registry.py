@@ -1,16 +1,17 @@
 """Provider registry - add new universities by implementing UniversityDataProvider."""
+from typing import Dict, Optional
 from .base import UniversityDataProvider
 from .nebula import NebulaProvider
 
 
-_registry: dict[str, UniversityDataProvider] = {}
+_registry: Dict[str, UniversityDataProvider] = {}
 
 
 def register_provider(provider: UniversityDataProvider) -> None:
     _registry[provider.university_id] = provider
 
 
-def get_provider(university_id: str = "utd") -> UniversityDataProvider | None:
+def get_provider(university_id: str = "utd") -> Optional[UniversityDataProvider]:
     return _registry.get(university_id)
 
 

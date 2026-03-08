@@ -1,4 +1,5 @@
 """Professor survey & Nebula professor endpoints."""
+from typing import Optional, List
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
@@ -34,7 +35,7 @@ async def create_professor_survey(
     return survey
 
 
-@router.get("/surveys/{professor_id}", response_model=ProfessorSurveyResponse | None)
+@router.get("/surveys/{professor_id}", response_model=Optional[ProfessorSurveyResponse])
 async def get_professor_survey(
     professor_id: str,
     db: AsyncSession = Depends(get_db),
