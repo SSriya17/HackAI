@@ -27,6 +27,7 @@ async def generate_email(
         student_name=body.student_name,
         student_lab_preferences=body.student_lab_preferences,
         student_skills=body.student_skills,
+        professor_courses=body.professor_courses or [],
     )
     
     # Log the email if generation was successful

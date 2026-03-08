@@ -101,6 +101,7 @@ class EmailGenerateRequest(BaseModel):
     student_name: str
     student_lab_preferences: str
     student_skills: str = ""
+    professor_courses: List[str] = []  # from API - reference in email for genuine interest
 
 
 class ProfessorProfileResponse(BaseModel):

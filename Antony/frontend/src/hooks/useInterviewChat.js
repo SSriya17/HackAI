@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { API_BASE } from '../config';
 
-export function useInterviewChat(onFeedback, onAiFeedback) {
+export function useInterviewChat() {
   const [connected, setConnected] = useState(false);
   const [error, setError] = useState(null);
   const [transcript, setTranscript] = useState([]);
@@ -14,6 +14,7 @@ export function useInterviewChat(onFeedback, onAiFeedback) {
   const audioContextRef = useRef(null);
   const streamRef = useRef(null);
   const isSpeakingRef = useRef(false);
+  const professorRef = useRef(null);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -39,7 +40,7 @@ export function useInterviewChat(onFeedback, onAiFeedback) {
               const matches = finalTranscript.toLowerCase().match(new RegExp(`\\b${f}\\b`, 'g'));
               if (matches) count += matches.length;
             });
-            if (count > 0 && onFeedback) onFeedback(count);
+            if (count > 0) { /* filler detection disabled */ }
           }
         };
 
@@ -52,7 +53,7 @@ export function useInterviewChat(onFeedback, onAiFeedback) {
         setError('Speech recognition not supported in this browser.');
       }
     }
-  }, [onFeedback]);
+  }, []);
 
   const submitAnswer = async () => {
     if (!interimTranscript.trim() || isSpeakingRef.current) return;
@@ -64,11 +65,16 @@ export function useInterviewChat(onFeedback, onAiFeedback) {
     const updatedMessages = [...messages, userMsg];
     setMessages(updatedMessages);
 
+    const p = professorRef.current;
     try {
       const response = await fetch(`${API_BASE}/interview/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: updatedMessages }),
+        body: JSON.stringify({
+          messages: updatedMessages,
+          professor_name: p?.professor_name || 'Dr. Professor',
+          research_context: p?.research_context || 'Computer Science research',
+        }),
       });
 
       if (!response.ok) {
@@ -85,15 +91,6 @@ export function useInterviewChat(onFeedback, onAiFeedback) {
 
       const data = await response.json();
       const aiMessage = data.message;
-
-      if (data.raw_json) {
-        try {
-          const parsed = JSON.parse(data.raw_json);
-          if (onAiFeedback) onAiFeedback({ sentiment: parsed.sentiment, accuracy: parsed.technical_accuracy });
-        } catch (e) {
-          console.error('Failed to parse AI JSON stats', e);
-        }
-      }
 
       setMessages((prev) => [...prev, { role: 'assistant', content: aiMessage }]);
       setTranscript((prev) => [...prev, `[AI Professor]: ${aiMessage}`]);
@@ -125,12 +122,15 @@ export function useInterviewChat(onFeedback, onAiFeedback) {
     window.speechSynthesis.speak(utterance);
   };
 
-  const connect = useCallback(async () => {
+  const connect = useCallback(async (professor = null) => {
+    professorRef.current = professor;
+    const name = professor?.professor_name || 'Dr. Professor';
+    const research = professor?.research_context || 'Computer Science research';
+    const topic = (research.split(',')[0] || 'this area').trim();
     setConnected(true);
     setIsInteracting(true);
     setError(null);
-    const greeting =
-      "Hello! I'm Dr. Anurag Nagar. I'm excited to talk to you about your interest in our air quality monitoring project. To start off, could you tell me a bit about your background in machine learning?";
+    const greeting = `Hello! I'm ${name}. I'm excited to talk to you about your interest in our ${topic} work. To start off, could you tell me a bit about your background and what draws you to this research?`;
     setTranscript([`[AI Professor]: ${greeting}`]);
     setMessages([{ role: 'assistant', content: greeting }]);
     speak(greeting);

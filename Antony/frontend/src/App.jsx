@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
+import StudentLandingPage from './pages/StudentLandingPage';
+import ProfessorLandingPage from './pages/ProfessorLandingPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import StudentSetup from './pages/StudentSetup';
@@ -27,6 +29,8 @@ function App() {
         <main className="flex-1 flex flex-col w-full">
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/for-students" element={<StudentLandingPage />} />
+            <Route path="/for-professors" element={<ProfessorLandingPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
             <Route path="/student/setup" element={<StudentSetup />} />

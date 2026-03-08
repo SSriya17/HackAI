@@ -49,11 +49,11 @@ async def _generate_email_with_llm(
     student_name: str,
     student_lab_prefs: str,
     student_skills: str,
+    professor_courses: List[str] | None = None,
 ) -> str:
     """Generate a convincing cold email using OpenAI."""
     if not settings.openai_api_key:
-        # Fallback to template if no API key
-        return _generate_template_email(professor_name, papers, student_lab_prefs)
+        return _generate_template_email(professor_name, papers, student_lab_prefs, professor_courses or [])
 
     client = AsyncOpenAI(api_key=settings.openai_api_key)
     
@@ -62,6 +62,10 @@ async def _generate_email_with_llm(
         papers_context = "Recent research papers by the professor:\n"
         for p in papers:
             papers_context += f"- {p.get('title')} ({p.get('year')}): {p.get('abstract', '')[:300]}...\n"
+
+    courses_context = ""
+    if professor_courses:
+        courses_context = f"Professor teaches these courses (reference to show genuine interest): {', '.join(professor_courses)}\n"
 
     prompt = f"""
 You are a helpful assistant that writes professional and convincing cold emails for students seeking research opportunities.
@@ -72,12 +76,13 @@ Student Research Interests: {student_lab_prefs}
 
 Professor Name: {professor_name}
 {papers_context}
+{courses_context}
 
 Task:
 Write a professional, concise, and personalized cold email from the student to the professor. 
 The email should:
 1. Express interest in joining the professor's lab as a research assistant.
-2. Reference at least one of the professor's recent papers or research areas specifically to show genuine interest.
+2. Reference at least one of the professor's recent papers, courses taught, or research areas specifically to show genuine interest.
 3. Briefly mention how the student's skills and interests align with the lab's work.
 4. Request a brief meeting or interview to discuss potential opportunities.
 5. Keep it under 200 words.
@@ -94,16 +99,18 @@ Email:
         return response.choices[0].message.content.strip()
     except Exception as e:
         print(f"LLM Error: {e}")
-        return _generate_template_email(professor_name, papers, student_lab_prefs)
+        return _generate_template_email(professor_name, papers, student_lab_prefs, professor_courses or [])
 
 
 def _generate_template_email(
     professor_name: str,
     papers: List[Dict],
     student_lab_prefs: str,
+    professor_courses: List[str] | None = None,
 ) -> str:
-    """Fallback template-based email."""
-    if not papers:
+    """Fallback template-based email - uses courses from API when no papers."""
+    prof_courses = professor_courses or []
+    if not papers and not prof_courses:
         return (
             f"Dear Professor {professor_name.split()[-1] if professor_name else 'Researcher'},\n\n"
             f"I am writing to express my interest in joining your research group as an undergraduate research assistant. "
@@ -111,6 +118,14 @@ def _generate_template_email(
             f"I would welcome the opportunity to discuss how my background might align with your research."
         )
 
+    if prof_courses:
+        courses_ref = ", ".join(prof_courses[:3])
+        return (
+            f"Dear Professor {professor_name.split()[-1] if professor_name else 'Researcher'},\n\n"
+            f"I am writing to express my interest in joining your research group as an undergraduate research assistant. "
+            f"I noticed you teach {courses_ref}, and I am particularly interested in {student_lab_prefs}. "
+            f"I believe I could contribute meaningfully to your lab and would welcome the opportunity to discuss potential opportunities."
+        )
     top = papers[0]
     title = top.get("title", "your recent work")
     abstract = (top.get("abstract") or "")[:400]
@@ -137,6 +152,7 @@ async def generate_cold_email(
     student_name: str,
     student_lab_preferences: str,
     student_skills: str = "",
+    professor_courses: List[str] | None = None,
 ) -> dict:
     """
     Generate a contextual cold email for a student to reach out to a professor.
@@ -144,16 +160,19 @@ async def generate_cold_email(
     Returns:
         dict with keys: email_text, papers_used, success
     """
+    professor_courses = professor_courses or []
     author = await _search_author(professor_name)
-    if not author:
+    papers = []
+    if author:
+        author_id = author.get("authorId")
+        papers = await _get_author_papers(author_id, limit=3) if author_id else []
+
+    if not papers and not professor_courses:
         return {
-            "email_text": _generate_template_email(professor_name, [], student_lab_preferences),
+            "email_text": _generate_template_email(professor_name, [], student_lab_preferences, []),
             "papers_used": [],
             "success": False,
         }
-
-    author_id = author.get("authorId")
-    papers = await _get_author_papers(author_id, limit=3) if author_id else []
 
     email_text = await _generate_email_with_llm(
         professor_name=professor_name,
@@ -161,11 +180,12 @@ async def generate_cold_email(
         student_name=student_name,
         student_lab_prefs=student_lab_preferences,
         student_skills=student_skills,
+        professor_courses=professor_courses,
     )
     papers_used = [{"title": p.get("title"), "year": p.get("year")} for p in papers]
 
     return {
         "email_text": email_text,
         "papers_used": papers_used,
-        "success": len(papers) > 0,
+        "success": len(papers) > 0 or len(professor_courses) > 0,
     }

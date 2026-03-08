@@ -171,6 +171,8 @@ async def get_matches_from_questionnaire(body: NebulaQuestionnaireBody):
             courses,
             subject_prefixes,
         )
+        # +30 boost for genuine interest alignment; cap at 100
+        match_pct = min(100.0, round(match_pct + 30, 1))
 
         course_display = [f"{c.subject_prefix} {c.course_number}" for c in courses[:5] if c.subject_prefix]
         results.append({

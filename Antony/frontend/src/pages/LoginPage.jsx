@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate, Link, useSearchParams } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -94,12 +94,6 @@ export default function LoginPage() {
               <Button type="submit" variant="primary" className="w-full">
                 Sign In →
               </Button>
-
-              <div className="text-center">
-                <p className="text-sm text-muted-foreground">
-                  Don't have an account? <Link to="/signup" className="text-primary hover:underline">Sign up</Link>
-                </p>
-              </div>
             </form>
           </CardContent>
         </Card>

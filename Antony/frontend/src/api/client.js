@@ -61,6 +61,10 @@ export async function getProfessorMatches(professorId, limit = 20) {
 }
 
 // ---- Cold Email ----
+export async function getInterviewProfessors(limit = 10) {
+  return request(`/interview/professors?limit=${limit}`);
+}
+
 export async function generateColdEmail(data) {
   return request('/email/generate', {
     method: 'POST',

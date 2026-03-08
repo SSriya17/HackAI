@@ -9,6 +9,7 @@ import Stepper from '@/components/Stepper';
 import ToggleGroup from '@/components/ToggleGroup';
 import InputField from '@/components/ui/input-field';
 import { getNebulaMatches } from '@/api/client';
+import ColdEmailChatbot from '@/components/ColdEmailChatbot';
 
 const YEAR_OPTIONS = [
   { label: 'Freshman', value: 'Freshman' },
@@ -74,6 +75,7 @@ export default function StudentMatches() {
       });
       const list = Array.isArray(res) ? res : [];
       setMatches(list);
+      try { localStorage.setItem('lastStudentMatches', JSON.stringify(list)); } catch (_) {}
       if (list.length === 0) {
         setError('No professors returned from Nebula API. Set NEBULA_API_KEY in backend/.env (request from https://discord.utdnebula.com).');
       }
@@ -208,6 +210,9 @@ export default function StudentMatches() {
     );
   }
 
+  const skillsStr = [...skills, ...customSkills.split(/[,;]/).map((s) => s.trim()).filter(Boolean)].join(', ');
+  const labStr = labPrefs.join(' ');
+
   return (
     <DashboardLayout navItems={navItems} title="Recommended Professors for Research" subtitle={`${matches.length} professors matched with your interests`}>
       <div className="mb-8 flex justify-between items-start">
@@ -287,6 +292,13 @@ export default function StudentMatches() {
           );
         })}
       </div>
+
+      <ColdEmailChatbot
+        matches={matches}
+        skillsStr={skillsStr}
+        labStr={labStr}
+        visible={step === 4 && matches.length > 0}
+      />
     </DashboardLayout>
   );
 }
