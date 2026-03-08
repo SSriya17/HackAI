@@ -33,7 +33,6 @@ const navItems = [
   { label: 'Dashboard', path: '/student/dashboard' },
   { label: 'Find Matches', path: '/student/matches' },
   { label: 'Interview Prep', path: '/interview-prep' },
-  { label: 'Applications', path: '/student/applications' },
   { label: 'Settings', path: '/student/settings' },
 ];
 
@@ -133,7 +132,7 @@ export default function InterviewPrepPage() {
     : 'PR';
 
   return (
-    <DashboardLayout navItems={navItems} title="Ghost-Twin Interview Prep" subtitle="Real-time voice mock interview with AI Professor">
+    <DashboardLayout navItems={navItems} title="Mock Interview Prep" subtitle="Real-time voice mock interview with AI Professor">
       <div className="max-w-[1200px] m-auto flex flex-col gap-8">
         <header className="flex justify-between items-end">
           <div>

@@ -49,7 +49,7 @@ async def _generate_email_with_llm(
     student_name: str,
     student_lab_prefs: str,
     student_skills: str,
-    professor_courses: List[str] | None = None,
+    professor_courses: Optional[List[str]] = None,
 ) -> str:
     """Generate a convincing cold email using OpenAI."""
     if not settings.openai_api_key:
@@ -106,7 +106,7 @@ def _generate_template_email(
     professor_name: str,
     papers: List[Dict],
     student_lab_prefs: str,
-    professor_courses: List[str] | None = None,
+    professor_courses: Optional[List[str]] = None,
 ) -> str:
     """Fallback template-based email - uses courses from API when no papers."""
     prof_courses = professor_courses or []
@@ -152,7 +152,7 @@ async def generate_cold_email(
     student_name: str,
     student_lab_preferences: str,
     student_skills: str = "",
-    professor_courses: List[str] | None = None,
+    professor_courses: Optional[List[str]] = None,
 ) -> dict:
     """
     Generate a contextual cold email for a student to reach out to a professor.

@@ -8,7 +8,6 @@ export default function StudentApplications() {
     { label: 'Dashboard', path: '/student/dashboard' },
     { label: 'Find Matches', path: '/student/matches' },
     { label: 'Interview Prep', path: '/interview-prep' },
-    { label: 'Applications', path: '/student/applications' },
     { label: 'Settings', path: '/student/settings' }
   ];
 

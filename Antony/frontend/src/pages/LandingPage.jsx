@@ -61,7 +61,7 @@ export default function LandingPage() {
         >
           <CardContent className="p-0">
             <div className="font-mono text-xs uppercase tracking-widest" style={{ color: '#ffb347' }}>OUTREACH ASSISTANT</div>
-            <h3 className="font-serif text-2xl text-primary mt-2">Ghost-Twin Interview Prep</h3>
+            <h3 className="font-serif text-2xl text-primary mt-2">Mock Interview Prep</h3>
           </CardContent>
         </Card>
       </div>
