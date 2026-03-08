@@ -24,7 +24,7 @@ services:
   - type: static_site
     name: ra-match-frontend
     buildCommand: cd Antony/frontend && npm install && npm run build
-    staticPublishPath: Antony/frontend/dist
+    publishPath: Antony/frontend/dist
     envVars:
       - key: VITE_API_BASE_URL
         fromService:
