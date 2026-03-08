@@ -1,9 +1,4 @@
-#  Hackathon Project
 
-
-##  Overview
-
-This repository is structured for a **3-group hackathon**. Each group has its own branch and workspace to develop independently while contributing to a shared codebase.
 
 ##  Project Structure
 
